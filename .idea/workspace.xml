@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8727979-fa29-42c5-a31d-27c78682e4ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleApproach/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleApproach/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleApproach/simplebot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleApproach/simpletrainer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nltkApproach/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SemanticWebApproach/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nltkApproach/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pychatbot.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e8727979-fa29-42c5-a31d-27c78682e4ee" time="1376398342545" ignored="false" />
     <file path="/simpletrainer.py" changelist="e8727979-fa29-42c5-a31d-27c78682e4ee" time="1376398707022" ignored="false" />
     <file path="/simplebot.py" changelist="e8727979-fa29-42c5-a31d-27c78682e4ee" time="1376399501085" ignored="false" />
-    <file path="/README.md" changelist="e8727979-fa29-42c5-a31d-27c78682e4ee" time="1376399758129" ignored="false" />
+    <file path="/README.md" changelist="e8727979-fa29-42c5-a31d-27c78682e4ee" time="1376399942116" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
         <option value="$PROJECT_DIR$/simpleApproach/simpletrainer.py" />
         <option value="$PROJECT_DIR$/simpleApproach/simplebot.py" />
         <option value="$PROJECT_DIR$/simpleApproach/README.md" />
+        <option value="$PROJECT_DIR$/nltkApproach/README.md" />
       </list>
     </option>
   </component>
@@ -116,7 +117,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simpleApproach" />
+              <option name="myItemId" value="nltkApproach" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,6 +363,13 @@
     <entry file="file://$PROJECT_DIR$/simpleApproach/simplebot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="18" selection-start="930" selection-end="930" vertical-scroll-proportion="1.4139345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nltkApproach/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
