@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><aiml version="1.0">
+
+<!-- charlix, July, 2006-2008-->
+<!-- This program is open source code released under-->
+<!-- the terms of the GNU General Public License-->
+<!-- as published by the Free Software Foundation.-->
+<!-- Complies with AIML 1.01 Tag Set Specification-->
+<!-- as adopted by the ALICE A.I. Foundation.-->
+<!--reversed.aiml intends to produce aiml categories from simple texts-->
+
+
+<!--Questions-->
+<category><pattern>ADDQUESTION *</pattern><template><think><set name="questions"><get name="questions"/> <star/></set></think></template></category>
+
+<category><pattern>GETQUESTIONS</pattern><template><get name="questions"/></template></category>    
+
+<category><pattern>ASKQUESTIONS * *</pattern><template><srai>ASKQUESTIONS <star/></srai><srai>ASKQUESTIONS <star index="2"/></srai></template></category>
+<category><pattern>ASKQUESTIONS *</pattern><template>
+<!--!!!!!!!Set Question <star/>!!!!!!--></template></category>
+<category><pattern>ASKQUESTIONS</pattern><template></template></category>
+
+<category><pattern>ASKW * *</pattern><template><srai>ASKW <star/></srai><srai>ASKW <star index="2"/></srai></template></category>
+<category><pattern>ASKW *</pattern><template></template></category>
+<category><pattern>ASKW</pattern><template></template></category>
+
+
+
+
+<!--questions for sentences built like: somebody verb somebody-->
+
+<category><pattern>ASKQUESTIONS 1 WHO WHO</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans">
+<eval><sentence><get name="1yesno"/></sentence></eval>
+</set>
+. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans">
+<eval><sentence><get name="1yesnoans"/> <get name="1myobj"/></sentence></eval>
+</set>
+. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+<srai>1WHOWHO <get name="1laction"/></srai>
+</template></category>
+
+<category><pattern>1WHOWHO</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1action"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans">
+<eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>
+. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+</template></category>
+
+<category><pattern>1WHOWHO *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1laction"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans">
+<eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>
+. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+</template></category>
+
+<category><pattern>ASKBE1WHOWHO</pattern><template></template></category>
+<category><pattern>ASKBE1WHOWHO *</pattern><template></template></category>
+
+<category><pattern>VERB ASKBE1WHOWHO</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans">
+<eval><sentence><get name="1yesnoans"/> <get name="1myobj"/></sentence></eval>
+</set>
+. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1action"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans">
+<eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>
+. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+</template></category>
+
+<category><pattern>VERB ASKBE1WHOWHO *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans">
+<eval><sentence><get name="1yesnoans"/> <get name="1myobj"/></sentence></eval>
+</set>
+. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1action"/> <get name="1myobj"/></uppercase></eval>
+</pattern
+>
+<template>
+<set name="ans">
+<eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>
+. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1laction"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans">
+<eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>
+. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1action"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans">
+<eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>
+. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+</template></category>
+
+<category><pattern>ASKW 1 WHO WHO</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="1mysubj"/></uppercase></eval>
+</pattern>
+<template>
+<eval><sentence><get name="sentence"/>. <get name="1predicates"/></sentence><get name="source"/></eval> 
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="1mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai>
+<eval><get name="1mysubj"/></eval>
+</srai>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="1mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai>
+<eval><get name="1mysubj"/></eval>
+</srai>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="1mysubj"/></uppercase></eval>
+</pattern>
+<template>
+<srai>
+<eval><get name="1mysubj"/></eval>
+</srai>
+</template>
+</category></learn>
+<eval><get name="br"/></eval>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<eval><sentence><get name="sentence"/>. <get name="1predicates"/></sentence> <get name="source"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="1myobj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><eval><get name="1myobj"/></eval>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="1myobj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><eval><get name="1myobj"/></eval>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<srai><eval><get name="1myobj"/></eval>
+</srai>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+
+
+
+<!--questions for sentences built like: somebody verb something-->
+
+<category><pattern>ASKQUESTIONS 1 WHO WHAT</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1myobj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>1WHOWHAT <get name="1laction"/></srai>
+</template></category>
+
+<category><pattern>1WHOWHAT</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1action"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai><get name="1be"/> ASKBE1WHOWHAT</srai>
+</template></category>
+
+<category><pattern>1WHOWHAT *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1laction"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai><get name="1be"/> ASKBE1WHOWHAT <get name="1laction"/></srai>
+</template></category>
+
+<category><pattern>ASKBE1WHOWHAT</pattern><template></template></category>
+<category><pattern>ASKBE1WHOWHAT *</pattern><template></template></category>
+
+<category><pattern>VERB ASKBE1WHOWHAT</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1myobj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>VERB ASKBE1WHOWHAT *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1myobj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1action"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+
+<category><pattern>ASKW 1 WHO WHAT</pattern><template><srai>ASKW 1 WHO WHO</srai></template></category>
+
+
+<!--questions for sentences built like: something 1st-verb somebody-->
+
+
+<category><pattern>ASKQUESTIONS 1 WHAT WHO</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1myobj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>1WHATWHO <get name="1laction"/></srai>
+</template></category>
+
+
+<category><pattern>1WHATWHO</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1action"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai><get name="1be"/> ASKBE1WHATWHO</srai>
+</template></category>
+
+
+<category><pattern>1WHATWHO *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1laction"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai><get name="1be"/> ASKBE1WHATWHO <get name="1laction"/></srai>
+</template></category>
+
+
+<category><pattern>ASKBE1WHATWHO</pattern><template></template></category>
+<category><pattern>ASKBE1WHATWHO *</pattern><template></template></category>
+
+
+<category><pattern>VERB ASKBE1WHATWHO</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1myobj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+
+<category><pattern>VERB ASKBE1WHATWHO *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1myobj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1action"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1laction"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1action"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>ASKW 1 WHAT WHO</pattern><template><srai>ASKW 1 WHO WHO</srai></template></category>
+
+<!--questions for sentences built like: something 1st-verb something-->
+
+<category><pattern>ASKQUESTIONS 1 WHAT WHAT</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1myobj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>1WHATWHAT <get name="1laction"/></srai>
+</template></category>
+
+<category><pattern>1WHATWHAT</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1action"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai><get name="1be"/> ASKBE1WHATWHAT</srai>
+</template></category>
+
+<category><pattern>1WHATWHAT *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1laction"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai><get name="1be"/> ASKBE1WHATWHAT <get name="1laction"/></srai>
+</template></category>
+
+<category><pattern>ASKBE1WHATWHAT</pattern><template></template></category>
+<category><pattern>ASKBE1WHATWHAT *</pattern><template></template></category>
+<category><pattern>VERB ASKBE1WHATWHAT</pattern><template></template></category>
+
+<category><pattern>VERB ASKBE1WHATWHAT *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1action"/> <get name="1myobj"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>ASKW 1 WHAT WHAT</pattern><template><srai>ASKW 1WHOWHO</srai></template></category>
+
+
+
+<!--questions for sentences built like: relativ proposition -->
+
+
+<category><pattern>ASKQUESTIONS 1WHOSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/> <get name="whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>1WHOSUBJ <get name="1laction"/></srai>
+</template></category>
+
+<category><pattern>1WHOSUBJ</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1action"/> <get name="whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>1WHOSUBJ *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="1laction"/> <get name="whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>ASKQUESTIONS 2WHOSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="2auxiliary"/> <get name="2mysubj"/> <get name="2verb"/> <get name="2whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="2yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="2predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>2WHOSUBJ <get name="2laction"/></srai>
+</template></category>
+
+<category><pattern>2WHOSUBJ</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="2action"/> <get name="2whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="2yesnoans"/> <get name="2mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="2predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>2WHOSUBJ *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="2laction"/> <get name="2whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="2yesnoans"/> <get name="2mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="2predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>ASKQUESTIONS 3WHOSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="3auxiliary"/> <get name="3mysubj"/> <get name="3verb"/> <get name="3whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="3yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="3predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>3WHOSUBJ <get name="3laction"/></srai>
+</template></category>
+
+<category><pattern>3WHOSUBJ</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="3action"/> <get name="3whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="3yesnoans"/> <get name="3mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="3predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>3WHOSUBJ *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="3laction"/> <get name="3whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="3yesnoans"/> <get name="3mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="3predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>ASKQUESTIONS 4WHOSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="4auxiliary"/> <get name="4mysubj"/> <get name="4verb"/> <get name="4whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="4yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="4predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>4WHOSUBJ <get name="4laction"/></srai>
+</template></category>
+
+<category><pattern>4WHOSUBJ</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="4action"/> <get name="4whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="4yesnoans"/> <get name="4mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="4predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>4WHOSUBJ *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="4laction"/> <get name="4whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="4yesnoans"/> <get name="4mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="4predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+
+
+<category><pattern>ASKQUESTIONS 5WHOSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="5auxiliary"/> <get name="5mysubj"/> <get name="5verb"/> <get name="5whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="5yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="5predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>5WHOSUBJ <get name="5laction"/></srai>
+</template></category>
+
+<category><pattern>5WHOSUBJ</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="5action"/> <get name="5whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="5yesnoans"/> <get name="5mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="5predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>5WHOSUBJ *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHO <get name="5laction"/> <get name="5whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="5yesnoans"/> <get name="5mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="5predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+
+
+<category><pattern>ASKQUESTIONS 1WHATSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="1auxiliary"/> <get name="1mysubj"/> <get name="1verb"/> <get name="whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>1WHATSUBJ <get name="1laction"/></srai>
+</template></category>
+
+<category><pattern>1WHATSUBJ</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1action"/> <get name="whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>1WHATSUBJ *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="1laction"/> <get name="whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="1yesnoans"/> <get name="1mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="1predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>ASKQUESTIONS 2WHATSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="2auxiliary"/> <get name="2mysubj"/> <get name="2verb"/> <get name="2whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="2yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="2predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>2WHATSUBJ <get name="2laction"/></srai>
+</template></category>
+
+<category><pattern>2WHATSUBJ</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="2action"/> <get name="2whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="2yesnoans"/> <get name="2mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="2predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>2WHATSUBJ *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="2laction"/> <get name="2whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="2yesnoans"/> <get name="2mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="2predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>ASKQUESTIONS 3WHATSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="3auxiliary"/> <get name="3mysubj"/> <get name="3verb"/> <get name="3whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="3yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="3predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>3WHATSUBJ <get name="3laction"/></srai>
+</template></category>
+
+<category><pattern>3WHATSUBJ</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="3action"/> <get name="3whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="3yesnoans"/> <get name="3mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="3predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>3WHATSUBJ *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="3laction"/> <get name="3whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="3yesnoans"/> <get name="3mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="3predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>ASKQUESTIONS 4WHATSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="4auxiliary"/> <get name="4mysubj"/> <get name="4verb"/> <get name="4whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="4yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="4predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>4WHATSUBJ <get name="4laction"/></srai>
+</template></category>
+
+<category><pattern>4WHATSUBJ</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="4action"/> <get name="4whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="4yesnoans"/> <get name="4mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="4predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>4WHATSUBJ *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="4laction"/> <get name="4whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="4yesnoans"/> <get name="4mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="4predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+
+<category><pattern>ASKQUESTIONS 5WHATSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> <get name="5auxiliary"/> <get name="5mysubj"/> <get name="5verb"/> <get name="5whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="5yesno"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="5predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+<srai>5WHATSUBJ <get name="5laction"/></srai>
+</template></category>
+
+<category><pattern>5WHATSUBJ</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="5action"/> <get name="5whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="5yesnoans"/> <get name="5mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="5predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>5WHATSUBJ *</pattern><template>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="treebranch"/> WHAT <get name="5laction"/> <get name="5whot"/></uppercase></eval>
+</pattern>
+<template>
+<set name="ans"><eval><sentence><get name="5yesnoans"/> <get name="5mysubj"/></sentence></eval>
+</set>. <eval><get name="context"/><get name="5predicates"/></eval>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+
+
+<category><pattern>ASKW 1WHOSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="1mysubj"/></uppercase></eval>
+</pattern>
+<template><eval><sentence><get name="sentence"/>. <get name="1predicates"/></sentence> <get name="source"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="1mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><eval><get name="1mysubj"/></eval>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="1mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><eval><get name="1mysubj"/></eval>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="1mysubj"/></uppercase></eval>
+</pattern>
+<template>
+<srai><eval><get name="1mysubj"/></eval>
+</srai>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>ASKW 2WHOSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="2mysubj"/></uppercase></eval>
+</pattern>
+<template><eval><sentence><get name="sentence"/>. <get name="2predicates"/></sentence> <get name="source"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="2mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><eval><get name="2mysubj"/></eval>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="2mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><eval><get name="2mysubj"/></eval>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="2mysubj"/></uppercase></eval>
+</pattern>
+<template>
+<srai><eval><get name="2mysubj"/></eval>
+</srai>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+
+<category><pattern>ASKW 3WHOSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="3mysubj"/></uppercase></eval>
+</pattern>
+<template><eval><sentence><get name="sentence"/>. <get name="3predicates"/></sentence> <get name="source"/></eval> 
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="3mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><get name="3mysubj"/>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="3mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><get name="3mysubj"/>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="3mysubj"/></uppercase></eval>
+</pattern>
+<template>
+<srai><get name="3mysubj"/>
+</srai>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+
+
+<category><pattern>ASKW 4WHOSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="4mysubj"/></uppercase></eval>
+</pattern>
+<template><eval><sentence><get name="sentence"/>. <get name="4predicates"/></sentence> <get name="source"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="4mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><get name="4mysubj"/>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="4mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><get name="4mysubj"/>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="4mysubj"/></uppercase></eval>
+</pattern>
+<template>
+<srai><get name="4mysubj"/>
+</srai>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+
+<category><pattern>ASKW 5WHOSUBJ</pattern><template>
+Ok you can ask a question now.<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="5mysubj"/></uppercase></eval>
+</pattern>
+<template><eval><sentence><get name="sentence"/>. <get name="5predicates"/></sentence> <get name="source"/></eval>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> <get name="5mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><get name="5mysubj"/>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="5mysubj"/> *</uppercase></eval>
+</pattern>
+<template>
+<srai><get name="5mysubj"/>
+</srai>
+</template>
+</category></learn><get name="br"/>
+<learn><category>
+<pattern>
+<eval><uppercase><get name="kwtreebranch"/> _ <get name="5mysubj"/></uppercase></eval>
+</pattern>
+<template>
+<srai><get name="5mysubj"/>
+</srai>
+</template>
+</category></learn><get name="br"/>
+</template></category>
+
+<category><pattern>ASKW 1WHATSUBJ</pattern><template><srai>ASKW 1WHOSUBJ</srai></template></category>
+<category><pattern>ASKW 2WHATSUBJ</pattern><template><srai>ASKW 2WHOSUBJ</srai></template></category>
+<category><pattern>ASKW 3WHATSUBJ</pattern><template><srai>ASKW 3WHOSUBJ</srai></template></category>
+<category><pattern>ASKW 4WHATSUBJ</pattern><template><srai>ASKW 4WHOSUBJ</srai></template></category>
+<category><pattern>ASKW 5WHATSUBJ</pattern><template><srai>ASKW 5WHOSUBJ</srai></template></category>
+<category><pattern>ASKW 1WHOSUBJ WHO WHO</pattern><template><srai>ASKW <star/> WHO WHO</srai></template></category>
+<category><pattern>ASKW 1WHOSUBJ WHO WHO *</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/></srai></template></category>
+<category><pattern>ASKW 1WHOSUBJ * WHO WHO</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/></srai></template></category>
+<category><pattern>ASKW 1WHOSUBJ * WHO WHO *</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/> <star index="3"/></srai></template></category>
+<category><pattern>ASKW 1WHOSUBJ WHO WHAT</pattern><template><srai>ASKW <star/> WHO WHO</srai></template></category>
+<category><pattern>ASKW 1WHOSUBJ WHO WHAT *</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/></srai></template></category>
+<category><pattern>ASKW 1WHOSUBJ * WHO WHAT</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/></srai></template></category>
+<category><pattern>ASKW 1WHOSUBJ * WHO WHAT *</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/> <star index="3"/></srai></template></category>
+<category><pattern>ASKW 1WHATSUBJ WHAT WHO</pattern><template><srai>ASKW <star/> WHO WHO</srai></template></category>
+<category><pattern>ASKW 1WHATSUBJ WHAT WHO *</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/></srai></template></category>
+<category><pattern>ASKW 1WHATSUBJ * WHAT WHO</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/></srai></template></category>
+<category><pattern>ASKW 1WHATSUBJ * WHAT WHO *</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/> <star index="3"/></srai></template></category>
+<category><pattern>ASKW 1WHATSUBJ WHAT WHAT</pattern><template><srai>ASKW <star/> WHO WHO</srai></template></category>
+<category><pattern>ASKW 1WHATSUBJ WHAT WHAT *</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/></srai></template></category>
+<category><pattern>ASKW 1WHATSUBJ * WHAT WHAT</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/></srai></template></category>
+<category><pattern>ASKW 1WHATSUBJ * WHAT WHAT *</pattern><template><srai>ASKW <star/> WHO WHO <star index="2"/> <star index="3"/></srai></template></category>
+
+
+
+
+
+
+</aiml> 

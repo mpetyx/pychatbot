@@ -10,6 +10,13 @@ k = aiml.Kernel()
 # of an AIML file into the Kernel.
 # k.learn("std-startup.xml")
 k.learn("./AIML_FILES/selftest.aiml")
+k.learn("./ReversedAiml4Pandorabot/ra-learn-quest.aiml")
+
+# load aiml files
+directory = open("./aiml-en-us-foundation-alice/directory.txt","r")
+for _file_ in directory:
+    _file_ = _file_.replace("\n","")
+    k.learn("./aiml-en-us-foundation-alice/%s"%_file_)
 
 # Use the 'respond' method to compute the response
 # to a user's input string.  respond() returns
