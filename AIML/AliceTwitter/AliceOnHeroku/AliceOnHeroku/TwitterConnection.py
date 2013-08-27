@@ -1,45 +1,32 @@
 __author__ = 'mpetyx'
 
 
+from django.conf import settings
+
+from .models import retrieve
+
+import tweepy
 
 
-class twitter(webapp.RequestHandler):
+class twitter():
 
     def __init__(self):
 
-        """
-            import tweepy
-
-            consumer_key = "UUbZD3yjp0kN0dqx8EWNQ"
-            consumer_secret = "Hfy4VulZx6HsfpbThBBlttT7MqFXF9BXEriaNQPPJco"
-            key = '381970059-hytrAbXieAt4pMlXQxnD6uYMhFQFUzUROGdFcHaC'
-            secret = 'h5Nh2W1yDZWugIbLhN1v62LfA4X8wVoCQ9W7DAlP4'
-            auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-            auth.set_access_token( key, secret)
-            self.api = tweepy.API(auth)
-            #s = self.api.update_status( "what would you like to say to @alkayyoomi?")
-            #print s.id
+        #initializing variables
+        consumer_key = settings.consumer_key
+        consumer_secret = settings.consumer_secret
+        key = settings.key
+        secret = settings.secret
 
 
-
-
-            def friends(self):
-
-            friends = self.api.friends()
-            followers = self.api.followers()
-           """
-
-
-    def post(self):
-        import tweepy
-
-        consumer_key = "UUbZD3yjp0kN0dqx8EWNQ"
-        consumer_secret = "Hfy4VulZx6HsfpbThBBlttT7MqFXF9BXEriaNQPPJco"
-        key = '381970059-hytrAbXieAt4pMlXQxnD6uYMhFQFUzUROGdFcHaC'
-        secret = 'h5Nh2W1yDZWugIbLhN1v62LfA4X8wVoCQ9W7DAlP4'
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-        auth.set_access_token( key, secret)
+        auth.set_access_token(key, secret)
         self.api = tweepy.API(auth)
+
+        self.auth = auth
+
+    def postFromChat(self):
+
         message = xmpp.Message(self.request.POST)
         import time
         message.reply("let's try post this")
@@ -47,4 +34,21 @@ class twitter(webapp.RequestHandler):
         #time.sleep(3600)
         message.reply(" I just sent that to twitter!!")
 
-        Retrieve.retrieve(auth).statistics()
+        retrieve(self.auth).statistics()
+
+    def reply(self):
+
+        return 1
+
+    def postAnything(self):
+
+        return 1
+
+    def postAndMentionSomeone(self):
+
+        return 1
+
+    def friends(self):
+
+        self.friends = self.api.friends()
+        self.followers = self.api.followers()

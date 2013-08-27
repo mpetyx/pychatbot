@@ -20,6 +20,11 @@ DATABASES = {
     }
 }
 
+consumer_key = "UUbZD3yjp0kN0dqx8EWNQ"
+consumer_secret = "Hfy4VulZx6HsfpbThBBlttT7MqFXF9BXEriaNQPPJco"
+key = '381970059-hytrAbXieAt4pMlXQxnD6uYMhFQFUzUROGdFcHaC'
+secret = 'h5Nh2W1yDZWugIbLhN1v62LfA4X8wVoCQ9W7DAlP4'
+
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.4/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = []
@@ -120,9 +125,10 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+    'AliceOnHeroku',
 )
 
 # A sample logging configuration. The only tangible logging

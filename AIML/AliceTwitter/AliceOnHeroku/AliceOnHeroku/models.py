@@ -2,6 +2,8 @@ __author__ = 'mpetyx'
 
 from django.db import models
 
+import tweepy
+
 
 class TwitterInteraction(models.Model):
     user_name = models.TextField()
@@ -16,7 +18,7 @@ class TwitterInteraction(models.Model):
 def add_interaction(user_name, screen_name, text, post_id):
 
     interaction = TwitterInteraction(user_name= user_name, screen_name = screen_name, text = text, post_id = post_id)
-    interaction.put()
+    interaction.save()
 
 
     return 1
@@ -25,18 +27,17 @@ def add_interaction(user_name, screen_name, text, post_id):
 class retrieve:
 
 
-    def __init__(self, handler=None):
+    def __init__(self, auth=None):
         """
         I suppose i have a connection, otherwise i open one
         """
-        if handler==None:
-            self.handler = "initialize connection"
+        if auth is None:
+            self.auth = "initialize connection"
 
         else:
-            self.handler = handler
+            self.auth = auth
 
         self.count = 5
-
 
     def RoundRobin(self):
 
@@ -49,9 +50,7 @@ class retrieve:
     def statistics(self):
         #https://dev.twitter.com/doc/get/statuses/mentions
 
-        auth = self.handler
-
-        import tweepy
+        auth = self.auth
 
         api = tweepy.API(auth)
 
@@ -92,7 +91,7 @@ class retrieve:
             add_interaction(user_name = status['full_name'], screen_name = status['name'], text = status['text'], post_id = status['id'])
 
     def create_friendship(self, friend):
-        return self.handler.create_friendship(friend)
+        return self.auth.create_friendship(friend)
 
     def myStatus(self, name, text,id, full_name):
         id = str(id)
