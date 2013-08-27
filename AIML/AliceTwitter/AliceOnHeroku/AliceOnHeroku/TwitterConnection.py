@@ -1,11 +1,9 @@
 __author__ = 'mpetyx'
 
-
 from django.conf import settings
+import tweepy
 
 from .models import retrieve
-
-import tweepy
 
 
 class twitter():
@@ -28,7 +26,6 @@ class twitter():
     def postFromChat(self):
 
         message = xmpp.Message(self.request.POST)
-        import time
         message.reply("let's try post this")
         self.api.update_status("My friend @%s just told me, %s"%(message.sender ,message.body))
         #time.sleep(3600)

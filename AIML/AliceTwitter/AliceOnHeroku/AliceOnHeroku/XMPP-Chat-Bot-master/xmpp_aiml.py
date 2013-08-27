@@ -17,12 +17,7 @@
 
 
 
-import sys
-
-import time
-import datetime
 import xmpp
-import codecs
 import aiml
 
 
