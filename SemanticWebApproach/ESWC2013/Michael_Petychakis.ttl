@@ -1,0 +1,21 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vocab: <http://summerschool2013.eswc-conferences.org/vocab#> .
+@prefix participant: <http://summerschool2013.eswc-conferences.org/participants#> .
+@prefix essEvent: <http://summerschool2013.eswc-conferences.org/event#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+participant:Michael_Petychakis foaf:name "Michael Petychakis" ;
+                    foaf:knows participant:Serge_Tymaniuk , participant:Gopala_Koduri, participant:Luka_Stopar ;
+                    foaf:workplaceHomepage <http://www.ntua.gr/> ;
+                    foaf:gender "male" ;
+                    vocab:lovesBand <http://dbpedia.org/resource/The_Beatles>;
+                    vocab:hatesBand <http://dbpedia.org/resource/Scorpions_(band)> ;
+                    foaf:age 25 ;
+                    vocab:presentingAt essEvent:Monday ;
+                    foaf:based_near  <http://dbpedia.org/resource/Greece> ;
+                    foaf:interest <http://dbpedia.org/resource/running?>  .
+
+
+
+
+<http://summerschool2013.eswc-conferences.org/>

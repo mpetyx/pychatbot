@@ -2,6 +2,8 @@ __author__ = 'mpetyx'
 
 from PyAIML_0_8_6 import aiml
 
+# import nltk.chat.rude
+
 # The Kernel object is the public interface to
 # the AIML interpreter.
 k = aiml.Kernel()

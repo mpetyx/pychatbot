@@ -1,0 +1,39 @@
+PREFIX foaf:<http://xmlns.com/foaf/0.1/>
+PREFIX mo:<http://purl.org/ontology/mo/>
+
+SELECT ?band WHERE { ?band foaf:name "The Beatles"; a mo:MusicArtist }
+
+
+PREFIX foaf:<http://xmlns.com/foaf/0.1/>
+PREFIX mo:<http://purl.org/ontology/mo/>
+
+SELECT ?person WHERE { ?person foaf:name "Michael Petychakis" }
+
+
+the number of triples
+select ( count(*) as count ) where {?s ?f ?g}
+
+
+
+add a specific graph into another graph (load information, update graph)
+add <file://C:/fakepath/Michael_Petychakis.ttl> to <http://summerschool2013.eswc-conferences.org/participants/>
+                                                   <http://summerschool2013.eswc-conferences.org/participants/>
+
+
+
+PREFIX foaf:<http://xmlns.com/foaf/0.1/>
+
+find information from a specific graph
+SELECT ?s FROM <http://summerschool2013.eswc-conferences.org/participants/> WHERE { ?s foaf:name "Michael Petychakis"}
+
+PREFIX foaf:<http://xmlns.com/foaf/0.1/>
+
+SELECT ?s FROM <http://summerschool2013.eswc-conferences.org/participants> WHERE { ?s foaf:name "Michael Petychakis"}
+
+
+PREFIX foaf:<http://xmlns.com/foaf/0.1/>
+
+SELECT ( count( distinct ?s) as count )   FROM <http://summerschool2013.eswc-conferences.org/participants> WHERE { ?s foaf:name "Michael Petychakis"}
+
+
+select (count( distinct ?e) as count from <> where { ?s ?p ?e UNION {?e ?g ?h }. FILTER()ISURI(?e) }

@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: allegrordf
+Version: 1.0.1
+Summary: RDFLIB Allegro bindings
+Home-page: http://alcidesfonseca.com/
+Author: Alcides Fonseca
+Author-email: me@alcidesfonseca.com.com
+License: LGPL
+Download-URL: http://cheeseshop.python.org/pypi/allegrordf/1.0.1
+Description: UNKNOWN
+Platform: Platform Independent
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English

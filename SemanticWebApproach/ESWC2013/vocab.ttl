@@ -1,0 +1,60 @@
+@prefix foaf:     <http://xmlns.com/foaf/0.1/>.
+@prefix dcterms:  <http://purl.org/dc/terms/>.
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl:      <http://www.w3.org/2002/07/owl#>.
+@prefix mo:       <http://purl.org/ontology/mo/>.
+@prefix vocab:    <http://summerschool2013.eswc-conferences.org/vocab#> .
+@prefix essEvent: <http://summerschool2013.eswc-conferences.org/event#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix event:    <http://purl.org/NET/c4dm/event.owl#> .
+
+
+# A band someone loves
+vocab:lovesBand a owl:ObjectProperty ; 
+      rdfs:subPropertyOf vocab:hasPositiveOpinionOfBand ; 
+      rdfs:label "loves band"@en ;
+      rdfs:domain foaf:Person ;
+      rdfs:range mo:MusicArtist ;
+      vocab:rates 5 .
+      
+vocab:likesBand a owl:ObjectProperty ;
+    rdfs:subPropertyOf foaf:interest , vocab:hasPositiveOpinionOfBand ;
+    rdfs:label "likes band"@en ;
+    vocab:rates 3 .
+       
+vocab:hatesBand a owl:ObjectProperty ;
+    rdfs:subPropertyOf  vocab:hasNegativeOpinionOfBand .
+
+vocab:hasPositiveOpinionOfBand a owl:ObjectProperty ;
+    rdfs:label "has positive opinion of band"@en ;
+    rdfs:subPropertyOf vocab:hasOpinionOfBand ;
+    owl:propertyDisjointWith vocab:hasNegativeOpinionOfBand .
+
+vocab:hasNegativeOpinionOfBand a owl:ObjectProperty ;
+    rdfs:label "has negative opinion of band"@en ;
+    rdfs:subPropertyOf vocab:hasOpinionOfBand .    
+
+vocab:hasOpinionOfBand a owl:ObjectProperty ;
+    rdfs:label "has opinion on band"@en . 
+
+vocab:bandLovedBy owl:inverseOf vocab:lovesBand .
+vocab:bandLikedBy owl:inverseOf vocab:likesBand .
+vocab:bandHatedBy owl:inverseOf vocab:hatesBand .
+
+
+# Meta-modelling with rating
+vocab:rates a owl:DatatypeProperty ;
+   rdfs:domain rdf:Property ;
+   rdfs:range xsd:decimal .
+
+# An event at the school
+vocab:ESWCSummerSchoolEvent a owl:Class ;
+    rdfs:subClassOf event:Event .
+    
+# Declare URIs for two events
+essEvent:Monday a  vocab:ESWCSummerSchoolEvent ;
+    dcterms:date "2013-02-09"^^xsd:date .
+    
+essEvent:Tuesday a  vocab:ESWCSummerSchoolEvent ;
+    dcterms:date "2013-03-09"^^xsd:date .
