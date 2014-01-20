@@ -1,0 +1,211 @@
+
+############################################
+########### Rules about adverbs
+############################################
+
+# conjunctive adverb  ; xxx , used to join 2 sentences
+-1  ISORIGINAL ;
+	INCLUDE * ADVERB_BITS
+	STAY PARSEMARK CONJUNCTIVE_ADVERB
+	IS COMMA
+KEEP
+
+# conjunctive adverb at start "*however,"
+0	INCLUDE * ADVERB_BITS
+	STAY START
+	STAY PARSEMARK CONJUNCTIVE_ADVERB
+	IS COMMA
+KEEP
+
+# conjunctive adverb at end ", *however."
+-1 IS COMMA
+	INCLUDE * ADVERB_BITS
+	STAY END
+	STAY PARSEMARK CONJUNCTIVE_ADVERB
+KEEP
+
+
+############################################
+########### Rules about more
+############################################
+
+# more is adverb in more xxx than phrase: he is *more tall than her
+0 INCLUDE * ADVERB_BITS	
+  STAY ISORIGINAL more
+  HAS NOUN_BITS VERB_TENSES ADJECTIVE_BITS
+  ISORIGINAL than
+KEEP
+
+
+
+# qword at start followed by aux "*how can you go"
+0	INCLUDE * ADVERB_BITS
+	STAY START
+	ISQUESTION QWORD
+	STAY HAS CONJUNCTION_SUBORDINATE
+	IS AUX_VERB_BITS
+KEEP
+
+# why, how, and other conjunction starters at start will be adverb "*why do ducks" as will "why are"
+0	INCLUDE * ADVERB_BITS
+	STAY START
+	STAY HAS CONJUNCTION_SUBORDINATE
+	HAS AUX_DO AUX_BE AUX_HAVE 
+KEEP
+
+# Please as adverb before verb infinitive - "*please go"
+0	INCLUDE * ADVERB_BITS
+	STAY ISORIGINAL please
+	HAS VERB_INFINITIVE
+KEEP
+
+# conflict adverb vs pronoun followed by prepostion 'of' will be pronoun "they returned *some of the gifts" EXCEPT "they returned all by themselves" 
+0	INCLUDE * ADVERB_BITS 
+	STAY CANONLYBE PRONOUN_BITS ADVERB_BITS
+	IS PREPOSITION
+	STAY ISORIGINAL of
+DISCARD
+
+# conflict adverb vs pronoun followed by prepostion by of will be adverb "they returned all by themselves"  EXCEPT "they returned *some of the gifts" 
+0	INCLUDE * ADVERB_BITS 
+	STAY CANONLYBE PRONOUN_BITS ADVERB_BITS
+	IS PREPOSITION
+	STAY ISORIGINAL by
+KEEP
+
+# adverb cannot come between prep or determiner or adjective and noun "as of *next month, I win" - 
+-1	IS PREPOSITION DETERMINER ADJECTIVE_BITS
+	INCLUDE * ADVERB_BITS
+	IS NOUN_BITS
+DISCARD
+
+# cant put adverb between determiner and potenial adjective particle - but can " there is a *more determined person"
+
+# cant sandwich adverb between 2 noun/pronouns?
+-1 IS PRONOUN_BITS NOUN_BITS
+	INCLUDE * ADVERB_BITS		# I remembered to eat food *before I went home
+	IS PRONOUN_BITS NOUN_BITS
+DISCARD
+
+# cannot have adjective/determiner in front of dead-end adverb (unless be sentence like "had I been brave *enough") (cant be adverb here) - but adj part is ok "installed yesterday"
+-1	IS ADJECTIVE_BITS - ADJECTIVE_PARTICIPLE DETERMINER
+	INCLUDE * ADVERB_BITS
+	SKIP !HAS NOUN_BITS 
+	!HAS NOUN_BITS
+	!PRIORCANONICAL be
+DISCARD
+
+# need adjective or noun or verb after "be", if prep/conjunction follows our potential, excluding being an adverb ourselves.  # "There is nothing here."  but not "It is *up on the ledge"
+
+# cannot have adverb before a noun if preceeded by adjective
+-1	IS ADJECTIVE_BITS
+	INCLUDE * ADVERB_BITS
+	IS NOUN_BITS
+DISCARD
+
+# home with no article/possessive/etc is an adverb   # we stayed home  ?? needed? 
+
+# if it can be extent adverb modifying an adjective or adverb, make it so -- but bad for "the *little old lady"
+
+########################
+# very as  adverb
+########################
+
+# very before a noun is NOT adverb, its adjective if preceeded by determiner "I have the *very thing"
+-1	IS DETERMINER
+	INCLUDE * ADVERB_BITS
+	STAY ISORIGINAL very
+	IS NOUN_BITS PRONOUN_BITS
+DISCARD
+
+# very before an adjective is an adverb "I have a *very blue rug"
+0	INCLUDE * ADVERB_BITS
+	STAY ISORIGINAL very
+	HAS ADJECTIVE_BITS
+KEEP
+
+########################
+# even as  adverb 
+########################
+
+# even though will be adverb + conjunction
+0	INCLUDE * ADVERB_BITS
+	STAY ISORIGINAL even
+	ISORIGINAL though
+KEEP
+
+
+########################
+# QWORDS as  adverb
+########################
+
+# qword adverb at start of sentence - "*why should I go"  but not "*why people go is unknown" nor "*where do you come from"
+
+# why not adverb sequence - "*why not leave here" 
+0	INCLUDE * ADVERB_BITS
+	STAY ISORIGINAL why
+	ISORIGINAL not
+KEEP
+
+########################
+# HERE AND THERE as an adverb
+########################
+
+# end of sentence there will be adverb  "I am *there"
+0	INCLUDE * ADVERB_BITS
+	STAY ISCANONICAL there
+	STAY END
+KEEP
+
+# end of sentence there will be adverb  "I am *here"
+0	INCLUDE * ADVERB_BITS
+	STAY ISCANONICAL here
+	STAY END
+KEEP
+
+# end of sentence there will be adverb  "I got *there rapidly"
+0	INCLUDE * ADVERB_BITS
+	STAY ISCANONICAL 
+	IS ADVERB_BITS
+	STAY END
+KEEP
+
+# end of sentence there will be adverb  "I got *here rapidly"
+0	INCLUDE * ADVERB_BITS
+	STAY ISCANONICAL here
+	IS ADVERB_BITS
+	STAY END
+KEEP
+
+# here after regular verb will be adverb "I got *here on my own"
+-1 IS VERB_TENSES
+	INCLUDE * ADVERB_BITS
+	STAY ISCANONICAL here
+KEEP
+
+# there after regular verb will be adverb "I got *there on my own" - but not if potential aux follows it - "the new company believes *there are more clients"
+-1 IS VERB_TENSES
+	INCLUDE * ADVERB_BITS
+	STAY ISCANONICAL there
+	!HAS AUX_VERB_BITS
+	STAY !HASCANONICALPROPERTY VERB_TAKES_ADJECTIVE
+	!HAS AUX_VERB_BITS  # in case an adverb intervened like "the company believes *there also may be more"
+	STAY !HASCANONICALPROPERTY VERB_TAKES_ADJECTIVE
+KEEP
+
+########################
+# "as" as an adverb
+########################
+
+# as is an adverb  followed by an adverb- "he flew just *as rapidly"
+0	INCLUDE * ADVERB_BITS
+	STAY ISORIGINAL as
+	IS ADVERB_BITS
+KEEP
+
+# as is an adverb followed by an adjective but not a noun later  - "Glue is just as strong"
+0	INCLUDE * ADVERB_BITS
+	STAY ISORIGINAL as
+	IS ADJECTIVE_BITS
+	!HAS ADJECTIVE_BITS NOUN_BITS
+KEEP

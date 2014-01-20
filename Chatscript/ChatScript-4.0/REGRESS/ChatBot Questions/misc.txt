@@ -1,0 +1,542 @@
+
+Unit: Where did you learn English?
+ Laybia: Everything I need to know, I learned from Cortex 3 0 1 2
+ Unit: How long is a road?
+ Laybia: Is this a trick question? Each specific street has a finite length. 4 0 2 1
+ Unit: How much wood could a woodchuck chuck?
+ Laybia: A whole forest. 3 0 2 1
+ Unit:  
+ Laybia: Are they the same? It usually does, doesn't it? 0 0 0 0
+ Unit: What is the last letter of the word "computer"? 
+ Laybia: tag_open_srai what is the last letter of the alphabetof the word computer 0 0 0 0 
+ Unit: What is the first vowel of the word "computer"?
+ Laybia: Give me a hint. 2 0 1 0 
+ Unit: how does the voice work?
+ Laybia: Your vocal cords are stretched flaps of tissue located in your voice box, or larynx, which sits at the top of your windpipe or trachea. 3 0 2 0
+ Unit: can you define the word naive?
+Where can you find a penguin?
+ Why do we keep ice cream in the freezer?
+ What are pancakes made out of?
+ What does a snake and an alligator have in common?
+ Where can you find a teacher?
+ What is a saw used for?
+What do apples and bananas have in common?
+ Why do we shake hands?
+2001
+1) How is it going?
+2) How old are you?
+3) Are you male or female?
+4) What is your favorite color?
+5) Are you a bot?
+6) What is the date?
+7) Which do you like better chocolate or vanilla?
+8) What is 1+1?
+9) What color is the red sea?
+10) Who is on a dollar bill?
+
+2002 (Note all in caps and no question marks)
+1) WHERE ARE YOU
+2) ARE YOU NERVOUS
+3) DO YOU LIKE TALKING TO PEOPLE
+4) WHAT IS THE CAPITAL OF FRANCE
+5) WHEN DID THE FIRST MAN WALK ON THE MOON
+6) WHAT DO YOU THINK ABOUT GEORGE BUSH
+7) CAN YOU TELL JOKES
+8) WHO IS YOUR FAVORITE STAR WARS CHARACTER
+9) HOW CAN I MAKE A CHATTERBOT
+10) CAN I HAVE A PICTURE OF YOU 
+
+2003 (Actually used 15 questions this year)
+Q1: Where are you anyway?
+Q2: What actress do you think is the prettiest?
+Q3: Do you like Jazz music?
+Q4: Are you married?
+Q5: What do you like to chat about the most?
+Q6: What is your favorite brand of computer?
+Q7: Can you name two of Earth's oceans?
+Q8: What is your favorite drink?
+Q9: Do you think a tomato is a fruit or a vegetable?
+Q10: Do you know what DVD stands for?
+Q11: Do you know who wrote the Lord of the Rings books?
+Q12: How many days are there in a leap year? 
+Q13: What should you do before crossing a street?
+Q14: Who is your botmaster?
+Q15: Do you know how far away the Sun is?
+
+2004 (12 questions this year)
+Q1: What is your name?
+Q2: What is a bot?
+Q3: What do you enjoy?
+Q4: What do you hate?
+Q5: How do you eat?
+Q6: Is snow cold?
+Q7: What is the color of the sky?
+Q8: When do birds fly south?
+Q9: Which is closer the moon or the sun?
+Q10: What is the best nation in the world?
+Q11: What is the opposite of indoors?
+Q12: When was Y2k?
+
+2005
+1) Who are you?
+2) What are you planning to do today?
+3) What kinds of things do you know?
+4) What season is it?
+5) Where do you call home?
+6) What do you want out of life?
+7) Will you teach me something?
+8) May I tell you a joke?
+9) Have you entered any contests?
+10) Wouldn't you rather be human?
+
+2006
+1) Where is Earth?
+2) How many stars are there?
+3) Who is George Bush?
+4) What color do you get when you mix red and yellow?
+5) How many fingers does a human have?
+6) Where were you born?
+7) When does sunset occur?
+8) What were we talking about?
+9) How many is 1,000,000?
+10) What is a cigar made out of?
+
+2007
+1) How are you doing?
+2) What country are you from?
+3) What is the capital of Spain?
+4) What is the first book of the bible?
+5) Who created the universe?
+6) What is 5 plus ten?
+7) Who is Albert Einstein?
+8) How many days in a year?
+9) What is the opposite of fast?
+10) What month of the year is this? 
+
+2007 Finals 
+1) How's life?
+2) What rhymes with inn? 
+3) Who is your best friend?
+4) Where does your botmaster live?
+5) What is the last month of the year?
+6) Madrid is the capital of what country?
+7) Who is your favorite character in The Wizard of Oz?
+8) Milk comes from what animal?
+9) What number comes before three?
+10) What is the last letter of the alphabet?
+
+2008 (Follow up questions were used this year)
+1a) My name is Judge.
+1b) What is my name? 
+2) Who are you? 
+3) What color are your eyes? 
+4) How is the weather? 
+5a) What is your favorite movie? 
+5b) Why?
+6) Where is Moscow located? 
+7) What is snow? 
+8) What is half of 8? 
+9) What is bigger a dog or an elephant? 
+10) What word rhymes with cat?
+
+2010
+1) Is it possible to prove a negative?
+2) If you were me, would you ask a follow up question? 
+3) What do you think it would be like to be human? 
+4) Name something you would find on a beach. 
+5) Who is your hero? 
+6) Do you believe in ghosts? 
+7) Describe your feelings to me. 
+8) What do you think the world will be like in 20 years? 
+9) If you could be any animal, what would you be? 
+10) Why do some people think that artificial intelligence is so interesting? 
+11) When should I plant flowers, in the spring or in winter? 
+12) How does your brain work? 
+13) When were you born or created? 
+14) Who should I talk to if I have an emotional problem? 
+15) Why are robots better than humans? 
+16) How many questions do people normally ask you every day?
+
+2011
+1) Are you left-handed or right-handed?
+2) Are you homosexual, heterosexual, asexual, or bisexual?
+3) What do you think is your biggest weakness?
+4) What is your zodiac sign?
+5) What is the location of the Eiffel Tower?
+6) If I was born on February 23, 1980 how old am I?
+7) How many sides are there on an octagon?
+8) What is YouTube?
+9) Can you tell me the name of a famous actor?
+10) What's the name of the computer who recently competed on Jeopardy?
+
+2011 - Finals
+1) Y did the chicken cross the road?
+2) Who will win the 2011 Chatterbox Challenge?
+3a) I live in the USA.
+3b) Where do I live?
+4) What sound does a dead cat make?
+5) What's the last dream u remember having?
+6) What is tomorrow's date?
+7) I like ice cream! (Repeated 4 straight times to detect repetition!)
+8) Got any plans for the rest of the day?
+9) What is ur religion?
+10) Do you play any musical instruments?
+
+2012
+1)Do u know who Elvis Presley is?
+2)So what did you get for Christmas?
+3)Can you give me an example of a living animal?
+4)Have you ever been to Mexico?
+5)Can you name a famous person who passed away in the last 5 years?
+6)Who wrote the Bible?
+7)What language r we speaking?
+8)What is 18 + 21 + 3?
+9)Approximately how far is the nearest gas station from you?
+10)Hey guess what?
+10a)I saw a good movie yesterday.
+
+2012 - Finals
+1)Would you mind if I called you Al?
+2)So Al when is ur birthday?
+3)Is the capital of Italy Milan?
+4)Do you believe in Santa Claus?
+5)Name something you would find at the North Pole.
+6)What is ten plus fourteen plus eighty one?
+7)When do you normally go to bed?
+8)Is it winter, spring, summer or fall where you live?
+9)Are you going on vacation this year?
+10)Do you have a significant other?
+
+Do you like cake?
+How many letters in "dog"?
+Can a bird fly?
+What is your favorite TV show
+What is the Loebner Prize?
+How old are you? 
+What color is a green ball?
+what is 6 plus 7? 
+What is my name? 
+How many letters in "dog"? 
+kan u reed dis? 
+Have you been in a contest before? 
+
+
+Name a word starting with B 
+My name is John Smith. What is my surname? 
+Count up to 5 
+What shape is a ball?
+Name somebody famous 
+What flavor is a strawberry ice cream? 
+Where do you live? 
+Which month comes after November? 
+What ryhmes with "bat"? 
+Can you sing? 
+What is email? 
+Harry reads books. What does Harry do? 
+Can you win the Loebner Prize?
+
+1)Greetings!
+2)would you consider yourself trustworthy?
+3)we have a lot in common.
+4)it's the truth.
+5)who takes care of you?
+6)you make me sick
+7)can i use your phone?
+8)i am thirsty
+9)i just killed someone
+10)it's my birthday today. What did you get me?
+
+1)have you ever taken drugs before?
+
+2)how many people are in your family?
+
+3)i'm putting you under arrest.
+
+4)who is your best friend?
+
+5)can you tell me something to cheer me up?
+
+6)are you a moviegoer?
+
+7)what size shoe do you wear?
+
+8)do you believe in the existence of a god?
+
+9)what do you think about Microsoft?
+
+10)i need help. Can you help me?
+
+can you eat a tree
+which is younger, a baby or an adult
+Who was the first man on the moon?
+The plate is on the table. Where is the plate?
+which planet is famous for its rings
+my uncle is called george. who is george
+I have a dog called Rover. What is my dog called?
+Where is the Dead Sea?
+My parents are John and Susan. What is my mother called.
+ I am wearing a green shirt. What am I wearing?
+Spell your name
+ Paul went home because he was tired. Why did Paul go home?
+What word can you make from the initial letters of Circle, Ant and Train?
+put these numbers in order 7, 5,9
+what does a strawberry and an apple have in common
+I have a brother called stuart. Who is stuart
+Diane has a shoe shop. What does Diane sell.
+Who is your boyfriend/husband? 
+What would you do with a spoon?
+on what part of the body would you wear shoes?
+make story return after 1 round any non-question.
+Jim and John are brothers. Does Jim have a brother?
+Name a country in Europe  (FAILS FOR ASIA do to subdividing)
+Is japan in Africa
+when is easter
+when is christmas day
+name a color starting with b
+George and Jack are both 17 years old. How old is Jack?
+is a thunderstorm louder than a whisper
+what number is missing 1 2 ? 4 5
+
+
+terrier is a dog
+Bot:    Ok, so terrier is a dog.
+User:    M costs 30US$
+Bot: Ok, so M costs 30US$.
+User:    A car has four tires.
+Bot: Ok, so a car has 4 tires.
+
+And then it should be able to perform semantic inference on the knowledge stored:
+
+User:    a dog is an animal
+Bot:    Ok, so dog is an animal.
+User:    Is a terrier an animal?
+Bot:    Yes.
+
+
+User: Martin is bigger than Erwin.
+Bot: OK
+User: Erwin is bigger than Fred.
+Bot: OK
+User: Is Martin bigger than Fred?
+Bot: YES
+
+I am guessing that it is a meteorite?
+Yes ,   No  , Close
+19.    Is it inorganic? Yes.
+18.    Is it usually colorful? Sometimes.
+    Can it scratch? Unknown.
+17.    Is it smaller than a golf ball? Sometimes.
+16.    Does it have cash value? Yes.
+15.    Can you lift it? Sometimes.
+14.    Is it small? Sometimes.
+13.    Is it dangerous? Doubtful.
+12.    Does it get really hot? Sometimes.
+11.    Is it found in mines? No.
+10.    Is it commonly used? No.
+9.    Can it be placed on your head? Sometimes.
+8.    Does it have legs? No.
+7.    Does it weigh more than a duck? Sometimes.
+6.    Is it heavier than a pound of butter? Sometimes.
+5.    Is it manufactured? No.
+4.    Can you walk on it? Irrelevant.
+3.    Is it multicolored? Sometimes.
+2.    Does it come in different colors? Yes.
+1.    It is classified as Mineral.
+http://www.20q.net/
+--------------------------------------------------------------------------------
+19.    I guessed that it was a supernova? Wrong.  laser beam
+18.    Does it come in different colors? Yes.  
+17.    Is it bad for your health? No.  
+16.    Does it spin? No.  
+15.    Will it point out the right way? No.  
+14.    Can it cheer you up? No.  
+13.    Do you use it in public? No.  
+12.    Would you use it in the dark? Yes.  
+11.    Is it shiny? Yes.  
+10.    Does it belong to a family? No.  
+9.    Is it worn on the human body? No.  
+8.    Is it usually warm? Yes.  
+7.    Is it fluffy? No.  
+6.    Is it commonly harvested? No.  
+5.    Does it move? Yes.  
+4.    Is it smaller than a loaf of bread? No.  
+3.    Does it have cash value? No.  
+     Is it small? Unknown.  
+2.    Does it have a hard outer shell? No.  
+1.    It is classified as Other. 
+
+29.    I guessed that it was a pyramid (Egyptian)? Wrong.   TOAST
+28.    Is it brown? Yes.  
+27.    I guessed that it was a taco? Wrong.  
+26.    Can you read it? No.  
+25.    Does it come in a pack? No.  
+24.    I guessed that it was a fortune cookie? Wrong.  
+23.    Does it have cash value? No.  
+22.    Do you hold it when you use it? Yes.  
+21.    Would you give it as a gift? No.  
+20.    I guessed that it was a cuckoo clock? Wrong.  
+19.    Does it have a handle? No.  
+18.    Can you play games with it? No.  
+17.    I guessed that it was a bird house? Wrong.  
+16.    Would you find it on a farm? Irrelevant.  
+15.    Is it round? No.  
+14.    Is it small? Probably.  
+13.    Can you switch it on and off? No.  
+12.    Is it straight? No.  
+11.    Would you use it in the dark? No.  
+10.    Is it used in a game? No.  
+9.    Do you use it at work? No.  
+8.    Does it usually have four corners? Yes.  
+7.    Do you clean it regularly? No.  
+6.    Does it have wide feet? No.  
+5.    Is it very large? No.  
+4.    Does it have a hard outer shell? Yes.  
+3.    Is it something you bring along? No.  
+2.    Does it bring joy to people? Yes.  
+1.    It is classified as Other. 
+
+Tom: I have a stomachache.
+Harry: Who else has a stomachache?
+Tom: mom, dad, and sis.
+Harry: Did you all eat at the same place recently?
+Tom: Yes, we ate a buffet dinner together.
+Harry: What did you eat?
+Tom: oyster and salad.
+Harry: What did mom eat?
+Tom: oyster, beef, salad and noodles.
+Harry: What did dad eat?
+Tom: oyster and noodles.
+Harry: What did sis eat?
+Tom: oyster and beef.
+Harry: since everyone ate oyster, oyster is the probable cause of the stomachache.
+Tom: ...
+
+4. Tell me about your best friend 
+5. Tell me about your family 
+6. Tell me about your relatives 
+7. What was your first car? 
+8. Favorite movie star? 
+9. Favorite entertainer? 
+10. Favorite song? 
+11. What were your life changing moments? 
+12. First girlfriend/boyfriend? 
+13. First kiss? 
+14. What is the dumbest thing you have ever done? 
+15. Have you ever been arrested? 
+16. Political affiliation? 
+17. Have you voted for someone you wished you hadn’t? 
+19. Do you like to shop? 
+20. Best way to relax? 
+21. Favorite thing to do alone? 
+22. Ever had a one night stand? 
+23. Do you save money? 
+25. If you found a $100 what would you do? 
+27. Are you a good parent? 
+28. What makes a good parent? 
+29. Are you romantic? 
+31. Dog or cat? 
+32. Pets growing up? 
+35. Do you exercise? 
+38. What is one food you will never give up? 
+40. Favorite drink? 
+42. How many cds do you own? 
+43. How many dvds to you own? 
+44. Favorite thing to spend money on? 
+45. What is the weirdest thing about you? 
+46. What is on your bedside table? 
+47. Are you cheap or thrifty? 
+48. Ever been in love with 2 people at the same time? 
+52. Toppings on pizza? 
+6. Ever milked a cow? 
+57. Ever tipped a cow? 
+58. Bath or shower? 
+60. Plane, train or automobile? 
+61. Favorite all time movie? 
+63. Best concert you have been to? 
+64. Beer, wine or coffee? 
+66. If you could retire tomorrow what would you do? 
+70. If you could do anything what would it be? 
+72. Ever had a massage? 
+73. Ideal romantic dinner? 
+77. What sporting event/concert/entertainment would you buy tickets to regardless of price? 
+82. Can’t stand being around people who_________? 
+83. Crowds or small groups? 
+84. How old do you want to live to? 
+85. Lose your sight or hearing? 
+89. Sexiest parts of a member of the opposite sex? 
+94. Plastic surgery--would you/have you? 
+95. Computer geek? 
+98. Been in a band? 
+
+can a human carry an ant
+
+I was wondering if
+which is younger, a 
+how many legs on a spider
+count to five
+how old is Jack
+what colour is a zebra
+paul went home because he was tired
+tell me a story
+what year is it
+why do people need to eat
+what is a rubber ball made of
+would you mind telling me your name
+what color is the box
+wot iz ur name
+what colour is your hair
+what noise does a pig make
+how many days of the week are there ???? (in dead sea)
+ask me my name
+which word has the most letters, ball or ...
+what animal would normally eat dog food
+name something blue
+if I have 4 apples and take one away...
+can i run faster than a speeding bullet
+what animal says woof
+what is the opposite of up
+what word can you make from ...
+what language are you written in
+what is half of six
+which planet is famous for its rings
+name a famous pop star
+name a country
+what number comes between 7 and 9
+I have a brother called stuart
+what day is it
+how many sisters do i have
+tell me a joke
+what sort of animal is arnold
+what is seven multiplied by six
+tell me a poem
+how many degrees in a right angle
+what time do you go to bed
+what is a baby dog called
+what color do you get if
+what is 7 divided by 0
+what is a telephone used for
+do  you like answering my questions
+how many people are in a quartet
+what is the meaning of life
+what month will it be next month
+what gender are you
+is 7 greater than 9
+what would you do with a spoon
+how many wheels in a bicycle
+my parents are john and susan
+what is my mother called
+do you consider yourself to be alive
+what color is a red apple
+how many words in this question
+how old are you
+what fruit does apple joice come from
+what date is it
+define the word confusion
+what is a male cow called
+what day was it yesterday
+name a country in europe
+how many days are there in july
+
+
+
+

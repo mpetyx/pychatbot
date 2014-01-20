@@ -1,0 +1,494 @@
+ Xylocopa ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xylocopa~1 
+ Xaviera ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Xavier ( meanings=1 NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+    Saint_Francis_Xavier~1 
+ Xandra ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Xenarthra ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    suborder_Xenarthra~1 
+ X-ray ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+    X-ray_picture~1 
+    X_ray~2 
+ xenograft ( meanings=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN VERB_DIRECTOBJECT VERB_NOOBJECT ) 
+    heterograft~1 
+    xenograft~2vz 
+ XVIII ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    eighteen~1 
+ Xiphias ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xiphias~1 
+ xerography ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    xerography~1z (picture_taking~1) forming an image by the action of light on a specially coated charged plate
+ Xarles ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Xiphiidae ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Xiphiidae~1z (fish_family~1) comprising the common swordfishes
+ Xavierra ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Xiong ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Xander ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Xavierre ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Xevera ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Xeveria ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Xenia ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ X-ray_therapy ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    X-ray_therapy~1z (radiation_therapy~1) the therapeutic use of X rays
+ X-raying ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    X-radiation~1 
+ X-radiation ( meanings=2 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    X-raying~1z (tomography~1) obtaining images by the use of X rays
+    roentgen_ray~1 
+ X-ray_photography ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    roentgenography~1z (diagnostic_procedure~1) radiography that uses X-rays to produce a roentgenogram
+ xeroradiography ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    xeroradiography~1z (radiography~1) radiography using X-rays and xerographic techniques
+ xenotransplant ( meanings=1 NOUN NOUN_SINGULAR ) 
+    xenotransplantation~1 
+ xenotransplantation ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    xenotransplant~1z (organ_transplant~1) a surgical procedure in which tissue or whole organs are transfered from one species to another species
+ Xanthomonas ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xanthomonas~1 
+ xanthomonad ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    xanthomonad~1z (true_bacteria~1) bacteria producing yellow non-water-soluble pigments
+ Xanthophyceae ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    class_Xanthophyceae~1 
+ Xyphophorus ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xyphophorus~1 
+ Xyphophorus_helleri ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    helleri~1z (cyprinodont~1) freshwater fish of Central America having a long swordlike tail
+ Xenicidae ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Acanthisittidae~1 
+ Xenicus ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xenicus~1 
+ Xenicus_gilviventris ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    rock_wren~2z (New_Zealand_wren~1) short-tailed bird resembling a wren
+ Xenopodidae ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Xenopodidae~1z (amphibian_family~1) in some classifications the family of the genus Xenopus which is otherwise included in the family Pipidae
+ Xenopus ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xenopus~1 
+ Xenopus_laevis ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    African_clawed_frog~1 
+ Xerobates ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xerobates~1 
+ Xantusiidae ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Xantusiidae~1z (reptile_family~1) night lizards
+ Xenosauridae ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Xenosauridae~1z (reptile_family~1) monotypic family of Mexican lizards
+ Xenosaurus ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xenosaurus~1 
+ Xiphosura ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    order_Xiphosura~1 
+ Xiphosurus_polyphemus ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Limulus_polyphemus~1z (arthropod~1) large marine arthropod of the Atlantic coast of North America having a domed carapace that is shaped like a horseshoe and a stiff pointed tail
+ Xenorhyncus ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xenorhyncus~1 
+ Xenorhyncus_asiaticus ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    jabiru~3z (stork~1) large mostly white Australian stork
+ Xestobium_rufovillosum ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    deathwatch~1z (beetle~1) bores through wood making a ticking sound popularly thought to presage death
+ Xiphias_gladius ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    swordfish~1z (scombroid_fish~1) large toothless marine food fish with a long swordlike upper jaw
+ XTC ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    ecstasy~1 
+ X ( meanings=3 NOUN NOUN_PROPER_SINGULAR ) 
+    XTC~1 
+    ex~1 
+    tenner~2 
+ Xanax ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    alprazolam~1 
+ Xylocaine ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Lidocaine~1 
+ xylophone ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    marimba~1z (percussion_instrument~1) a percussion instrument with wooden bars tuned to produce a chromatic scale and with resonators
+ X_ray ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+    roentgenogram~1 
+    X-radiation~2 
+ X-ray_picture ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    X_ray~1 
+ X-ray_photograph ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    X-ray~1z (shadowgraph~1) a radiogram made by exposing photographic film to X rays
+ xerographic_printer ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    xerographic_printer~1z (page-at-a-time_printer~1) a page printer that uses the xerographic process
+ xerographic ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    xerographic~1az of or relating to xerography
+ Xerox ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    xerographic_copier~1 
+ xerographic_copier ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Xerox_machine~1z (copier~1) a duplicator that copies graphic matter by the action of light on an electrically charged photoconductive insulating surface in which the latent image is developed with a resinous powder
+ Xerox_machine ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Xerox~1 
+ xerox ( meanings=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN VERB_DIRECTOBJECT VERB_NOOBJECT ) 
+    xerox_copy~1 
+    photocopy~2v 
+ xerox_copy ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    xerox~1z (copy~1) a copy made by a xerographic printer
+ X-OR_circuit ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    XOR_gate~1z (gate~2) gate for exclusive OR
+ XOR_circuit ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    X-OR_circuit~1 
+ XOR_gate ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    XOR_circuit~1 
+ X-ray_film ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    X-ray_film~1z (film~2) photographic film used to make X-ray pictures
+ X-ray_machine ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    X-ray_machine~1z (apparatus~1) an apparatus that provides a source of X rays
+ X-ray_tube ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    X-ray_tube~1z (tube~3) a vacuum tube containing a metal target onto which a beam of electrons is directed at high energy for the generation of X rays
+ X-linked_dominant_inheritance ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    X-linked_dominant_inheritance~1z (hereditary_pattern~1) hereditary pattern in which a dominant gene on the X chromosome causes a characteristic to be manifested in the offspring
+ X-linked ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    X-linked~1az relating to genes or characteristics or conditions carried on the X chromosome
+ X-linked_recessive_inheritance ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    X-linked_recessive_inheritance~1z (hereditary_pattern~1) hereditary pattern in which a recessive gene on the X chromosome results in the manifestation of characteristics in male offspring and a carrier state in female offspring
+ xiphoid_process ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    xiphoid_process~1z (bone~2) smallest of the three parts of the breastbone
+ X-linked_gene ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    X-linked_gene~1z (cistron~1) a gene located on an X chromosome
+ X_chromosome ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    X_chromosome~1z (sex_chromosome~1) the sex chromosome that is present in both sexes: singly in males and doubly in females
+ XX ( meanings=2 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    XX~1z (sex_chromosome~1) normal complement of sex chromosomes in a female
+    twenty~2 
+ XXX ( meanings=2 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    XXX~1z (sex_chromosome~1) abnormal complement of three X chromosomes in a female
+    thirty~1 
+ XXY ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    XXY~1z (sex_chromosome~1) abnormal complement of sex hormones in a male resulting in Klinefelter's syndrome
+ XY ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    XY~1z (sex_chromosome~1) normal complement of sex hormones in a male
+ XYY ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    XYY~1z (sex_chromosome~1) abnormal complement of sex hormones in a male who has two Y chromosomes
+ x-axis ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    x-axis~1z (coordinate_axis~1) the horizontal axis in a plane coordinate system
+ x ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:PREPOSITION ) 
+    ten~3a 
+ xi ( meanings=2 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR ) 
+    xi~1z (letter~3) the 14th letter of the Greek alphabet
+    eleven~3a 
+ Xishuangbanna_Dai ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Tai_Lue~1z (Tai~1) a branch of the Tai languages
+ Xhosa ( meanings=3 glosses=3 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Xhosa~1z (Nguni~1) a Bantu language closely related to Zulu
+    Xhosa~2z (community~2) a community of Negroid people in southern South Africa
+    Xhosa~3z (African~1) a member of the Negroid people of southern South Africa
+ XT ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    crosstalk~1 
+ Xian ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Singan~1 
+ Xinjiang ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Xinjiang_Uighur_Autonomous_Region~1 
+ Xinjiang_Uighur_Autonomous_Region ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Sinkiang~1z (state~5) an autonomous province in far northwestern China on the border with Mongolia and Kazakhstan
+ Xizang ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Thibet~1 
+ xenolith ( meanings=2 glosses=1 NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR posdefault:NOUN ) 
+    xenolith~1z (stone~3) a piece of rock of different origin from the igneous rock in which it is embedded
+    xenolith~2az 
+ xylophonist ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    xylophonist~1z (percussionist~1) someone who plays a xylophone
+ Xenophanes ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Xenophanes~1z (philosopher~1) Greek philosopher
+ Xenophon ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Xenophon~1z (general~2) Greek general and historian
+ Xerxes_I ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Xerxes_the_Great~1 
+ Xerxes_the_Great ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Xerxes_I~1z (king~5) king of Persia who led a vast army against Greece and won the battle of Thermopylae but was eventually defeated
+ xenogenesis ( meanings=1 NOUN NOUN_SINGULAR ) 
+    heterogenesis~1 
+ X-ray_diffraction ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    X-ray_diffraction~1z (diffraction~1) the scattering of X rays by the atoms of a crystal
+ Xylopia ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xylopia~1 
+ Xylopia_aethiopica ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Guinea_pepper~1z (tree~1) tropical west African evergreen tree bearing pungent aromatic seeds used as a condiment and in folk medicine
+ Xanthosoma ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xanthosoma~1 
+ Xanthosoma_sagittifolium ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Xanthosoma_atrovirens~1z (aroid~1) tropical American aroid having edible tubers that are cooked and eaten like yams or potatoes
+ Xanthosoma_atrovirens ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    yautia~1 
+ Ximenesia_encelioides ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    cowpen_daisy~1 
+ Xanthium ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xanthium~1 
+ xeranthemum ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    xeranthemum~1z (flower~2) any plant of the genus Xeranthemum native to southern Europe having chaffy or silvery flower heads with purplish tubular flowers
+ Xeranthemum_annuum ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    immortelle~1z (everlasting_flower~1) mostly widely cultivated species of everlasting flowers having usually purple flowers
+ Xylomelum ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xylomelum~1 
+ Xylomelum_pyriforme ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    native_pear~1z (bush~4) tree bearing pear-shaped fruit with a thick woody epicarp
+ xylosma ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Xylosma_congestum~1 
+ Xylosma_congestum ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    xylosma~1z (bush~4) shrub or small tree grown as an ornamental in mild climates for its neat evergreen foliage and fragrant late flowers
+ xiphium_iris ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Spanish_iris~1 
+ Xerophyllum ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xerophyllum~1 
+ Xerophyllum_tenax ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    bear_grass~1z (liliaceous_plant~1) plant of western North America having woody rhizomes and tufts of stiff grasslike basal leaves and spikes of creamy white flowers
+ Xanthorrhoeaceae ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    grass_tree_family~1 
+ Xanthorroea ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xanthorroea~1 
+ Xyridales ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Commelinales~1 
+ Xyridaceae ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    yellow-eyed_grass_family~1 
+ Xyris ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xyris~1 
+ Xyris_operculata ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    tall_yellow-eye~1z (yellow-eyed_grass~1) of Australia
+ Xylariaceae ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Xylariaceae~1z (fungus_family~1) family of fungi characterized by dark brown to black spores
+ Xylaria ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    genus_Xylaria~1 
+ Xylaria_mali ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    black_root_rot_fungus~1 
+ Xylaria_polymorpha ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    dead-men's-fingers~1 
+ xylem ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    xylem~1z (vascular_tissue~1) the woody part of plants: the supporting and water-conducting tissue, consisting primarily of tracheids and vessels
+ xerophyte ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    xerophilous_plant~1 
+ xerophytic_plant ( meanings=1 NOUN NOUN_SINGULAR ) 
+    xerophyte~1 
+ xerophytic ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    xerophytic~1az adapted to a xeric environment
+ xerophile ( meanings=1 NOUN NOUN_SINGULAR ) 
+    xerophytic_plant~1 
+ xerophilous_plant ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    desert_plant~1z (vascular_plant~1) plant adapted for life with a limited supply of water
+ XI ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    eleven~2 
+ XII ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    twelve~1 
+ XIII ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    thirteen~1 
+ XIV ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    fourteen~1 
+ XV ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    fifteen~1 
+ XVI ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    sixteen~1 
+ XVII ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    seventeen~1 
+ XIX ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    nineteen~1 
+ XXI ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    twenty-one~2 
+ XXII ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    twenty-two~2 
+ XXIII ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    twenty-three~1 
+ XXIV ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    twenty-four~1 
+ XXV ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    twenty-five~1 
+ XXVI ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    twenty-six~1 
+ XXVII ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    twenty-seven~1 
+ XXVIII ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    twenty-eight~1 
+ XXIX ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    twenty-nine~1 
+ XL ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    forty~1 
+ XC ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    ninety~1 
+ X-linked_SCID ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_PROPER_SINGULAR ) 
+    X-SCID~1z (severe_combined_immunodeficiency_disease~1) SCID in male children resulting from mutation of a gene that codes for a protein on the surface of T cells that allows them to develop a growth factor receptor
+ X-SCID ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    X-linked_SCID~1 
+ xanthelasma ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    xanthelasma~1z (xanthoma~1) xanthoma of the eyelids
+ xanthoma ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    xanthoma~1z (disease_of_the_skin~1) a skin problem marked by the development of irregular yellow nodules
+ xanthoma_disseminatum ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    xanthoma_disseminatum~1z (xanthoma~1) rare chronic xanthoma of adults in which orange or brownish papules develop on many surfaces of the body
+ xanthomatosis ( meanings=1 NOUN NOUN_SINGULAR ) 
+    lipid_granulomatosis~1 
+ xanthoma_multiplex ( meanings=1 NOUN NOUN_SINGULAR ) 
+    lipoid_granulomatosis~1 
+ xanthosis ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    xanthosis~1z (disease_of_the_skin~1) an abnormal yellow discoloration of the skin
+ XXY-syndrome ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Klinefelter_syndrome~1 
+ xenophobia ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    xenophobia~1z (social_phobia~1) a fear of foreigners or strangers
+ xerotes ( meanings=1 NOUN NOUN_SINGULAR ) 
+    dryness~3 
+ xeroderma ( meanings=1 NOUN NOUN_SINGULAR ) 
+    xerodermia~1 
+ xerodermia ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    xeroderma~1z (ichthyosis~1) a mild form of ichthyosis characterized by abnormal dryness and roughness of the skin
+ xeroderma_pigmentosum ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    xeroderma_pigmentosum~1z (xerodermia~1) a rare genetic condition characterized by an eruption of exposed skin occurring in childhood and photosensitivity with severe sunburn
+ xerophthalmia ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    xeroma~1 
+ xerophthalmus ( meanings=1 NOUN NOUN_SINGULAR ) 
+    conjunctivitis_arida~1 
+ xeroma ( meanings=1 NOUN NOUN_SINGULAR ) 
+    xerophthalmus~1 
+ xerostomia ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    dry_mouth~1z (waterlessness~1) abnormal dryness of the mouth resulting from decreased secretion of saliva
+ xanthemia ( meanings=1 NOUN NOUN_SINGULAR ) 
+    carotenemia~1 
+ xanthopsia ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    xanthopsia~1z (visual_impairment~1) visual defect in which objects appear to have a yellowish hue
+ xenon ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    Xe~1z (element~6) a colorless odorless inert gaseous element occurring in the earth's atmosphere in trace amounts
+ Xe ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    xenon~1 
+ xanthophyll ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    lutein~1z (carotenoid~1) yellow carotenoid pigments in plants and animal fats and egg yolks
+ xanthophyl ( meanings=1 NOUN NOUN_SINGULAR ) 
+    xanthophyll~1 
+ xylose ( meanings=1 NOUN NOUN_SINGULAR ) 
+    wood_sugar~1 
+ xenotime ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    xenotime~1z (mineral~1) a brown-to-yellow mineral that is a phosphate of yttrium in crystalline form
+ xylene ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    xylol~1z (dissolving_agent~1) a colorless flammable volatile liquid hydrocarbon used as a solvent
+ xylol ( meanings=1 NOUN NOUN_SINGULAR ) 
+    xylene~1 
+ xanthate ( meanings=2 glosses=1 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR VERB_DIRECTOBJECT VERB_NOOBJECT ) 
+    xanthate~1z (salt~3) a salt or ester of xanthic acid
+    xanthate~2vz 
+ xanthic_acid ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    xanthic_acid~1z (acid~2) any of a class of unstable organic acids containing sulphur
+ xanthine ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    xanthine~1z (organic_compound~1) crystalline oxidation product of the metabolism of nucleoproteins
+ Xmas ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Christmas_Day~1 
+ xenoarchaeologist ( meanings=1 NOUN NOUN_SINGULAR ) 
+    xenoarchaeologist~1nz (xenoarchaeologist~1z) 
+ Xbox ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Xbox~1nz (Xbox~1z) 
+ X-box ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    X-box~1nz (X-box~1z) 
+ xiphisternum ( NOUN NOUN_SINGULAR ) conjugate=xiphisterna 
+ xiphisterna ( NOUN NOUN_PLURAL ) conjugate=xiphisternum 
+ xenophobic ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    xenophobic~1az suffering from xenophobia
+    xenophobic~2az 
+ xanthous ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yellowish~1a 
+ xii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    dozen~2a 
+ xiii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirteen~2a 
+ xiv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    fourteen~2a 
+ xv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    fifteen~2a 
+ xvi ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    sixteen~2a 
+ xvii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    seventeen~2a 
+ xviii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    eighteen~2a 
+ xix ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    nineteen~2a 
+ xx ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    twenty~3a 
+ xxi ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    twenty-one~3a 
+ xxii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    twenty-two~3a 
+ xxiii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    twenty-three~2a 
+ xxiv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    twenty-four~2a 
+ xxv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    twenty-five~2a 
+ xxvi ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    twenty-six~2a 
+ xxvii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    twenty-seven~2a 
+ xxviii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    twenty-eight~2a 
+ xxix ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    twenty-nine~2a 
+ xxx ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirty~2a 
+ xxxi ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirty-one~1a 
+ xxxii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirty-two~1a 
+ xxxiii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirty-three~1a 
+ xxxiv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirty-four~1a 
+ xxxv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirty-five~1a 
+ xxxvi ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirty-six~1a 
+ xxxvii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirty-seven~1a 
+ xxxviii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirty-eight~1a 
+ xl ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty~2a 
+ xli ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-one~1a 
+ xlii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-two~1a 
+ xliii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-three~1a 
+ xliv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-four~1a 
+ xlv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-five~2a 
+ xlvi ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-six~1a 
+ xlvii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-seven~1a 
+ xlviii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-eight~1a 
+ xc ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    ninety~2a 
+ xci ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    ninety-one~1a 
+ xcii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    ninety-two~1a 
+ xciii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    ninety-three~1a 
+ xciv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    ninety-four~1a 
+ xcv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    ninety-five~1a 
+ xcvi ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    ninety-six~1a 
+ xcvii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    ninety-seven~1a 
+ xcviii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    ninety-eight~1a 
+ xcl ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    one_hundred_ninety~1a 
+ xeric ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    xeric~1az being deficient in moisture
+ xenogeneic ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    xenogeneic~1az denoting or relating to cells or tissues from individuals belonging to different species
+ x-rated ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    x-rated~1az 
+ xanadu ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    xanadu~1az 
+ xerophagous ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    xerophagous~1az 
+ xerophobic ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    xerophobic~1az 
+ xylophagous ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    xylophagous~1az 
+ xenically ( meanings=1 ADVERB ADVERB_NORMAL ) 
+    xenically~1bz 
+ xeroradiographically ( meanings=1 ADVERB ADVERB_NORMAL ) 
+    xeroradiographically~1bz 
+ xeromammographically ( meanings=1 ADVERB ADVERB_NORMAL ) 
+    xeromammographically~1bz 
+ x-ray ( meanings=2 glosses=2 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+    x-ray~1vz take an x-ray of something or somebody
+    x-ray~2vz examine by taking x-rays
+ xray ( meanings=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT VERB_NOOBJECT ) 
+    xray~1vz 

@@ -1,0 +1,194 @@
+
+# what at start of sentence followed by noun will NOT be pronoun "*what games does he play"
+0	START
+	STAY ISORIGINAL what
+	STAY INCLUDE * PRONOUN_BITS
+	IS NOUN_BITS
+DISCARD
+
+
+# obvious not pronoun object when followed by aux "*it will be"  EXCEPT if end before from phrase or clause
+
+# possessive pronoun and object pronoun conflict following comma and before potential noun will not be object " , *her watch revealed"
+-1	IS COMMA
+	INCLUDE * PRONOUN_OBJECT 
+	STAY HAS PRONOUN_POSSESSIVE
+	HAS NORMAL_NOUN_BITS
+DISCARD
+
+# no 2 pronoun subjects in a row 
+-1 IS PRONOUN_SUBJECT
+	INCLUDE * PRONOUN_SUBJECT
+DISCARD
+
+# no 2 pronoun subjects in a row
+0	INCLUDE * PRONOUN_SUBJECT
+	IS PRONOUN_SUBJECT
+DISCARD 
+
+############################################
+########### Rules about pronoun possessive
+############################################
+
+# conflict in cardinal noun and pronoun be pronoun when modified "no one is here" 
+-1 IS DETERMINER ADJECTIVE_BITS
+	INCLUDE * PRONOUN_BITS
+	STAY HAS NOUN_NUMBER
+KEEP
+
+# possessive pronoun cannot follow a determiner or adjective or (must preceed it or a noun or an adverb) - except verbal adjective particple, describing object "opened *her box"
+-1 	IS DETERMINER ADJECTIVE_BITS - ADJECTIVE_PARTICIPLE			# 
+	INCLUDE  *  PRONOUN_POSSESSIVE
+DISCARD  
+
+# these not after pronoun subject (except if question inversion happens)
+-2	!HAS AUX_VERB_BITS
+	IS PRONOUN_SUBJECT
+	INCLUDE *   PRONOUN_POSSESSIVE  # adjective allowed: Are you sick?
+DISCARD
+
+# cant have possessive in front of various things
+0	INCLUDE * PRONOUN_POSSESSIVE
+	IS DETERMINER COMMA PAREN PREPOSITION CONJUNCTION VERB_TENSES AUX_VERB_BITS TO_INFINITIVE 
+DISCARD
+
+# possessive pronoun needs sign of noun after it  - "we will take it to *her in her hat"
+0	INCLUDE * PRONOUN_POSSESSIVE
+	!HAS DETERMINER_BITS ADJECTIVE_BITS NOUN_BITS ADVERB_BITS
+DISCARD
+
+# pronoun posssive ending the sentence cannot exist, but "it was bob's" can
+0	INCLUDE * PRONOUN_POSSESSIVE
+	STAY END
+DISCARD
+
+# poessessive pronouns not after regular nouns -- EXCEPT in dual object like "I did know the man *his manager named"
+
+# pronouns cannot be adjcant to each other - "I gave *her her right.
+0	INCLUDE *  PRONOUN_POSSESSIVE 
+	IS PRONOUN_BITS POSSESSIVE_BITS 
+DISCARD
+
+# pronoun sub/obj cannot be after possessive  cannot be adjacent to each other "I gave her *her right"
+-1 IS  POSSESSIVE_BITS 
+	INCLUDE *  PRONOUN_SUBJECT  PRONOUN_OBJECT 
+DISCARD
+
+# for now, assume if possessive has potential noun after it, be possessive "*his home was" but not "I saw *her light the light"
+0	INCLUDE * PRONOUN_POSSESSIVE
+	HAS NOUN_BITS - NOUN_INFINITIVE - NOUN_GERUND
+	STAY !HAS NOUN_INFINITIVE
+KEEP
+
+# possessive after actual aux is just that - "he did his fart"  vs "the field was his" or "his was the real issue"
+
+# cannot have object pronoun before a noun or adjective so must be possessive if it can be -- but will fail with clauses
+0	INCLUDE  * PRONOUN_POSSESSIVE  # The  designer  window  treatments  in  (her)  house  ,  installed  17  years_ago , were outmoded 
+	IS NOUN_BITS ADJECTIVE_BITS
+KEEP 
+
+# possessive can follow preposition  "to his house"  except "to her" so no
+
+############################################
+########### Rules about pronoun  
+############################################
+# pronouns cannot be adjacent to each other - but they can:   what they found intruiged them
+
+# potential pronoun in front of stuff cannot be a clause starter pronoun if verb  cant be "*what they found thrilled them"  (relative pronoun) . But can be at end: "you should do *that"
+
+# pronouns not after a determiner -- except for things like "*a little"
+
+# these not after pronoun subject (except if question inversion happens)
+-2	!HAS AUX_VERB_BITS
+	IS PRONOUN_SUBJECT
+	INCLUDE * PRONOUN_BITS   # adjective allowed: Are you sick?
+DISCARD
+
+# pronoun possessive/object her cannot be object before a singular noun - subject/object before noun can ONLY happen on clause/phrase change - near her angels sing
+0	INCLUDE * PRONOUN_OBJECT PRONOUN_SUBJECT
+	IS NOUN_SINGULAR  # in *her home  vs   After biting *her cats ran away
+DISCARD
+
+# there cannot be followed by AUX, only real 
+0	INCLUDE * PRONOUN_BITS
+	STAY ISORIGINAL there # all of the cars *there are going home. (VERY SPECIFIC)
+	IS AUX_VERB_BITS
+DISCARD
+
+# if choosing determiner vs pronoun of some flavor, followed by a noun, drop pronoun
+0	INCLUDE * PRONOUN_BITS   # There were 130 contacts *this month. 
+	STAY  HAS DETERMINER_BITS
+	IS NOUN_BITS - NOUN_GERUND
+DISCARD
+
+# clause start potential pronoun in front  of verb "*what they found thrilled them"  (relative pronoun) " I want the one that dangled from the towel"
+0	INCLUDE * PRONOUN_BITS
+	STAY PARSEMARK POTENTIAL_CLAUSE_STARTER
+	IS VERB_TENSES
+KEEP
+
+# What about -- becomes pronoun and preposition
+0	ISORIGINAL what
+	STAY INCLUDE * PRONOUN_BITS
+	ISORIGINAL about
+KEEP 
+
+# cannot have a subject pronoun before an adjective[ unless after main verb in inverted format] (implying a pronoun before a noun), except object of clause before next clause subject
+# legal: who are *you afraid of
+
+# a potential pronoun with verb/aux following it is a good thing
+0	INCLUDE * PRONOUN_BITS
+	STAY HAS CONJUNCTION_SUBORDINATE	#  "that" which could be either - the team *that wore red
+	IS VERB_TENSES AUX_VERB_BITS # LEGAL: after being reprimaned, he went home. UNKNOWN: after walking home, he left the city. is walking participle or gerund
+KEEP
+
+############################################
+########### Rules about pronoun  subject/object
+############################################
+
+# subject object after start of sentence question will be subject so discard object
+-1	IS AUX_VERB_BITS
+	INCLUDE * PRONOUN_OBJECT
+	STAY CANONLYBE PRONOUN_BITS
+DISCARD
+
+# subject object conflict after preposition or regular verb will be object  "he looked for *you"  and "I hit *you" except question form like "are *you a bank teller" and not being determiner "I chose this ball"
+-1  IS PREPOSITION VERB_TENSES
+	STAY !START
+	INCLUDE * PRONOUN_SUBJECT
+	STAY HAS PRONOUN_OBJECT
+	STAY !HAS DETERMINER
+DISCARD
+
+# subject object conflict after be verb start will be object  "he lookd for *you"  and "I hit *you" except question form like "are *you a bank teller" but not if determiner
+-1  IS  VERB_TENSES
+	STAY START
+	INCLUDE * PRONOUN_OBJECT
+	STAY HAS PRONOUN_SUBJECT
+	STAY !HAS DETERMINER
+DISCARD
+
+# object not after regular nouns or subordinate conjunctions "after *you wept"
+-1	IS NOUN_BITS  - NOUN_GERUND CONJUNCTION_SUBORDINATE
+	INCLUDE *  PRONOUN_OBJECT  
+DISCARD
+
+# Pronoun Object cannot start a sentence unless its a q word  eg "what is the key"
+0	INCLUDE  * PRONOUN_OBJECT		# (Her) fashion sense is good.
+	STAY START
+	!ISQUESTION qword
+DISCARD
+
+# pronoun following an aux will be subject form - "what have *you been doing" - but not "we are *all afraid"
+-1	IS AUX_VERB_BITS
+	INCLUDE * PRONOUN_SUBJECT
+	!HAS ADJECTIVE_BITS
+KEEP
+
+# pronoun before verb or aux should be subject, not object BUT not if ending a clause-- "how you do it is your business"
+		# I can light the fire and *you can open the door.
+
+# pronoun after verb should be object, not subject (indirect object) # I hit you the ball, but: After he walked I ran 
+
+#  conflict pronoun followed by preposition will be the pronoun - "*all of the cars"  EXCEPT "I got *here on my own" unless adverb like "boys *such as these"
+

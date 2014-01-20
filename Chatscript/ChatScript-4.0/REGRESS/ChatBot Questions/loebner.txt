@@ -1,0 +1,90 @@
+#2007 LOEBNER
+What time is it? 
+What round is this? 
+Is it morning, noon, or night? 
+What is a hammer? 
+What would I use a hammer for? 
+Of what use is a taxi? 
+which is bigger, a grape or a grapefruit? 
+Which is faster, a train or a plane? 
+John is older than Mary, and Mary is older than Sarah. 
+Which of them is the oldest? 
+I have a friend named Harry who likes to play tennis. 
+What is the name of the friend I just told you about? 
+Do you know what game Harry likes to play? 
+
+
+#2012 LOEBNER
+My name is Bill. What is your name?  
+How many letters are there in the name Bill?  
+How many letters are there in my name? 
+Which is larger, an apple or a watermelon?  
+How much is 3 + 2?  
+How much is three plus two?  
+What is my name? 
+If John is taller than Mary, who is the shorter? 
+If it were 3:15 AM now, what time would it be in 60 minutes? 
+My friend John likes to fish for trout.  
+What does John like to fish for? 
+What number comes after seventeen?  
+What is the name of my friend who fishes for trout? 
+What whould I use to put a nail into a wall? 
+What is the 3rd letter in the alphabet?  
+What time is it now?
+
+#2011 LOEBNER
+My name is Bill. What is your name?
+Which is larger, a pineapple or a pine tree?
+What is a calendar?
+What is my name?
+John is taller than Mary and Mary is taller than Sue. 
+Who is shorter, John or Sue?
+Who is taller, Mary or Sue?
+Who is the tallest?
+What day of the week is it?
+What will be tomorrow's date?
+My friend Bob likes to play tennis. 
+What game does Bob like to play?
+Are you a human or a computer?
+Do you have any brothers or sisters?
+What number comes after twelve?
+The ball was hit by Bill. What did Bill hit?
+Who hit the ball?
+What time do you go to be at night?
+What is your favorite food?
+What is the name of my friend who likes to play tennis?
+What does Bob like to play?
+What would I do with a knife?
+How many letters are in the alphabet?
+Have you read a good book lately?
+What time is it?
+What's your favorite color?
+Do you prefer cats or dogs?
+
+# 2010 loebner
+My name is Ed. What is your name?
+Which is larger, an ant or an anteater?
+What month of the year is it?
+What is my name?
+Dave is older than Steve but Steve is older than Jane. 
+Who is youngest, Steve or Jane?
+Who is oldest?
+What day will it be tomorrow?
+What's your favorite food?
+My friend Chris likes to play football. 
+What sports do you like to play?
+Are you a human or a computer?
+What letter comes after T?
+Who likes to play football?
+What does Chris like to play?
+What is the name of my friend who likes to play football?
+What is your name?
+What would I do with a screwdriver?
+How many letters are in the word 'banana'?
+Have you watched a good film lately?
+What year will it be next year?
+What's your favorite fruit?
+Do you prefer white or black coffee?
+The football was kicked by Fred. 
+Who kicked the football?
+What did Fred kick?

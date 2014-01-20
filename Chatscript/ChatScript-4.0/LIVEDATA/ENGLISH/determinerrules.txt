@@ -1,0 +1,105 @@
+
+############################################
+########### Rules about pre determiners
+############################################
+
+# can only be before a or an or the or possessive pronoun
+0	INCLUDE * PREDETERMINER
+	!HASPROPERTY PREDETERMINER_TARGET  
+DISCARD
+
+# must be before a , an, the or possessive pronoun
+0	INCLUDE * PREDETERMINER
+	HASPROPERTY PREDETERMINER_TARGET 	 
+KEEP
+
+############################################
+########### Rules about determiners
+#######################
+
+# ANY adjective that can be a determiner, be one   "*some people" but not if preceeded by an adjective - but not "his *little sister"
+
+# if nothing before can be determiner or adjective and after is ADJECTIVE, be determiner  "he spits at *other small creatures" EXCEPT "I was *half afraid"
+
+# determiner cannot precede aux verb		"*what will tomorrow bring?"
+0	INCLUDE * DETERMINER
+	IS AUX_VERB_BITS 
+DISCARD
+
+# determiners wont proceed potential aux verbs that are not potential nouns like can
+0	INCLUDE *  DETERMINER
+	HAS AUX_VERB_BITS
+	STAY !HAS NOUN_BITS
+DISCARD
+
+# determiners cant preceed aux-verb or real verb or pronoun or another determiner
+0	INCLUDE * DETERMINER_BITS
+	IS DETERMINER_BITS AUX_VERB_BITS VERB_TENSES PRONOUN_BITS  # can precede preposition:  These out of the way places
+DISCARD
+
+# determiner cannot be after a determiner or an adjective
+-1	IS DETERMINER_BITS ADJECTIVE_BITS - ADJECTIVE_PARTICIPLE
+	INCLUDE * DETERMINER_BITS 
+DISCARD
+
+# determiner cannot preceed an adverb not preceeding an adjective possessive pronoun or noun
+0	INCLUDE  * DETERMINER_BITS
+	IS ADVERB_BITS
+	!HAS ADVERB_BITS ADJECTIVE_BITS NOUN_BITS  - NOUN_GERUND PRONOUN_POSSESSIVE
+DISCARD
+
+# determiner cannot end the sentence
+0 	INCLUDE  * DETERMINER_BITS  
+	STAY END  
+DISCARD 	
+
+# determiner not before a noun isnt possible (skip past adjective + adverbs and prep phrase describing the noun)
+
+# determiner wont intervene between two nouns,  "this is the house *that Jack built"  except that "I give the dog a bone" does, as does "he goes to school each semester" does
+
+# determiners do not come before pronouns - illegal  they were *certain they were happy
+0	INCLUDE * DETERMINER_BITS
+	IS PRONOUN_BITS
+DISCARD
+
+# determiner not before a possible noun or pronoun "had I been brave *enough"
+0 INCLUDE * DETERMINER
+	SKIP !HAS NOUN_BITS PRONOUN_BITS
+	!HAS NOUN_BITS PRONOUN_BITS
+DISCARD
+
+# a potential determiner which is also an adjective, cannot be preceeded by an adjective or determiner or possessive
+-1 IS DETERMINER ADJECTIVE_BITS PRONOUN_POSSESSIVE POSSESSIVE
+	INCLUDE * DETERMINER # after his double teeth
+	STAY HAS ADJECTIVE_BITS
+DISCARD
+
+# a potential determiner cannot preceed a comma
+0	INCLUDE * DETERMINER
+	IS COMMA
+DISCARD
+
+# these not after pronoun subject (except if question inversion happens) # adjective allowed: Are you sick?
+
+#   ILLEGAL: "*This reports"  - LEGAL: "*the people"
+
+# potential determiner vs pronouns followed by potential noun followed by end of sentence will be determiner "I would sooner read a book than watch *this film" but not "we watched *them play"
+# but not  "* many little books"
+
+# possessive pronoun that is also a determiner "my dog" discard determiner and be possessive
+0	INCLUDE *  DETERMINER
+	STAY HAS PRONOUN_POSSESSIVE 
+DISCARD
+
+# a potential determiner which is also an adjective not preceeded by an adjective or determiner  or possessive - but not "can kill predators *much larger than itself"
+-1 !HAS DETERMINER ADJECTIVE_BITS  PRONOUN_POSSESSIVE POSSESSIVE
+	INCLUDE * DETERMINER 
+	STAY HAS ADJECTIVE_BITS
+	STAY !HAS PRONOUN_BITS INTERJECTION ADVERB_BITS # "I will give her some"  not "no, I will go"
+	SKIP !HAS NOUN_BITS
+	HAS NOUN_BITS
+KEEP
+
+# determiner before a noun but not after a noun (skip past adjective + adverbs and prep phrase describing the noun) will be a determiner or adjective or adverb - but particle conflict "mom picked *up Eve" and prep conflict "just *like earthworms"
+# but not "he swam and *hit Bess in the mouth"
+# not "Ponto then *found her"

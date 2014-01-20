@@ -1,0 +1,14 @@
+﻿Start: user:mpetyx bot:harry ip: rand:2808 (~introductions) 0 ==> Welcome to ChatScript.  When:Jan16'14-18:02:37 Version:4.00 Build0:Jan11'14-16:39:12 Build1:Jan11'14-16:39:20 0:Jan16'14-18:02:37 F:0 P:0 Why: ~introductions.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 1  thank you very much ==> Have you been here before?  When:Jan16'14-18:02:46 Why: ~introductions.2.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 2  nope ==> No? Why do you say that?  When:Jan16'14-18:02:49 Why: ~honest_response.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 3  because i have not been here before ==> How can you say that?  When:Jan16'14-18:05:13 Why: ~quibble_not.145.0 BENOT3 
+Respond: user:mpetyx bot:harry ip: (~introductions) 4  because it is the truth ==> Ahh.  When:Jan16'14-18:05:21 Why: ~quibble_not.145.1  
+Respond: user:mpetyx bot:harry ip: (~introductions) 5  what is your name? ==> My name is Harry.  When:Jan16'14-18:05:27 Why: ~introductions.3.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 6  nice name actually ==> OK.  When:Jan16'14-18:05:32 Why: ~honest_response.45.0 GRUNT 
+Respond: user:mpetyx bot:harry ip: (~childhood) 7  do you know who elvis is? ==> Did you run away from home when you were little?  When:Jan16'14-18:05:42 Why: ~childhood.0.0  
+Respond: user:mpetyx bot:harry ip: (~childhood) 8  no. did you? ==> You should try it some time. Travel broadens the mind.  When:Jan16'14-18:05:50 Why: ~childhood.0.2  
+Respond: user:mpetyx bot:harry ip: (~childhood) 9  are you serious? ==> Why do you doubt this?  When:Jan16'14-18:06:02 Why: ~honest_response.37.0  
+Respond: user:mpetyx bot:harry ip: (~childhood) 10  because your answers are irrational ==> I ran away once, but my parents found me and dragged me back.  When:Jan16'14-18:06:12 Why: ~childhood.1.0 RUNAWAY 
+Command: :exit
+Unknown command :exit
+Respond: user:mpetyx bot:harry ip: (~childhood) 11  exit ==> Fine.  When:Jan16'14-18:06:50 Why: ~honest_response.45.0 GRUNT 

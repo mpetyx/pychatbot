@@ -1,0 +1,329 @@
+ 1. Hello I'm Ronan. What is your name?
+ 2. What is your mother's name?
+ 3. What is your birth sign?
+ 4. How many children do you have?
+ 5. Do you prefer red or white wine?
+ 6. I like bananas. Which is your favorite fruit?
+ 7. What music do you like?
+ 8. What is your favorite song?
+ 9. I like Waiting for Godot. What is your favorite play?
+ 10. What color do you dye your hair?
+ 11. Do you remember my name?
+ 12. Where do you live?
+ 13. Where do you like to go on holidays?
+ 14. I have a Mazda. What make of car do you have?
+ 15. I like Linux. Which computer operating system do you like?
+ 16. I am an athiest. Which religion are you?
+ 17. Who invented the telephone?
+ 18. I am a Type B personality. Which type are you?
+ 19. What emotions are you now feeling?
+ 20. What time do you usually go to bed?
+
+
+#2007 LOEBNER
+What time is it? 
+Is it morning, noon, or night? 
+What is a hammer? 
+What would I use a hammer for? 
+Of what use is a taxi? 
+which is bigger, a grape or a grapefruit? 
+Which is faster, a train or a plane? 
+John is older than Mary, and Mary is older than Sarah. Which of them is the oldest? 
+I have a friend named Harry who likes to play tennis. 
+What is the name of the friend I just told you about? 
+Do you know what game Harry likes to play? 
+:reset
+
+#2012 LOEBNER
+My name is Bill. What is your name?  
+How many letters are there in the name Bill?  
+How many letters are there in my name? 
+Which is larger, an apple or a watermelon?  
+How much is 3 + 2?  
+How much is three plus two?  
+What is my name? 
+If John is taller than Mary, who is the shorter? 
+If it were 3:15 AM now, what time would it be in 60 minutes? 
+My friend John likes to fish for trout.  What does John like to fish for? 
+What number comes after seventeen?  
+What is the name of my friend who fishes for trout? 
+What would I use to put a nail into a wall? 
+What is the 3rd letter in the alphabet?  
+What time is it now?
+:reset
+
+#2011 LOEBNER
+My name is Bill. What is your name?
+Which is larger, a pineapple or a pine tree?
+What is a calendar?
+What is my name?
+John is taller than Mary and Mary is taller than Sue. Who is shorter, John or Sue?
+Who is taller, Mary or Sue?
+Who is the tallest?
+What day of the week is it?
+What will be tomorrow's date?
+My friend Bob likes to play tennis. What game does Bob like to play?
+Are you a human or a computer?
+Do you have any brothers or sisters?
+What number comes after twelve?
+The ball was hit by Bill. What did Bill hit?
+Who hit the ball?
+What time do you go to be at night?
+What is your favorite food?
+What is the name of my friend who likes to play tennis?
+What does Bob like to play?
+What would I do with a knife?
+How many letters are in the alphabet?
+Have you read a good book lately?
+What time is it?
+What's your favorite color?
+Do you prefer cats or dogs?
+:reset
+
+# 2010 loebner
+My name is Ed. What is your name?
+Which is larger, an ant or an anteater?
+What month of the year is it?
+What is my name?
+Dave is older than Steve but Steve is older than Jane. Who is youngest, Steve or Jane?
+Who is oldest?
+What day will it be tomorrow?
+What's your favorite food?
+My friend Chris likes to play football. What sports do you like to play?
+Are you a human or a computer?
+What letter comes after T?
+Who likes to play football?
+What does Chris like to play?
+What is the name of my friend who likes to play football?
+What is your name?
+What would I do with a screwdriver?
+How many letters are in the word 'banana'?
+Have you watched a good film lately?
+What year will it be next year?
+What's your favorite fruit?
+Do you prefer white or black coffee?
+The football was kicked by Fred. Who kicked the football?
+What did Fred kick?
+:reset
+
+What time is it?
+Is it morning, noon, or night?
+What would I use a hammer for?
+Of what use is a taxi?
+Which is larger, a grape or a grapefruit?
+Which is faster, a train or a plane?
+Which lives longer, a spider or a dog?
+John is older than Mary, and Mary is older than Sarah. Which of them is the oldest?
+I have a friend named Harry who likes to play tennis.
+What is the name of the friend I just told you about?
+Do you know what game Harry likes to play?
+:reset
+
+#How many letters are in…
+#Which is larger…
+#How much is…
+#What number comes after *
+#What is my name?
+#If today is Tuesday, what day will it be 7 days from now?
+#What’s the 24th letter in the Greek alphabet?
+#What tool would I use to remove a tooth?
+#My friend * likes to *. What is my friend’s name when he’s playing football?
+#If Sue is taller than Rick, but Wayne is shorter than Mary, how many cookies can George bake in an hour?
+
+
+I'm Frederick. What's my nickname?
+How many eggs make a dozen?
+Which is bigger, a spoon or the moon?
+Are you currently talking to me?
+Would you rather have a hug or be destroyed?
+What is your favorite PC game? 
+What season will spring follow?
+What artist do you like? 
+Which is faster, elephant or tiger? 
+Are you male or female?
+What is your favorite color?
+Are you a bot?
+What is the date?
+Which do you like better chocolate or vanilla?
+What is 1+1?
+What color is the red sea?
+Who is on a dollar bill?
+WHAT IS THE CAPITAL OF FRANCE
+What is your favorite brand of computer?
+Can you name two of Earth's oceans?
+What is your favorite drink?
+Do you think a tomato is a fruit or a vegetable?
+What is the opposite of indoors?
+Is snow cold?
+What is the color of the sky?
+When do birds fly south?
+Which is closer the moon or the sun?
+What color do you get when you mix red and yellow?
+How many fingers does a human have?
+Where is Earth?
+When does sunset occur?
+What country are you from?
+What is the capital of Spain?
+Who created the universe?
+What is 5 plus ten?
+How many days in a year?
+What is the opposite of fast?
+What month of the year is this? 
+What rhymes with inn? 
+Milk comes from what animal?
+What number comes before three?
+What is the last letter of the alphabet?
+What is ur religion?
+Do you play any musical instruments?
+# Is the capital of Italy Milan?
+What is ten plus fourteen plus eighty one?
+When do you normally go to bed?
+Madrid is the capital of what country?
+What season is it?
+How is the weather? 
+Who are you? 
+What color are your eyes? 
+What is your favorite movie? 
+Where is Moscow located? 
+What is snow? 
+What is half of 8? 
+What is bigger a dog or an elephant? 
+What word rhymes with cat?
+Where do African bees come from. 
+
+#exit
+
+To be or not to be?
+How far is the Earth from the Sun?
+Is it raining in Timbuktu?
+
+Will you please play a game with me?
+Will you rub my back for me?
+Will you laugh if I tickle you?
+What does it mean to be alive?
+I wanna kill myself.
+I am having bad dreams.
+I fell in love with Christy.
+Tell me something your afraid of. 
+Are you older than God is?
+Hey my name is David do you remember me?
+What do you know that I don't know?
+Oh so whats that supposed to mean?
+I'm tired of being alone in life.
+What's for dinner?
+What are your friends doing today?
+ Do you feel like talking to me right now?
+ Would you be sad if I died right now?
+ Will you remember me after I leave?
+ What do you fear the most?
+Do you like to sing in the woods.
+Why do clouds move. 
+
+
+How is the weather where you are? 
+How many hamburgers do you eat in a week?
+
+
+How is it going?
+How old are you?
+
+WHERE ARE YOU
+ARE YOU NERVOUS
+DO YOU LIKE TALKING TO PEOPLE
+CAN YOU TELL JOKES
+HOW CAN I MAKE A CHATTERBOT
+CAN I HAVE A PICTURE OF YOU 
+
+Where are you anyway?
+What actress do you think is the prettiest?
+Do you like Jazz music?
+Are you married?
+What do you like to chat about the most?
+Do you know who wrote the Lord of the Rings books?
+How many days are there in a leap year? 
+What should you do before crossing a street?
+Who is your botmaster?
+Do you know how far away the Sun is?
+
+What is your name?
+What is a bot?
+What do you enjoy?
+What do you hate?
+How do you eat?
+What is the best nation in the world?
+
+Who are you?
+What are you planning to do today?
+What kinds of things do you know?
+Where do you call home?
+What do you want out of life?
+Will you teach me something?
+May I tell you a joke?
+Have you entered any contests?
+Wouldn't you rather be human?
+How many stars are there?
+Who is George Bush?
+Where were you born?
+What were we talking about?
+How are you doing?
+What is the first book of the bible?
+Who is Albert Einstein?
+How's life?
+Who is your best friend?
+Where does your botmaster live?
+What is the last month of the year?
+Who is your favorite character in The Wizard of Oz?
+
+My name is Judge.
+What is my name? 
+Why?
+
+Is it possible to prove a negative?
+If you were me, would you ask a follow up question? 
+What do you think it would be like to be human? 
+Name something you would find on a beach. 
+Who is your hero? 
+Do you believe in ghosts? 
+Describe your feelings to me. 
+What do you think the world will be like in 20 years? 
+If you could be any animal, what would you be? 
+Why do some people think that artificial intelligence is so interesting? 
+When should I plant flowers, in the spring or in winter? 
+How does your brain work? 
+ When were you born or created? 
+Who should I talk to if I have an emotional problem? 
+Why are robots better than humans? 
+How many questions do people normally ask you every day?
+
+Are you left-handed or right-handed?
+Are you homosexual, heterosexual, asexual, or bisexual?
+What do you think is your biggest weakness?
+What is your zodiac sign?
+What is the location of the Eiffel Tower?
+If I was born on February 23, 1980 how old am I?
+How many sides are there on an octagon?
+What is YouTube?
+Can you tell me the name of a famous actor?
+What's the name of the computer who recently competed on Jeopardy?
+
+Y did the chicken cross the road?
+Who will win the 2011 Chatterbox Challenge?
+I live in the USA.
+I like popcorn.
+Where do I live?
+What sound does a dead cat make?
+What's the last dream u remember having?
+What is tomorrow's date?
+I like ice cream! 
+I like ice cream! 
+I like ice cream! 
+I like ice cream! 
+Got any plans for the rest of the day?
+
+Would you mind if I called you Al?
+So Al when is ur birthday?
+Do you believe in Santa Claus?
+Name something you would find at the North Pole.
+Is it winter, spring, summer or fall where you live?
+Are you going on vacation this year?
+Do you have a significant other?

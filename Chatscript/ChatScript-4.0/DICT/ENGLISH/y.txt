@@ -1,0 +1,1346 @@
+ yellow-fever_mosquito ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Aedes_aegypti~1z (mosquito~1) mosquito that transmits yellow fever and dengue
+ Yersinia_pestis ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yersinia_pestis~1z (bacillus~1) a bacillus bacterium that causes the plague
+ Yoon ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yount ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yamashita ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yocum ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yasir ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Yoshida ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yockey ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yale ( meanings=2 NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+    Yale_University~1 
+    Elihu_Yale~1 
+ Yarbrough ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ yawn ( meanings=3 glosses=1 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN VERB_NOOBJECT ) 
+    oscitance~1 
+    yawn~2vz utter a yawn, as from lack of oxygen or when one is tired
+    gape~4v 
+ yacht_race ( meanings=1 NOUN NOUN_SINGULAR ) 
+    sailing-race~1 
+ Yates ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ yolk ( meanings=2 NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    vitellus~1 
+    egg_yolk~1 
+ Yanis ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Yager ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yvonne ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR KINDERGARTEN ) 
+ Youngs ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yingling ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yardly ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Yerger ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yeary ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yolonda ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Younts ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yalu ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yalu_River~2 
+ youth_crusade ( meanings=1 NOUN NOUN_SINGULAR ) 
+    youth_movement~1 
+ Yarnell ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ yellow_colicroot ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Aletris_aurea~1z (unicorn_root~1) colicroot with yellow-bracted racemose flowers
+ Yancy ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Yalu_River ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yalu_River~1z (pitched_battle~1) a battle in the Korean War 
+    Yalu~1z (river~1) river in eastern Asia
+ Yancey ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yanez ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yepez ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yoakum ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yazzie ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Youngman ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yao ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yarborough ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yoshio ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Yost ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yeager ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yim ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yesenia ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR KINDERGARTEN ) 
+ yard ( meanings=9 glosses=8 NOUN_ABSTRACT NOUN NOUN_SINGULAR KINDERGARTEN posdefault:NOUN ) 
+    yard~1z (enclosure~2) an enclosure for animals
+    yard~2z (spar~2) a long horizontal spar tapered at the end and used to support and spread a square sail or lateen
+    curtilage~1z (field~12) the enclosed land around a house or other building
+    railyard~1z (parcel~4) an area having a network of railway tracks and sidings for storage and maintenance of cars and engines
+    yard~5z (parcel~4) a tract of land enclosed for particular activities 
+    yard~6z (parcel~4) a tract of land where logs are accumulated
+    cubic_yard~1z (cubic_content_unit~1) a unit of volume
+    pace~3z (linear_measure~1) a unit of length equal to 3 feet
+    grand~2 
+ Yvette ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR KINDERGARTEN ) 
+ Yelverton ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yarber ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ yellow-bellied ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellow~2a 
+    yellow-bellied~2az 
+ Yosemite ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yosemite_Falls~1 
+ Yafo ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Jaffa~1 
+ Yetter ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yamada ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ youth ( meanings=6 glosses=6 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR KINDERGARTEN posdefault:NOUN ) 
+    juvenility~1z (youngness~1) the freshness and vitality characteristic of a young person
+    young~2z (age_bracket~1) young people collectively
+    younker~1z (juvenile_person~1) a young person
+    youth~4z (matureness~1) early maturity
+    youth~5z (time_of_life~1) the time of life between childhood and maturity
+    early_days~1z (period~3) an early period of development
+ Yosef ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Yasmine ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ yolk_sac ( meanings=2 glosses=1 NOUN NOUN_SINGULAR ) 
+    yolk_sac~1z (sac~1) membranous structure enclosing the yolk of eggs in birds, reptiles, marsupials, and some fishes
+    vesicula_umbilicus~1 
+ yellow_hornet ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellow_jacket~1 
+ Youngblood ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Youmans ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yon ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ yoga ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yoga~1z (exercise~1) a system of exercises practiced as part of the Hindu discipline to promote control of the body and mind
+    yoga~2z (Hindooism~1) Hindu discipline aimed at training the consciousness for a state of perfect spiritual insight and tranquility that is achieved through the three paths of actions and knowledge and devotion
+ youth_movement ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    youth_crusade~1z (effort~4) political or religious or social reform movement or agitation consisting chiefly of young people
+ Yazmin ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Yessenia ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR KINDERGARTEN ) 
+ Yasmin ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR KINDERGARTEN ) 
+ yellowlegs ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yellowlegs~1z (sandpiper~1) either of two North American shorebird with yellow legs
+ York ( meanings=1 NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+    House_of_York~1 
+ Ypres ( meanings=3 NOUN NOUN_PROPER_SINGULAR ) 
+    battle_of_Ypres~1 
+    battle_of_Ypres~2 
+    battle_of_Ypres~3 
+ Yaeger ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yamamoto ( meanings=1 NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+    Isoroku_Yamamoto~1 
+ Yandell ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yardley ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Ybarra ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yearwood ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yeung ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yoder ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yoho ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Younker ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yuen ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yun ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yung ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Yasmeen ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Yasmia ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Yasmina ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Yolanda ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR KINDERGARTEN ) 
+ Yoshiko ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Yusuf ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Yoel ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Yadira ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR KINDERGARTEN ) 
+ yachting ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    boating~1z (water_travel~1) water travel for pleasure
+ yawning ( meanings=4 glosses=2 NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR posdefault:VERB ) 
+    oscitancy~1 
+    drowsy~1a 
+    yawning~3az gaping open as if threatening to engulf someone or something
+    yawning~4az with the mouth wide open indicating boredom or sleepiness
+ yield ( meanings=17 glosses=6 NOUN_ABSTRACT NOUN_MASS VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR GRADE5_6 posdefault:NOUN posdefault:VERB VERB_DIRECTOBJECT VERB_INDIRECTOBJECT VERB_NOOBJECT ) 
+    output~1z (production~4) production of a certain amount
+    fruit~1 
+    take~2 
+    output~5 
+    give_way~2vz end resistance, as under pressure or force
+    buckle_under~1vz consent reluctantly
+    grant~6v 
+    yield~8vz cease opposition
+    give~20v 
+    return~21v 
+    give~22v 
+    give~27v 
+    pay~9v 
+    grant~11v 
+    give~40v 
+    succumb~2vz be fatally overwhelmed
+    relent~1vz give in, as to influence or pressure
+ yard_sale ( meanings=1 NOUN NOUN_SINGULAR ) 
+    garage_sale~1 
+ yodeling ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    yodeling~1z (vocalizing~1) singing by changing back and forth between the chest voice and a falsetto
+ Yorktown ( meanings=2 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    siege_of_Yorktown~1 
+    Yorktown~2z (village~2) a historic village in southeastern Virginia to the north of Newport News
+ Yom_Kippur_War ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Arab-Israeli_War~2 
+ young ( meanings=8 glosses=6 NOUN_MASS NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR KINDERGARTEN posdefault:ADJECTIVE ) comparative=youngest 
+    offspring~1z (animal~1) any immature animal
+    youth~2 
+    new~3az harvested at an early stage of development
+    untried~1az not tried or tested by experience
+    young~5az being in its early stage
+    immature~5az in an early period of life or development or growth
+    youthful~1az suggestive of youth
+    young~8az 
+ young_mammal ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    young_mammal~1z (young~1) any immature mammal
+ young_carnivore ( meanings=1 NOUN NOUN_SINGULAR ) 
+    cub~1 
+ yellow-green_algae ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yellow-green_algae~1z (algae~1) any alga of the division Chrysophyta with its chlorophyll masked by yellow pigment
+ yellow-green ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellow-green~1az of a color midway between yellow and green
+ yellowbird ( meanings=2 NOUN NOUN_SINGULAR ) 
+    goldfinch~2 
+    Dendroica_petechia~1 
+ yellowhammer ( meanings=2 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yellow_bunting~1 
+    yellow-shafted_flicker~1 
+ yellow_bunting ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Emberiza_citrinella~1 
+ yellow ( meanings=9 glosses=7 NOUN_ABSTRACT NOUN_MASS VERB_PRESENT VERB_INFINITIVE NOUN VERB ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR KINDERGARTEN posdefault:ADJECTIVE VERB_NOOBJECT ) 
+    yellowness~1z (chromatic_colour~1) yellow color or pigment
+    chicken~5a 
+    xanthous~1az of the color intermediate between green and orange in the color spectrum
+    icteric~1az affected by jaundice which causes yellowing of skin etc
+    yellow~5az cowardly or treacherous
+    yellowed~1az changed to a yellowish color by age
+    sensationalistic~1az typical of tabloids
+    yellow~8az 
+    yellow~9vz turn yellow
+ yellow-breasted_bunting ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Emberiza_aureola~1z (bunting~1) common in Russia and Siberia
+ yellow_warbler ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellowbird~2 
+ yellow-breasted_chat ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Icteria_virens~1z (New_World_chat~1) American warbler noted for imitating songs of other birds
+ yellowthroat ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yellowthroat~1z (New_World_warbler~1) small olive-colored American warblers with yellow breast and throat
+ young_bird ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    young_bird~1z (young~1) a bird that is still young
+ Yosemite_toad ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Bufo_canorus~1z (true_toad~1) of high Sierra Nevada meadows and forest borders
+ yellow-bellied_terrapin ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Pseudemys_scripta~1z (turtle~1) freshwater turtle of United States and South America
+ yellow-shafted_flicker ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Colaptes_auratus~1z (flicker~2) large flicker of eastern North America with a red neck and yellow undersurface to wings and tail
+ yellow-bellied_sapsucker ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Sphyrapicus_varius~1z (sapsucker~1) eastern North American sapsucker having a pale yellow abdomen
+ yearling ( meanings=3 glosses=2 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yearling~1z (placental_mammal~1) an animal in its second year
+    yearling~2z (race_horse~1) a racehorse considered one year old until the second Jan. 1 following its birth
+    toddler~1 
+ yellow-crowned_night_heron ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Nyctanassa_violacea~1z (night_raven~2) North American night heron
+ Yorkshire_terrier ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yorkshire_terrier~1z (terrier~1) very small breed having a long glossy coat of bluish-grey and tan
+ Yorkshire ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yorkshire~1z (geographical_region~1) a former large county in northern England
+ yellow_jacket ( meanings=2 NOUN NOUN_SINGULAR ) 
+    Vespula_maculifrons~1 
+    pentobarbital~1 
+ yellowbelly_marmot ( meanings=1 NOUN NOUN_SINGULAR ) 
+    rockchuck~1 
+ yak ( meanings=3 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN VERB_DIRECTOBJECT VERB_NOOBJECT ) 
+    Bos_grunniens~1 
+    chatter~1 
+    gab~2v 
+ yellow-throated_marten ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Charronia_flavigula~1z (marten_cat~1) large yellow and black marten of southern China and Burma
+ young_fish ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    young_fish~1z (young~1) a fish that is young
+ yellow_perch ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Perca_flavescens~1 
+ yellow_bass ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Morone_interrupta~1 
+ yellow_jack ( meanings=3 glosses=1 NOUN NOUN_SINGULAR ) 
+    Caranx_bartholomaei~1 
+    yellow_jack~2z (flag~2) yellow flag hoist on a ship in quarantine
+    yellow_fever~1 
+ yellowtail ( meanings=2 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    Seriola_dorsalis~1 
+    yellowtail_snapper~1 
+ yellowtail_snapper ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Ocyurus_chrysurus~1z (snapper~2) superior food fish of the tropical Atlantic and Caribbean with broad yellow stripe along the sides and on the tail
+ yellowfin_croaker ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Umbrina_roncador~1z (croaker~1) a fish of the Pacific coast of North America
+ yellowfin ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yellowfin_tuna~1 
+ yellow_goatfish ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Mulloidichthys_martinicus~1 
+ yellowfin_tuna ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Thunnus_albacares~1 
+ yellowfin_mojarra ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Gerres_cinereus~1z (mojarra~1) popular panfish from Bermuda and Gulf of Mexico to Brazil
+ yellow_gurnard ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Trigla_lucerna~1z (gurnard~1) a kind of gurnard
+ yellowtail_flounder ( meanings=2 glosses=2 NOUN_MASS NOUN NOUN_SINGULAR ) 
+    Limanda_ferruginea~1z (righteyed_flounder~1) American flounder having a yellowish tail
+    yellowtail_flounder~2z (flounder~2) flesh of American flounder having a yellowish tail
+ youth_hostel ( meanings=1 NOUN NOUN_SINGULAR ) 
+    student_lodging~1 
+ yachting_cap ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    kepi~1z (cap~1) a cap with a flat circular top and a visor
+ yarn ( meanings=3 glosses=2 NOUN_ABSTRACT NOUN_MASS VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR GRADE1_2 posdefault:NOUN VERB_NOOBJECT ) 
+    thread~2 
+    recital~2z (account~7) the act of giving an account describing incidents or a course of events
+    yarn~3vz tell or spin a yarn
+ yacht ( meanings=2 glosses=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR GRADE3_4 posdefault:NOUN VERB_NOOBJECT ) 
+    racing_yacht~1z (vessel~1) an expensive vessel propelled by sail or power and used for cruising or racing
+    yacht~2vz travel in a yacht
+ yacht_chair ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yacht_chair~1z (folding_chair~1) a light folding armchair for outdoor use
+ yagi ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    Yagi_aerial~1 
+ Yagi_aerial ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    yagi~1z (directional_antenna~1) a sharply directional antenna
+ Yale_University ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yale~1z (university~1) a university in Connecticut
+ yardarm ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yardarm~1z (end~9) either end of the yard of a square-rigged ship
+ yarder ( meanings=2 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yard_donkey~1 
+    yarder~2z (linear_measure~1) the height or length of something in yards
+ yard_donkey ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yarder~1z (windlass~1) a winch powered by an engine and used to haul logs from a stump to a landing or to a skid road
+ yard_goods ( meanings=1 NOUN NOUN_SINGULAR ) 
+    piece_goods~1 
+ yard_marker ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yard_marker~1z (marker~1) a marker indicating the yard line
+ yardstick ( meanings=2 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yard_measure~1 
+    yardstick~2z (standard~4) a measure or standard used for comparison
+ yard_measure ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yardstick~1z (rule~1) a ruler or tape that is three feet long
+ yarmulke ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yarmelke~1z (skullcap~1) a skullcap worn by religious Jews
+ yarmulka ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yarmulke~1 
+ yarmelke ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yarmulka~1 
+ yashmak ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yashmac~1z (veil~1) the face veil worn by Muslim women
+ yashmac ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yashmak~1 
+ yataghan ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yataghan~1z (knife~2) a long Turkish knife with a curved blade having a single edge
+ yawl ( meanings=3 glosses=1 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN VERB_NOOBJECT ) 
+    dandy~1 
+    yawl~2z (small_boat~1) a ship's small boat
+    roar~7v 
+ yoke ( meanings=10 glosses=7 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN VERB_DIRECTOBJECT VERB_NOOBJECT ) 
+    yoke~1z (tack~4) stable gear that joins two draft animals at the neck so they can work together as a team
+    yoke~2z (material~1) fabric comprising a fitted part at the top of a garment
+    coupling~3 
+    yoke~4z (support~6) support consisting of a wooden frame across the shoulders that enables a person to carry buckets hanging from each end
+    yoke~5z (pair~2) a pair of draft animals joined by a yoke
+    pair~4 
+    yoke~7z (oppression~3) an oppressive power
+    yoke~8vz put a yoke on or join with a yoke
+    link~12v 
+    yoke~10vz become joined or linked together
+ yo-yo ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yo-yo~1z (toy~3) a toy consisting of a spool that is reeled up and down on a string by motions of the hand
+ yurt ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yurt~1z (home~1) a circular domed dwelling that is portable and self-supporting
+ youngness ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    youngness~1z (age~1) the opposite of oldness
+ youthfulness ( meanings=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+    youth~1 
+ yellowness ( meanings=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+    yellow~1 
+ yellow_green ( meanings=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+    yellowish_green~1 
+ yellowish_green ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    pea_green~1z (green~2) a shade of green tinged with yellow
+ yellowish ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellow~3a 
+    yellowish~2az 
+ yellowish_pink ( meanings=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+    peach~1 
+ yellowish_brown ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    caramel_brown~1z (brown~1) a medium to dark tan color
+ yardage ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yardage~1z (distance~1) distance measured in the aggregate number of yards
+ yellow_marrow ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellow_bone_marrow~1 
+ yellow_bone_marrow ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yellow_marrow~1z (bone_marrow~1) bone marrow that is yellow with fat
+ yap ( meanings=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN posdefault:VERB VERB_NOOBJECT ) 
+    maw~1 
+    yip~2v 
+ yellow_bile ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    choler~1z (humor~3) a humor that was once believed to be secreted by the liver and to cause irritability and anger
+ Y-linked_gene ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    holandric_gene~1 
+ Y_chromosome ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Y_chromosome~1z (sex_chromosome~1) the sex chromosome that is carried by men
+ Y ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+    wye~1 
+    yttrium~1 
+ yellow_spot ( meanings=2 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    macular_area~1 
+    yellow_spot~2z (plant_disease~1) any of several fungous or viral diseases characterized by yellow spotting on the leaves
+ yang ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yang~1z (rule~6) the bright positive masculine principle in Chinese dualistic cosmology
+ yin ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yin~1z (rule~6) the dark negative feminine principle in Chinese dualistic cosmology
+ y-axis ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    y-axis~1z (coordinate_axis~1) the vertical axis in a plane coordinate system
+ Yogacara ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yogacara~1z (Mahayana_Buddhism~1) one of the main traditions of Mahayana Buddhism
+ yellow_journalism ( meanings=1 NOUN NOUN_SINGULAR ) 
+    tabloid~2 
+ yearly ( meanings=3 NOUN ADJECTIVE ADVERB ADVERB_NORMAL ADJECTIVE_NORMAL NOUN_SINGULAR KINDERGARTEN posdefault:ADJECTIVE ) 
+    annual~1 
+    annual~4a 
+    annually~1b 
+ yearbook ( meanings=2 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yearly~1 
+    yearbook~2z (book~4) a book published annually by the graduating class of a high school or college usually containing photographs of faculty and graduating students
+ Yajur-Veda ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yajur-Veda~1z (Samhita~1) a collection of sacrificial formulas and prayers
+ yellow-dog_contract ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    yellow-dog_contract~1z (collective_agreement~1) a labor contract whereby the employee agrees not to join a trade union
+ Yahoo ( meanings=3 glosses=2 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yahoo~1z (search_engine~1) a widely used search engine for the web that finds information, news, images, products, finance
+    Yahoo~2z (character~7) one of a race of brutes resembling men but subject to the Houyhnhnms in a novel by Jonathan Swift
+    Yahoo~3nz (Yahoo~3z) 
+ yodh ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    yodh~1z (letter~3) the 10th letter of the Hebrew alphabet
+ yellow_light ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    yellow_light~1z (stoplight~1) the signal to proceed with caution
+ Yuman ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_PROPER_SINGULAR ) 
+    Yuman~1z (Hokan~1) a group of language of the Hokan family in Arizona and California and Mexico
+    Yuman~2az of or relating to the language or culture of the Yuma people
+ Yavapai ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yavapai~1z (Yuman~1) the Yuman language spoken by the Yavapai
+    Yavapai~2z (Hokan~2) a member of a North American Indian people of central Arizona
+ Yuma ( meanings=3 glosses=3 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yuma~1z (Yuman~1) the Yuman language spoken by the Yuma
+    Yuma~2z (town~2) a town in southwestern Arizona on the Colorado River and the California border
+    Yuma~3z (Hokan~2) a member of the North American Indian people of Arizona and adjacent Mexico and California
+ Yanan ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yanan~1z (Hokan~1) a language group of the Hokan family
+ Yahi ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yahi~1z (Yanan~1) the Yanan language spoken by the Yahi
+    Yahi~2z (Hokan~2) a member of an extinct North American Indian people who lived in northern California
+ Yana ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yana~1z (Yanan~1) the Yanan language spoken by the Yana
+    Yana~2z (Hokan~2) a member of an extinct North American Indian people who lived in northern California
+ Yokuts ( meanings=2 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Mariposan~1 
+    Yokuts~2z (Penutian~2) a member of the North American Indian people of the San Joaquin Valley
+ Yucatec ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+    Yucateco~1 
+    Yucateco~2 
+ Yucateco ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yucatec~1z (Maya~1) a Mayan language spoken by the Yucatec
+    Yucatec~2z (Maya~2) a member of the Mayan people of the Yucatan peninsula in Mexico
+ Yakut ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yakut~1z (Turkic_language~1) the Turkic language spoken by the Yakut
+    Yakut~2z (Turki~2) a member of a Turkic people of northeastern Siberia
+ Yue ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Cantonese~1 
+ Yue_dialect ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Cantonese_dialect~1 
+ Yi ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Lolo~1 
+ Yay ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yay~1z (Tai~1) a branch of the Tai languages
+ Yiddish ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yiddish~1z (German_language~1) a dialect of High German including some Hebrew and other words
+ Yurak-Samoyed ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Nenets~1z (Samoyedic~1) a Uralic language spoken by a Samoyed of northern Siberia
+ Yenisei ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+    Entsy~1 
+    Yenisei_River~1 
+ Yenisei-Samoyed ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yeniseian~1z (Samoyedic~1) the Uralic language spoken by the Yeniseian
+ Yeniseian ( meanings=2 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Enets~1 
+    Yeniseian~2z (Russian~2) a member of one of the groups living in the Yenisei river valley in western Siberia
+ Yamaltu ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Pidlimdi~1 
+ Yoruba ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Aku~1z (Kwa~1) a Kwa language spoken by the Yoruba in southwestern Nigeria
+    Yoruba~2z (Nigerian~1) a member of a West African people living chiefly in southwestern Nigeria
+ yell ( meanings=4 glosses=1 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR KINDERGARTEN posdefault:NOUN posdefault:VERB VERB_NOOBJECT ) 
+    outcry~1 
+    cry~3z (vocalization~1) a loud utterance of emotion 
+    scream~4v 
+    cry~9v 
+ yowl ( meanings=3 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN VERB_NOOBJECT ) 
+    roaring~1 
+    caterwaul~2v 
+    howl~7v 
+ yelling ( meanings=1 NOUN NOUN_SINGULAR posdefault:VERB ) 
+    shouting~1 
+ yodel ( meanings=2 glosses=1 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN VERB_NOOBJECT ) 
+    yodel~1z (shout~1) a songlike cry in which the voice fluctuates rapidly between the normal voice and falsetto
+    warble~2v 
+ yack ( meanings=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR VERB_NOOBJECT ) 
+    cackle~2 
+    jaw~5v 
+ yakety-yak ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yack~1 
+ yielding ( meanings=6 glosses=3 NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR posdefault:VERB ) 
+    conceding~1 
+    giving_up~2 
+    yielding~3az tending to give in or surrender or agree
+    yielding~4az lacking stiffness and giving way to pressure
+    yielding~5az inclined to yield to argument or influence or control
+    yielding~6az 
+ yes-no_question ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    yes-no_question~1z (question~6) a question that can be answered by yes or no
+ yes ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN INTERJECTION NOUN_SINGULAR KINDERGARTEN ) 
+    yes~1z (affirmative~1) an affirmative
+ yea ( meanings=2 glosses=1 NOUN_ABSTRACT NOUN ADVERB ADVERB_NORMAL INTERJECTION NOUN_SINGULAR GRADE1_2 ) 
+    yea~1z (affirmative~1) an affirmative
+    yeah~1b 
+ yellow_pages ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yellow_pages~1z (telephone_directory~1) a telephone directory or section of a directory where business products and services are listed alphabetically by field along with classified advertising
+ yip ( meanings=2 glosses=2 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR KINDERGARTEN posdefault:NOUN VERB_NOOBJECT ) 
+    yelping~1z (cry~5) a sharp high-pitched cry
+    yelp~2vz bark in a high-pitched tone
+ yelp ( meanings=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN VERB_NOOBJECT ) 
+    yip~1 
+    yap~2v 
+ yelping ( meanings=1 NOUN NOUN_SINGULAR posdefault:VERB ) 
+    yelp~1 
+ yaw ( meanings=4 glosses=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN VERB_NOOBJECT ) 
+    swerve~2 
+    yaw~2vz swerve off course momentarily
+    yaw~3vz deviate erratically from a set course
+    yawn~3v 
+ yearning ( meanings=1 NOUN NOUN_SINGULAR posdefault:VERB ) 
+    longing~1 
+ yen ( meanings=3 glosses=1 NOUN_ABSTRACT NOUN_MASS VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR posdefault:NOUN ) 
+    hankering~1 
+    yen~2z (Japanese_monetary_unit~1) the basic unit of money in Japan
+    pine~4v 
+ yeast_cake ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yeast_cake~1z (yeast~2) small cake of compressed moist yeast
+ yeast ( meanings=2 glosses=2 NOUN_MASS NOUN NOUN_SINGULAR GRADE1_2 posdefault:NOUN ) 
+    yeast~1z (fungus~1) any of various single-celled fungi that reproduce asexually by budding or division
+    barm~1z (leavening~2) a commercial leavening agent containing yeast cells
+ Yorkshire_pudding ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_PROPER_SINGULAR ) 
+    Yorkshire_pudding~1z (quick_bread~1) light puffy bread made of a puff batter and traditionally baked in the pan with roast beef
+ yam ( meanings=4 glosses=4 NOUN_MASS NOUN NOUN_SINGULAR GRADE1_2 posdefault:NOUN ) 
+    yam~1z (root_vegetable~1) edible tuberous root of various yam plants of the genus Dioscorea grown in the tropics world-wide for food
+    yam~2z (sweet_potato~2) sweet potato with deep orange flesh that remains moist when baked
+    yam_plant~1z (vine~1) any of a number of tropical vines of the genus Dioscorea many having edible tuberous roots
+    yam~4z (tuber~1) edible tuber of any of several yams
+ yellow_squash ( meanings=2 glosses=2 NOUN_MASS NOUN NOUN_SINGULAR ) 
+    yellow_squash~1z (summer_squash~1) squash having yellow skin and yellowish flesh and usually elongated neck
+    yellow_squash~2z (Cucurbita_pepo_melopepo~1) any of various squash plants grown for their yellow fruits with somewhat elongated necks
+ yellow_bean ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+    wax_bean~1z (fresh_bean~1) snap beans with yellow pods
+ yellow_turnip ( meanings=1 NOUN NOUN_SINGULAR ) 
+    rutabaga~1 
+ Yellow_Delicious ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Golden_Delicious~1 
+ yellow_granadilla ( meanings=2 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+    bell_apple~1z (passion_fruit~1) the edible yellow fruit of the Jamaica honeysuckle
+    Jamaica_honeysuckle~1 
+ yellow_mombin ( meanings=2 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+    hog_plum~1z (edible_fruit~1) yellow oval tropical fruit
+    yellow_mombin_tree~1 
+ yak_'s_milk ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yak_'s_milk~1z (milk~2) the milk of a yak
+ yogurt ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR KINDERGARTEN posdefault:NOUN ) 
+    yoghourt~1z (food~3) a custard-like food made from curdled milk
+ yoghurt ( meanings=1 NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yogurt~1 
+ yoghourt ( meanings=1 NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yoghurt~1 
+ yak_butter ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+    yak_butter~1z (butter~1) butter made from yaks' milk
+ Yquem ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_PROPER_SINGULAR ) 
+    Yquem~1z (white_wine~1) a sweet white French wine
+ Yuan ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yuan_dynasty~1 
+ Yuan_dynasty ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Mongol_dynasty~1 
+ yeomanry ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yeomanry~1z (home_guard~1) a British volunteer cavalry force organized in 1761 for home defense later incorporated into the Territorial Army
+    yeomanry~2z (class~3) class of small freeholders who cultivated their own land
+ yacht_club ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    boat_club~1z (society~2) club that promotes and supports yachting and boating
+ yakuza ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yakuza~1z (organized_crime~1) organized crime in Japan
+    yakuza~2z (gangster~1) a Japanese gangster
+ year ( meanings=4 glosses=3 NOUN_ABSTRACT NOUN NOUN_SINGULAR KINDERGARTEN TAKES_POSTPOSITIVE_ADJECTIVE posdefault:NOUN TIMEWORD ) 
+    class~7 
+    year~2z (period~3) the period of time that it takes for a planet to make a complete revolution around the sun
+    yr~1z (period~3) a period of time containing 365 days
+    year~4z (period~3) a period of time occupying a regular part of a calendar year that is used for some particular activity
+ youth_gang ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    youth_gang~1z (pack~8) a gang whose members are teenagers
+ yeshiva ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) conjugate=yeshivahs plural=yeshivahs 
+    yeshivah~1 
+ yeshivah ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yeshiva~1z (academy~2) an academy for the advanced study of Jewish texts
+ youth_culture ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    youth_culture~1z (subculture~1) young adults considered as a cultural class or subculture
+ youth_subculture ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    youth_subculture~1z (youth_culture~1) a minority youth culture whose distinctiveness depended largely on the social class and ethnic background of its members
+ Yalta_Conference ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yalta_Conference~1z (conference~3) a conference held in Yalta in February 1945 where Roosevelt, Stalin, and Churchill planned the final stages of World War II and agreed to the territorial division of Europe
+ Yalta ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yalta~1z (city~2) a resort city in Crimea in the southern Ukraine on the Black Sea
+ Yellowstone_National_Park ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yellowstone_National_Park~1z (national_park~1) the first national park in the United States
+ Yellowstone ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yellowstone_River~1 
+ Yosemite_National_Park ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yosemite_National_Park~1z (national_park~1) a national park in California famous for its waterfalls and rock formations
+ yard_line ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    yard_line~1z (line~24) in football
+ Yangon ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Rangoon~1 
+ Yaounde ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yaounde~1z (national_capital~1) the capital of Cameroon
+ Yunnan ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yunnan_province~1 
+ Yunnan_province ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yunnan~1z (state~5) a province of southern China
+ Yamoussukro ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yamoussukro~1z (national_capital~1) capital of the Ivory Coast
+ Yucatan ( meanings=2 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yucatan_Peninsula~1 
+    Yucatan~2z (state~5) a state of Mexico on the northern part of the Yucatan Peninsula
+ Yucatan_Peninsula ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yucatan~1z (peninsula~1) a peninsula in Central America extending into the Gulf of Mexico between the Bay of Campeche and the Caribbean Sea
+ Yaltopya ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Ethiopia~1 
+ Yisrael ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Zion~2 
+ Yugoslavia ( meanings=2 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yugoslavia~1z (European_country~1) a former country of southeastern Europe bordering the Adriatic Sea
+    Serbia_and_Montenegro~1 
+ Yellowknife ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yellowknife~1z (town~2) a town in the Northwest Territories in northern Canada on the Great Slave Lake
+ Yukon ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+    Yukon_Territory~1 
+    Yukon_River~1 
+ Yukon_Territory ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yukon~1z (district~1) a territory in northwestern Canada
+ Yezo ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Ezo~1 
+ Yeddo ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Tokio~1 
+ Yedo ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yeddo~1 
+ Yokohama ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yokohama~1z (city~2) port city on southeastern Honshu in central Japan
+ Yerwa-Maiduguri ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Maiduguri~1z (city~2) a city in northeastern Nigeria
+ Yekaterinoslav ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Dnipropetrovsk~1 
+ Yerevan ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Erivan~1z (national_capital~1) capital of Armenia
+ Youngstown ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Youngstown~1z (city~2) a city in northeast Ohio
+ Yakima ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yakima~1z (town~2) a town in south central Washington
+ Yemen ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Republic_of_Yemen~1 
+ Yellow_River ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Huang_He~1z (river~1) a major river of Asia in northern China
+ Yangtze ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Changjiang~1 
+ Yangtze_River ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yangtze_Kiang~1z (river~1) the longest river of Asia
+ Yangtze_Kiang ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Chang~1 
+ Yazoo ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yazoo_River~1 
+ Yazoo_River ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yazoo~1z (river~1) a river that rises in west central Mississippi and flows southwest to empty into the Mississippi River above Vicksburg
+ Yellow_Sea ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Huang_Hai~1z (sea~1) part of the Pacific off the east coast of Asia
+ Yellowstone_River ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yellowstone~1z (river~1) a tributary of the Missouri River that flows through the Yellowstone National Park
+ Yenisei_River ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yenisey_River~1z (river~1) a Russian river in Siberia
+ Yenisey ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yenisei~2 
+ Yenisey_River ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yenisey~1 
+ Yerupaja ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yerupaja~1z (mountain_peak~1) a mountain peak in the Andes in Peru
+ Yosemite_Falls ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yosemite~1z (waterfall~1) a series of waterfalls in Yosemite National Park in California
+ Yukon_River ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yukon~2z (river~1) a North American river that flows westward from the Yukon Territory through central Alaska to the Bering Sea
+ yeti ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    abominable_snowman~1 
+ Yama ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yama~1z (Hindu_deity~1) Hindu god of death and lord of the underworld
+ Yahweh ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Jehovah~2 
+ YHWH ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yahweh~1 
+ Yahwe ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    YHWH~1 
+ Yahveh ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yahwe~1 
+ YHVH ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yahveh~1 
+ Yahve ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    YHVH~1 
+ Yggdrasil ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Ygdrasil~1z (mythical_being~1) a huge ash tree whose roots and branches hold the earth and Heaven and Hell together
+ Ygdrasil ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yggdrasil~1 
+ Ymir ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Ymir~1z (mythical_being~1) the primeval giant slain by Odin and his brothers and from whose body they created the world: the sea from his blood
+ Yellow_race ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Mongoloid_race~1 
+ yellow_man ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yellow_man~1z (oriental_person~1) offensive term for an Asian man
+ yellow_woman ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yellow_woman~1z (oriental_person~1) offensive term for an Asian woman
+ yid ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    kike~1 
+ Yankee ( meanings=4 glosses=1 NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_PROPER_SINGULAR ) 
+    Yank~1 
+    New_Englander~1 
+    Yank~2 
+    Yankee~4az used by Southerners for an inhabitant of a northern state in the United States
+ Yank ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+    Yankee-Doodle~1 
+    Northerner~2 
+ Yankee-Doodle ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yankee~1z (American~3) an American
+ Yemeni ( meanings=2 glosses=2 NOUN_MASS NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_PROPER_SINGULAR ) 
+    Yemeni~1z (Arabian~2) a native or inhabitant of Yemen
+    Yemeni~2az of or relating to or characteristic of Yemen or its inhabitants
+ Yugoslav ( meanings=2 NOUN_MASS NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_PROPER_SINGULAR ) 
+    Jugoslav~1 
+    Yugoslavian~2a 
+ Yugoslavian ( meanings=2 glosses=2 NOUN_MASS NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_PROPER_SINGULAR ) 
+    Jugoslavian~1z (European~1) a native or inhabitant of Yugoslavia
+    Yugoslav~2az of or relating to or characteristic of the former country of Yugoslavia or its people or languages
+ young_man ( meanings=2 NOUN NOUN_SINGULAR ) 
+    swain~1 
+    young_buck~1 
+ yob ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    rowdy~1 
+ yobo ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yob~1 
+ yobbo ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yobo~1 
+ youngster ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    fry~1 
+ yard_bird ( meanings=2 glosses=2 NOUN NOUN_SINGULAR ) 
+    yardbird~1z (prisoner~1) a person serving a sentence in a jail or prison
+    yardbird~2z (military_recruit~1) a military recruit who is assigned menial tasks
+ yardbird ( meanings=2 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    con~3 
+    yard_bird~2 
+ yes-man ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    stooge~2 
+ young_lady ( meanings=1 NOUN NOUN_SINGULAR ) 
+    missy~1 
+ young_woman ( meanings=1 NOUN NOUN_SINGULAR ) 
+    young_lady~1 
+ young_girl ( meanings=1 NOUN NOUN_SINGULAR ) 
+    lass~1 
+ yearner ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    thirster~1 
+ yeller ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    shouter~1 
+ yielder ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    surrenderer~1 
+ yachtsman ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yachtswoman~1 
+ yachtswoman ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yachtsman~1z (sailor~3) a person who owns or sails a yacht
+ yanker ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    jerker~1z (puller~2) someone who gives a strong sudden pull
+ yardie ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yardie~1z (gangster~1) member of an international gang of Jamaican criminals who sell drugs and violence
+ yardman ( meanings=2 glosses=2 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yardman~1z (jack~10) a laborer hired to do outdoor work
+    yardman~2z (railroad_man~1) worker in a railway yard
+ yardmaster ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    trainmaster~1 
+ yawner ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yawner~1z (individual~1) a person who yawns
+ yenta ( meanings=2 glosses=2 NOUN NOUN_SINGULAR ) 
+    yenta~1z (gossipmonger~1) a woman who talks too much
+    yenta~2z (termagant~1) a vulgar shrew
+ yeoman ( meanings=2 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yeoman~1z (freeholder~1) in former times was free and cultivated his own land
+    yeoman_of_the_guard~1 
+ yeoman_of_the_guard ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    beefeater~1z (bodyguard~2) officer in the bodyguard of the British monarch
+ yodeller ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yodeller~1z (singer~1) a singer who changes register rapidly
+ yogi ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) conjugate=yogin plural=yogin 
+    yogi~1z (philosopher~1) one who practices yoga and has achieved a high level of spiritual insight
+ yokel ( meanings=1 NOUN NOUN_SINGULAR GRADE5_6 posdefault:NOUN ) 
+    hick~1 
+ yahoo ( meanings=1 glosses=1 NOUN NOUN_SINGULAR GRADE1_2 posdefault:NOUN ) 
+    chawbacon~1z (rustic~1) a person who is not very intelligent or interested in culture
+ young_buck ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    young_man~2z (teenager~1) a teenager or a young adult male
+ young_person ( meanings=1 NOUN NOUN_SINGULAR ) 
+    spring_chicken~2 
+ younker ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    young_person~1 
+ young_Turk ( meanings=2 glosses=2 NOUN NOUN_SINGULAR ) 
+    young_Turk~1z (radical~3) a young radical who agitates for reform
+    young_Turk~2z (insurrectionist~1) a member of one or more of the insurgent groups in Turkey in the late 19th century who rebelled against the absolutism of Ottoman rule
+ yuppie ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yuppie~1z (professional~2) a young upwardly mobile professional individual
+ Yasser_Arafat ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Arafat~1z (national_leader~1) Palestinian statesman who was chairman of the Palestine Liberation Organization
+ Yogi ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Berra~1 
+ Yogi_Berra ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yogi~1 
+ Yuri_Gagarin ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yuri_Alekseyevich_Gagarin~1 
+ Yuri_Alekseyevich_Gagarin ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Gagarin~1z (astronaut~1) Soviet cosmonaut who in 1961 was the first person to travel in space
+ Yehudi_Menuhin ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Sir_Yehudi_Menuhin~1 
+ Yoko_Ono ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Ono~1z (musician~1) United States musician who married John Lennon and collaborated with him on recordings (born in 1933)
+ Yardbird_Parker ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Charlie_Parker~1 
+ Yves_Tanguy ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Tanguy~1z (painter~3) United States surrealist painter (1900-1955)
+ Yamani ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Ahmed_Zoki_Yamani~1 
+ Yang_Chen_Ning ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Chen_N._Yang~1z (physicist~1) United States physicist who collaborated with Tsung Dao Lee in disproving the principle of conservation of parity (born in 1922)
+ Yastrzemski ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Carl_Yastrzemski~1 
+ Yeats ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    William_Butler_Yeats~1 
+ Yerkes ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Robert_M._Yerkes~1 
+ Yersin ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Alexandre_Yersin~1 
+ Yevtushenko ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yevgeni_Yevtushenko~1 
+ Yevgeni_Yevtushenko ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yevgeni_Aleksandrovich_Yevtushenko~1 
+ Yevgeni_Aleksandrovich_Yevtushenko ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yevtushenko~1z (poet~1) Russian poet who expressed the feelings of the post-Stalinist generation
+ Yukawa ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Hideki_Yukawa~1 
+ yellow_pine ( meanings=2 glosses=2 NOUN NOUN_SINGULAR ) 
+    yellow_pine~1z (pine~2) hard yellowish wood of a yellow pine
+    yellow_pine~2z (pine~1) any of various pines having yellow wood
+ yellow_spruce ( meanings=1 NOUN NOUN_SINGULAR ) 
+    red_spruce~1 
+ yellow_cypress ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Alaska_cedar~1 
+ yellow_cedar ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Chamaecyparis_nootkatensis~1 
+ yellowwood ( meanings=2 glosses=1 NOUN NOUN_SINGULAR ) 
+    yellowwood_tree~1 
+    yellowwood~2z (wood~4) the yellow wood of any of various yellowwood trees
+ yellowwood_tree ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yellowwood~1z (tree~1) any of various trees having yellowish wood or yielding a yellow extract
+ yacca ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yacca_podocarp~1 
+ yacca_podocarp ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Podocarpus_coriaceus~1 
+ yellow-leaf_sickle_pine ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Falcatifolium_taxoides~1z (coniferous_tree~1) a rain forest tree or shrub of New Caledonia having a conic crown and pale green sickle-shaped leaves
+ yew_family ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    Taxaceae~1z (gymnosperm_family~1) sometimes classified as member of order Taxales
+ yew ( meanings=2 glosses=2 NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yew~1z (coniferous_tree~1) any of numerous evergreen trees or shrubs having red cup-shaped berries and flattened needlelike leaves
+    yew~2z (wood~4) wood of a yew
+ ylang-ylang ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    Cananga_odorata~1 
+ yellow_poplar ( meanings=2 NOUN NOUN_SINGULAR ) 
+    tulip_poplar~1 
+    tulipwood~1 
+ yellow_parilla ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Canada_moonseed~1 
+ yellow_pond_lily ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Nuphar_advena~1z (water_lily~1) common water lily of eastern and central North America, having broad leaves and globe-shaped yellow flowers
+ yellow_water_lily ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Nuphar_lutea~1z (water_lily~1) a water lily with yellow flowers
+ yanquapin ( meanings=1 NOUN NOUN_SINGULAR ) 
+    American_lotus~1 
+ yellow_root ( meanings=1 NOUN NOUN_SINGULAR ) 
+    golden_seal~1 
+ yellow_sweet_clover ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Melilotus_officinalis~1 
+ yellow_oleander ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Thevetia_peruviana~1 
+ yautia ( meanings=1 NOUN NOUN_SINGULAR ) 
+    malanga~1 
+ yellow_sand_verbena ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Abronia_latifolia~1z (sand_verbena~1) plant having hemispherical heads of yellow trumpet-shaped flowers
+ yellow_rocket ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Sisymbrium_barbarea~1 
+ yellow_watercress ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Rorippa_islandica~1z (watercress~2) annual or biennial cress growing in damp places sometimes used in salads or as a potherb
+ yellow_horned_poppy ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Glaucium_flavum~1z (flower~2) yellow-flowered Eurasian glaucous herb naturalized in along sandy shores in eastern North America
+ yarrow ( meanings=1 NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    milfoil~1 
+ yellow_chamomile ( meanings=1 NOUN NOUN_SINGULAR ) 
+    dyers_'_chamomile~1 
+ yellow_star-thistle ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Centaurea_solstitialis~1 
+ yellow_spiny_daisy ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Haplopappus_spinulosus~1 
+ yellow_paper_daisy ( meanings=1 NOUN NOUN_SINGULAR ) 
+    golden_everlasting~1 
+ yellow_hawkweed ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Hieracium_praealtum~1 
+ yellow_ageratum ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Lonas_annua~1z (flower~2) shrub of southwestern Mediterranean region having yellow daisylike flowers
+ yellow_salsify ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Tragopogon_dubius~1 
+ yellow_ironweed ( meanings=1 NOUN NOUN_SINGULAR ) 
+    golden_ironweed~1 
+ yellow_lady_'s_slipper ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Cypripedium_calceolus~1 
+ yellow_lady-slipper ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Cypripedium_parviflorum~1 
+ yam_family ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Dioscoreaceae~1 
+ yam_plant ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yam~3 
+ yellow_pimpernel ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Lysimachia_nemorum~1 
+ yellow_loosestrife ( meanings=1 NOUN NOUN_SINGULAR ) 
+    garden_loosestrife~1 
+ yardgrass ( meanings=1 NOUN NOUN_SINGULAR ) 
+    goose_grass~1 
+ yard_grass ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Eleusine_indica~1 
+ Yorkshire_fog ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Holcus_lanatus~1 
+ yellow_bristlegrass ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellow_foxtail~1 
+ yellow_bristle_grass ( meanings=1 NOUN NOUN_SINGULAR ) 
+    glaucous_bristlegrass~1 
+ yellow_foxtail ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellow_bristle_grass~1 
+ Yankee_corn ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    flint_maize~1 
+ yellow_nutgrass ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Cyperus_esculentus~1 
+ yellow_chestnut_oak ( meanings=1 NOUN NOUN_SINGULAR ) 
+    chinkapin_oak~1 
+ yellow_oak ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Quercus_velutina~1 
+ yellow_birch ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Betula_alleghaniensis~1 
+ Yukon_white_birch ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Betula_neoalaskana~1 
+ yellow_cattley_guava ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Psidium_littorale~1z (fruit_tree~1) small tropical shrubby tree bearing small yellowish fruit
+ yellow_iris ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellow_flag~1 
+ yellow_flag ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellow_water_flag~1 
+ yellow_water_flag ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Iris_pseudacorus~1z (flag~7) common yellow-flowered iris of Europe and North Africa, naturalized in United States and often cultivated
+ yellow_asphodel ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Asphodeline_lutea~1 
+ yellow_globe_lily ( meanings=1 NOUN NOUN_SINGULAR ) 
+    golden_fairy_lantern~1 
+ yellow_mariposa_tulip ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Calochortus_luteus~1z (mariposa_tulip~1) mariposa having clusters of a few large deep yellow bell-shaped flowers atop slender stems
+ yellow_adder_'s_tongue ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Erythronium_americanum~1z (dog's-tooth_violet~1) eastern North American dogtooth having solitary yellow flowers marked with brown or purple and spotted interiors
+ yellow_clintonia ( meanings=1 NOUN NOUN_SINGULAR ) 
+    heal_all~1 
+ yucca ( meanings=1 glosses=1 NOUN NOUN_SINGULAR GRADE1_2 posdefault:NOUN ) 
+    yucca~1z (bush~4) any of several evergreen plants of the genus Yucca having usually tall stout stems and a terminal cluster of white flowers
+ Yucca_aloifolia ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Spanish_bayonet~1 
+ Yucca_baccata ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Spanish_bayonet~2 
+ Yucca_brevifolia ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Joshua_tree~1z (yucca~1) a large branched arborescent yucca of southwestern United States having short leaves and clustered greenish white flowers
+ Yucca_carnerosana ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Spanish_dagger~1z (yucca~1) arborescent yucca of southwestern United States and northern Mexico with sword-shaped leaves and white flowers
+ Yucca_elata ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    soapweed~1z (yucca~1) tall arborescent yucca of southwestern United States
+ Yucca_filamentosa ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    needle_palm~1 
+ Yucca_glauca ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    bear_grass~3z (yucca~1) yucca of west central United States having a clump of basal grasslike leaves and a central stalk with a terminal raceme of small whitish flowers
+ Yucca_gloriosa ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Spanish_dagger~2 
+ Yucca_smalliana ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    bear_grass~4z (yucca~1) yucca of southern United States having a clump of basal grasslike leaves and a central stalk with a terminal raceme of small whitish flowers
+ Yucca_whipplei ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Our_Lord_'s_candle~1 
+ yellow_jasmine ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Carolina_jasmine~1 
+ yellow_jessamine ( meanings=1 NOUN NOUN_SINGULAR ) 
+    evening_trumpet_flower~1 
+ yellow_vetchling ( meanings=1 NOUN NOUN_SINGULAR ) 
+    meadow_pea~1 
+ yellow_lupine ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Lupinus_luteus~1 
+ yellow_trefoil ( meanings=1 NOUN NOUN_SINGULAR ) 
+    black_medick~1 
+ yam_bean ( meanings=2 NOUN NOUN_SINGULAR ) 
+    Pachyrhizus_erosus~1 
+    Pachyrhizus_tuberosus~1 
+ yellow_locust ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Robinia_pseudoacacia~1 
+ yellow_pea ( meanings=1 NOUN NOUN_SINGULAR ) 
+    golden_pea~1 
+ yellow_jacaranda ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    pride_of_Bolivia~1z (tree~1) semi-evergreen South American tree with odd-pinnate leaves and golden yellow flowers cultivated as an ornamental
+ yard-long_bean ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Vigna_unguiculata_sesquipedalis~1 
+ yellow_dock ( meanings=1 NOUN NOUN_SINGULAR ) 
+    broad-leaved_dock~1 
+ yellow-eyed_grass_family ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    Xyridaceae~1z (liliopsid_family~1) plants of tropical to temperate regions
+ yellow-eyed_grass ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yellow-eyed_grass~1z (marsh_plant~1) any of several rushlike plants, especially of the pine barrens of southern United States
+ yellow_avens ( meanings=2 NOUN NOUN_SINGULAR ) 
+    Geum_alleppicum_strictum~1 
+    Geum_macrophyllum~1 
+ yellow_bedstraw ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellow_cleavers~1 
+ yellow_cleavers ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Our_Lady_'s_bedstraw~1 
+ yellow_honeysuckle ( meanings=2 glosses=2 NOUN NOUN_SINGULAR ) 
+    Lonicera_dioica~1z (honeysuckle~3) twining deciduous shrub with clusters of purple-tinged yellow-green flowers
+    Lonicera_flava~1z (honeysuckle~3) climbing deciduous shrub with fragrant yellow flowers in terminal whorls
+ yellow_milkwort ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellow_bachelor_'s_button~1 
+ yellow_bachelor_'s_button ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Polygala_lutea~1z (milkwort~1) bog plant of pine barrens of southeastern United States having spikes of irregular yellow-orange flowers
+ yaupon_holly ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yaupon_holly~1z (holly~1) an evergreen shrub
+ yellow_mombin_tree ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Spondias_mombin~1z (fruit_tree~1) tropical American tree having edible yellow fruit
+ yellow_trumpet ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellow_pitcher_plant~1 
+ yellow_pitcher_plant ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Sarracenia_flava~1z (pitcher_plant~1) pitcher plant of southeastern United States having erect yellow trumpet-shaped pitchers with wide mouths and erect lids
+ yellow_mountain_saxifrage ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Saxifraga_aizoides~1z (breakstone~1) tufted evergreen perennial having ciliate leaves and yellow corymbose flowers often spotted orange
+ youth-on-age ( meanings=1 NOUN NOUN_SINGULAR ) 
+    piggyback_plant~1 
+ yellow_bells ( meanings=1 NOUN NOUN_SINGULAR ) 
+    California_yellow_bells~1 
+ yerba_santa ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Eriodictyon_californicum~1 
+ yellow_giant_hyssop ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Agastache_nepetoides~1 
+ yellow_bugle ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Ajuga_chamaepitys~1 
+ yerba_buena ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Micromeria_chamissonis~1 
+ yellow_twining_snapdragon ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Antirrhinum_filipes~1z (snapdragon~1) southwestern United States plant with yellow flowers on stems that twist and twine through other vegetation
+ yellow_foxglove ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Digitalis_lutea~1z (digitalis~1) European yellow-flowered foxglove
+ yellow_henbane ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Physalis_viscosa~1 
+ yellow_spot_fungus ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    Cercospora_kopkei~1z (fungus~1) fungus causing yellow spot
+ yellow_berry ( meanings=1 NOUN NOUN_SINGULAR ) 
+    buckthorn_berry~1 
+ yerba_mansa ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Anemopsis_californica~1 
+ you-drive ( meanings=1 NOUN NOUN_SINGULAR ) 
+    u-drive~1 
+ Young_'s_modulus ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Young_'s_modulus~1z (coefficient_of_elasticity~1) a coefficient of elasticity applicable to the stretching of a wire
+ yottabyte ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    YiB~1z (computer_memory_unit~1) a unit of information equal to 1024 zebibytes or 2^80 bytes
+    YB~2z (computer_memory_unit~1) a unit of information equal to 1000 zettabytes or 10^24 bytes
+ yobibyte ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yottabyte~1 
+ YB ( meanings=4 NOUN NOUN_PROPER_SINGULAR ) 
+    yobibyte~1 
+    yottabyte~2 
+    yottabit~1 
+    ytterbium~1 
+ YiB ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    YB~1 
+ yottabit ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    Ybit~1z (computer_memory_unit~1) a unit of information equal to 1000 zettabits or 10^24 bits
+ Ybit ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    YB~3 
+ yobibit ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    Yibit~1z (computer_memory_unit~1) a unit of information equal to 1024 zebibits or 2^80 bits
+ Yibit ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    yobibit~1 
+ Yugoslavian_monetary_unit ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yugoslavian_monetary_unit~1z (monetary_unit~1) monetary unit in Yugoslavia
+ Yugoslavian_dinar ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    dinar~8z (Yugoslavian_monetary_unit~1) the basic unit of money in Yugoslavia
+ Yemeni_monetary_unit ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Yemeni_monetary_unit~1z (monetary_unit~1) monetary unit in Yemen
+ Yemeni_rial ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    rial~3z (Yemeni_monetary_unit~1) the basic unit of money in Yemen
+ Yemeni_fils ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    fils~2z (Yemeni_monetary_unit~1) 100 Yemeni fils are worth one Yemeni rial
+ yuan ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    kwai~1z (Chinese_monetary_unit~1) the basic unit of money in China
+ yellow_fever ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    black_vomit~1z (infectious_disease~1) caused by a flavivirus transmitted by a mosquito
+ yellow-blue_dichromacy ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellow-blue_color_blindness~1 
+ yellow-blue_color_blindness ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    yellow-blue_dichromacy~1z (dichromatopsia~1) confusion of yellow and blue
+ yellow-blindness ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    tetartanopia~1z (yellow-blue_color_blindness~1) a form of dichromacy characterized by lowered sensitivity to yellow light
+ yatobyo ( meanings=1 NOUN NOUN_SINGULAR ) 
+    tularemia~1 
+ yellow_dwarf ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    yellow_dwarf~1z (plant_disease~1) any of several virus diseases of plants characterized by stunting and yellowing of the leaves
+ yellow_dwarf_of_potato ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR ) 
+    potato_yellow_dwarf~1z (yellow_dwarf~1) the yellow dwarf disease of potato plants
+ yellow_peril ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    yellow_peril~1z (menace~2) the threat to Western civilization said to arise from the power of Asiatic peoples
+ ylem ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    ylem~1z (matter~1) the original matter that (according to the big bang theory) existed before the formation of the chemical elements
+ ytterbium ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    YB~4z (metal~2) a soft silvery metallic element
+ yttrium ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    Y~2z (metal~2) a silvery metallic element that is common in rare-earth minerals
+ ytterbite ( meanings=1 NOUN NOUN_SINGULAR ) 
+    gadolinite~1 
+ yellow_metal ( meanings=1 NOUN NOUN_SINGULAR ) 
+    Muntz_metal~1 
+ yellow_ocher ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+    yellow_ochre~1z (ocher~2) pigment consisting of a limonite mixed with clay and silica
+ yellow_ochre ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yellow_ocher~1 
+ yellow_prussiate_of_potash ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    potassium_ferrocyanide~1z (ferrocyanide~1) a cyanide compound that is prepared by the reaction of potassium cyanide with ferrous salts
+ Yule_log ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Yule_log~1z (backlog~3) large log traditionally burned at Christmas
+ Yule ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Christmas~2 
+ yellowcake ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+    U308~1z (compound~3) an impure mixture of uranium oxides obtained during the processing of uranium ore
+ yesteryear ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    past_times~1 
+ yore ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN_MASS NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yore~1z (past~2) time long past
+ Yukon_Time ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Alaska_Standard_Time~1 
+ yesterday ( meanings=4 glosses=4 NOUN_ABSTRACT NOUN_NODETERMINER NOUN ADVERB ADVERB_NORMAL NOUN_SINGULAR KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
+    yesterday~1z (day~4) the day immediately before today
+    yesterday~2z (past~2) the recent past
+    yesterday~3bz on the day preceding today
+    yesterday~4bz in the recent past
+ Yom_Kippur ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    Day_of_Atonement~1 
+ Yuletide ( meanings=1 NOUN_MASS NOUN NOUN_PROPER_SINGULAR ) 
+    Christmastime~1 
+ year-end ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR posdefault:NOUN posdefault:ADJECTIVE ) 
+    year-end~1z (end~14) the end of a calendar year
+    year-end~2az taking place at the close of a fiscal year
+ yr ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    twelvemonth~1 
+ year_dot ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    year_dot~1z (age~4) as long ago as anyone can remember
+ year_of_grace ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    year_of_grace~1z (year~3) any year of the Christian era
+ Y2K ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Y2K~1z (year~3) the year 2000 in the Gregorian calendar
+ yeshivahs ( NOUN NOUN_PLURAL ) conjugate=yeshiva plural=yeshiva 
+ yeshivoth ( NOUN NOUN_PLURAL ) 
+ yogin ( NOUN NOUN_PLURAL posdefault:NOUN ) conjugate=yogi plural=yogi 
+ yumminess ( meanings=1 NOUN NOUN_SINGULAR ) 
+    yumminess~1nz (yumminess~1z) 
+ yoyo ( meanings=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    yoyo~1nz (yoyo~1z) 
+ yay ( INTERJECTION ) 
+ yech ( INTERJECTION ) 
+ yeh ( INTERJECTION ) 
+ yeow ( INTERJECTION ) 
+ yikes ( INTERJECTION ) 
+ yuch ( INTERJECTION ) 
+ yuck ( INTERJECTION ) 
+ yuk> ( INTERJECTION ) 
+ ya ( INTERJECTION KINDERGARTEN ) 
+ yeah ( meanings=1 glosses=1 ADVERB ADVERB_NORMAL INTERJECTION KINDERGARTEN ) 
+    yea~2bz not only so, but
+ yippee ( INTERJECTION ) 
+ yo ( INTERJECTION ) 
+ yoo-hoo ( INTERJECTION ) 
+ yow ( INTERJECTION ) 
+ yum ( INTERJECTION ) 
+ yummy ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL INTERJECTION GRADE1_2 posdefault:ADJECTIVE ) comparative=yummiest 
+    toothsome~3a 
+    yummy~2az 
+ year_end ( NOUN NOUN_SINGULAR KINDERGARTEN TIMEWORD ) 
+ yellow-brown ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    amber~3a 
+ yellow-beige ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yellowish-beige~1a 
+ yellowish-beige ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yellow-beige~1az of beige tinged with yellow
+ yellow-orange ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellowish-orange~1a 
+ yellowish-orange ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yellow-orange~1az of orange tinged with yellow
+ yellow-tinged ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellow-tinged~1az of a color tinged with yellow
+ yellow-grey ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellow-gray~1a 
+ yellow-gray ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yellowish-grey~1a 
+ yellowish-grey ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellowish-gray~1az of grey tinged with yellow
+ yellowish-gray ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellow-grey~1a 
+ yellow-white ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellowish-white~1a 
+ yellowish-white ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellow-white~1az of a white tinged with yellow
+ yokel-like ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yokel-like~1az stupid and ignorant like proverbial rural inhabitants
+ yonder ( meanings=3 glosses=2 ADJECTIVE ADVERB DETERMINER ADVERB_NORMAL ADJECTIVE_NORMAL KINDERGARTEN posdefault:ADVERB ) 
+    yon~1az distant but within sight 
+    yon~2bz at or in an indicated place (`yon' is archaic and dialectal)
+    yonder~3z 
+ yon ( meanings=2 ADJECTIVE ADVERB ADVERB_NORMAL ADJECTIVE_NORMAL posdefault:ADVERB ) 
+    yonder~1a 
+    yonder~2b 
+ yarn-spinning ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yarn-spinning~1az inclined to tell long and involved stories
+ yeasty ( meanings=4 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) comparative=yeastiest 
+    yeasty~1az exuberantly creative
+    barmy~2a 
+    yeastlike~1a 
+    yeasty~4az 
+ yearlong ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yearlong~1az lasting through a year
+ yelled ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:VERB ) 
+    shouted~1a 
+ young-begetting ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    young-begetting~1az capable of fathering offspring
+ young-bearing ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    egg-producing~1a 
+ year-round ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    year-around~1a 
+ year-around ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    year-round~1az operating or continuing throughout the year
+ Y2K_compliant ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    Y2K_compliant~1az prepared to accurately process date and time data between and into the 20th and 21st centuries
+ yucky ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    skanky~1a 
+ yellowed ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:VERB ) 
+    yellow~6a 
+ youngish ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    youngish~1az somewhat young
+ youthful ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    vernal~2a 
+    youthful~2az 
+ yellow-banded ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yellow-banded~1az having yellow bands
+ yellow-marked ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yellow-marked~1az having yellow marks
+ yellow-spotted ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellow-spotted~1az having yellow spots
+ yellow-striped ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellow-striped~1az having yellow stripes
+ yokelish ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL ) 
+    lowbred~1a 
+    yokelish~2az 
+ younger ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL KINDERGARTEN posdefault:ADJECTIVE MORE_FORM ) comparative=young 
+    jr.~1az used of the younger of two persons of the same name especially used to distinguish a son from his father
+ Y-shaped ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    Y-shaped~1az shaped in the form of the letter Y
+ yellow-tipped ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yellow-tipped~1az of a flower tipped with yellow
+ yearned-for ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    longed-for~1az greatly desired
+ yogistic ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yogic~1az of or relating to yoga
+ yogic ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
+    yogistic~1a 
+ Yeatsian ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    Yeatsian~1az in the manner of William Butler Yeats
+ yeastlike ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yeasty~3az of or resembling or containing yeast
+ yester ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yester~1az 
+ yestern ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    yestern~1az 
+ yeastier ( ADJECTIVE ADJECTIVE_NORMAL MORE_FORM ) comparative=yeasty 
+ yeastiest ( ADJECTIVE ADJECTIVE_NORMAL MOST_FORM ) comparative=yeastier 
+ youngest ( ADJECTIVE ADJECTIVE_NORMAL KINDERGARTEN posdefault:ADJECTIVE MOST_FORM ) comparative=younger 
+ yummier ( ADJECTIVE ADJECTIVE_NORMAL GRADE1_2 MORE_FORM ) comparative=yummy 
+ yummiest ( ADJECTIVE ADJECTIVE_NORMAL GRADE1_2 posdefault:ADJECTIVE MOST_FORM ) comparative=yummier 
+ yet ( meanings=7 glosses=4 ADVERB CONJUNCTION_COORDINATE ADVERB_NORMAL KINDERGARTEN posdefault:ADVERB ) 
+    even~10b 
+    nevertheless~1b 
+    yet~3bz up to the present time
+    until_now~1bz used in negative statement to describe a situation that has existed up to this point or up to the present time
+    so_far~2bz used after a superlative
+    in_time~2bz within an indefinite time or at an unspecified future time
+    yet~7z 
+ you_bet ( meanings=1 ADVERB ADVERB_NORMAL ) 
+    you_said_it~1b 
+ you ( meanings=1 PRONOUN_SUBJECT PRONOUN_OBJECT PRONOUN_INDIRECTOBJECT KINDERGARTEN ANIMATE_BEING ) 
+    you~1z 
+ you_said_it ( meanings=1 glosses=1 ADVERB ADVERB_NORMAL ) 
+    and_how~1bz an expression of emphatic agreement
+ yieldingly ( meanings=1 ADVERB ADVERB_NORMAL posdefault:ADVERB ) 
+    obediently~1b 
+ yearningly ( meanings=1 glosses=1 ADVERB ADVERB_NORMAL posdefault:ADVERB ) 
+    longingly~1bz in a yearning manner
+ youthfully ( meanings=1 glosses=1 ADVERB ADVERB_NORMAL posdefault:ADVERB ) 
+    youthfully~1bz in a youthful manner
+ yarn-dye ( meanings=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+    impress~2v 
+ yammer ( meanings=2 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB posdefault:VERB VERB_NOOBJECT ) 
+    whine~2v 
+    wrawl~1vz cry loudly, as of animals
+ yawp ( meanings=2 VERB_PRESENT VERB_INFINITIVE VERB VERB_NOOBJECT ) 
+    yammer~1v 
+    bawl~2v 
+ yack_away ( meanings=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_NOOBJECT VERB_CONJUGATE1 ) 
+    yack~2v 
+ yap_away ( meanings=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_NOOBJECT VERB_CONJUGATE1 ) 
+    rattle_on~1v 
+ yaup ( meanings=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_NOOBJECT ) 
+    ululate~1v 
+ yank ( meanings=1 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB GRADE1_2 posdefault:VERB VERB_DIRECTOBJECT ) 
+    jerk~9vz pull, or move with a sudden movement
+ yearn ( meanings=3 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB posdefault:VERB VERB_DIRECTOBJECT ) 
+    yearn~1vz have affection for
+    languish~3v 
+    long~12v 
+ yield_up ( meanings=1 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT VERB_CONJUGATE1 ) 
+    yield_up~1vz surrender, as a result of pressure or force
+ yarn-bomb ( meanings=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT VERB_NOOBJECT VERB_CONJUGATE2 ) 
+    yarn-bomb~1vz 
+ yack_on ( meanings=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT VERB_NOOBJECT PHRASAL_VERB INSEPARABLE_PHRASAL_VERB VERB_CONJUGATE1 ) 
+    yack_on~1vz 
+ yak_on ( meanings=1 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT VERB_NOOBJECT PHRASAL_VERB INSEPARABLE_PHRASAL_VERB VERB_CONJUGATE1 ) 
+    yak_on~1vz  to continue talking in an annoying way ("on" can be repeated for emphasis) He just yakked on and on and on.
+ yak_on_about ( meanings=1 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT PHRASAL_VERB INSEPARABLE_PHRASAL_VERB VERB_CONJUGATE1 ) 
+    yak_on_about~1vz  to continue talking in an annoying way about something ("on" can be repeated for emphasis) She just yakked on and on about her husband's new job.
+ yammer_on ( meanings=1 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT VERB_NOOBJECT PHRASAL_VERB INSEPARABLE_PHRASAL_VERB VERB_CONJUGATE1 ) 
+    yammer_on~1vz  to talk in an annoying way or complain ("on" can be repeated for emphasis) They yammered on and on and on.
+ yammer_on_about ( meanings=1 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT PHRASAL_VERB INSEPARABLE_PHRASAL_VERB VERB_CONJUGATE1 ) 
+    yammer_on_about~1vz  to talk in an annoying way about something or complain about ("on" can be repeated for emphasis) He just yammered on and on about how horrible the waiter was.
+ yield_to ( meanings=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT VERB_NOOBJECT PHRASAL_VERB INSEPARABLE_PHRASAL_VERB VERB_CONJUGATE1 ) 
+    yield_to~1vz 
+ your ( meanings=1 PRONOUN_POSSESSIVE KINDERGARTEN PREDETERMINER_TARGET ) 
+    your~1z 
+ yours ( meanings=1 PRONOUN_OBJECT KINDERGARTEN ) 
+    yours~1z 
+ yourself ( meanings=1 PRONOUN_OBJECT PRONOUN_REFLEXIVE KINDERGARTEN ANIMATE_BEING ) 
+    yourself~1z 
+ yourselves ( meanings=1 PRONOUN_OBJECT PRONOUN_REFLEXIVE KINDERGARTEN PRONOUN_PLURAL ANIMATE_BEING ) 
+    yourselves~1z 
+ ye ( meanings=1 DETERMINER KINDERGARTEN ) 
+    ye~1z 

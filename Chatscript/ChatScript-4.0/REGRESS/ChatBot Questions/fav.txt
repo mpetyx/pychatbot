@@ -1,0 +1,47 @@
+What is your best friend's name? 
+What is your favorite animal? 
+What is your favorite city in the United States? 
+What is your favorite color? 
+What is your favorite country? And why? 
+What is your favorite day of the week? Why? 
+What is your favorite drink in the summer? 
+What is your favorite food? 
+What is your favorite holiday? Why? 
+What is your favorite kind of book? 
+What is your favorite kind of ethnic food? 
+What is your favorite kind of movie? 
+What is your favorite kind of music? 
+What is your favorite kind of pizza? 
+What is your favorite magazine? 
+What is your favorite memory of childhood? 
+What is your favorite movie? 
+What is your favorite pastime? 
+What is your favorite proverb? 
+What is your favorite radio station? 
+What is your favorite season? Why? 
+What is your favorite sport? 
+What is your favorite television program? 
+What is your favorite time of day? 
+What is your favorite TV program? 
+What is your favorite type of sushi? 
+What is your favorite vegetable? 
+What is your favorite Web site? 
+What was your favorite subject in school?
+What's your favorite smell? 
+What's your favorite word in English? 
+Who is your favorite actor? 
+Who is your favorite actress? 
+Who is your favorite athlete?
+Who is your favorite baseball player?
+Who is your favorite soccer player?
+Who is your favorite author? 
+Who is your favorite character from literature? 
+Who is your favorite composer? 
+Who is your favorite musician? 
+Who is your favorite singer? 
+Who is your favorite athlete
+Who is your favorite super-hero? 
+Who is your favorite TV star? 
+Who was your favorite singer when you were younger? 
+Who was your favorite teacher? 
+
