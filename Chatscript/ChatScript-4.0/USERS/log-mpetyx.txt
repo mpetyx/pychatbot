@@ -197,3 +197,5 @@ Respond: user:mpetyx bot:harry ip: (~personal) 66  what is your name ==> My name
 Respond: user:mpetyx bot:harry ip: (~personal) 67  my name is john ==> I don't know what to say.  When:Jan21'14-00:38:24 Why: ~control.1.0  
 Command: :build 2
 Start: user:mpetyx bot:harry ip: rand:68 (~personal) 67 ==> I don't know what to say.  When:Jan21'14-00:38:41 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan21'14-00:38:39 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan21'14-00:38:24 Why: ~control.1.0  
+Command: :quit
+Exiting ChatScript via Quit
