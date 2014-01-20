@@ -15,11 +15,10 @@
 # limitations under the License.
 
 '''An example that provides a python interface to the wap library'''
+from AIML.CAML.semiotics.wolfram_alpha.Python_Binding_1_1 import wap
 
 __author__ = 'derik66@gmail.com'
 __version__ = '1.1-devel'
-
-import wap
 
 #url = 'http://preview.wolframalpha.com/api/v1/query.jsp'
 #url = 'http://preview.wolframalpha.com/api/v1/validatequery.jsp'

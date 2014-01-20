@@ -103,8 +103,8 @@ __all__ = [
     'JSONDecoder', 'JSONEncoder',
 ]
 
-from decoder import JSONDecoder
-from encoder import JSONEncoder
+from AIML.CAML.semiotics.wolfram_alpha.Python_Binding_1_1.simplejson.decoder import JSONDecoder
+from AIML.CAML.semiotics.wolfram_alpha.Python_Binding_1_1.simplejson.encoder import JSONEncoder
 
 _default_encoder = JSONEncoder(
     skipkeys=False,

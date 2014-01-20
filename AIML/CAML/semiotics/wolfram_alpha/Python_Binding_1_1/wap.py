@@ -15,13 +15,14 @@
 # limitations under the License.
 
 '''A library that provides a python interface to the Wolfram|Alpha API'''
+from AIML.CAML.semiotics.wolfram_alpha.Python_Binding_1_1 import simplejson as json
 
 __author__ = 'derik66@gmail.com'
 __version__ = '1.1-devel'
 
 import urllib2
 from xml.dom import minidom
-import simplejson as json
+
 
 class WolframAlphaEngine:
 
