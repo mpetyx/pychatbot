@@ -8,3 +8,6 @@ TCP 127.0.0.1 closed connection prematurely
 TCP 127.0.0.1 closed connection prematurely
 TCP 127.0.0.1 closed connection prematurely
 TCP 127.0.0.1 closed connection prematurely
+   in tutorial.top at 4: t: ^keep() [Hello] [Hi] [Hey], [talk] [speak] [say something] to me!
+Bad topic flag t: for topic ~introductions   in tutorial.top at 6: t: ^keep() [Hello] [Hi] [Hey], [talk] [speak] [say something] to me!
+TOPIC-6 No topic name?

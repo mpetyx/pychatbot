@@ -37,3 +37,163 @@ Start: user:mpetyx bot:anonymous ip: rand:4 () 4 ==>   When:Jan20'14-22:46:14 Ve
 Respond: user:mpetyx bot:anonymous ip: () 5  hi ==>   When:Jan20'14-22:47:22 
 Command: :quit
 Exiting ChatScript via Quit
+Start: user:mpetyx bot:anonymous ip: rand:5 () 5 ==>   When:Jan20'14-22:53:34 Version:4.00 Build0:Jan11'14-16:39:12 Build1:Jan20'14-22:46:11 0:Jan20'14-22:42:31 F:0 P:Jan20'14-22:47:22 
+Command: :build2
+Unknown command :build2
+Command: :build 0
+Start: user:mpetyx bot:anonymous ip: rand:5 () 5 ==>   When:Jan20'14-22:53:46 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-22:46:11 0:Jan20'14-22:42:31 F:0 P:Jan20'14-22:47:22 
+Respond: user:mpetyx bot:anonymous ip: () 6  hello ==>   When:Jan20'14-22:53:53 
+Respond: user:mpetyx bot:anonymous ip: () 7  how are you/ ==>   When:Jan20'14-22:53:58 
+Command: :quit
+Exiting ChatScript via Quit
+Start: user:mpetyx bot:anonymous ip: rand:7 () 7 ==>   When:Jan20'14-22:58:46 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-22:46:11 0:Jan20'14-22:42:31 F:0 P:Jan20'14-22:53:58 
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:7 () 7 ==>   When:Jan20'14-22:58:56 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-22:58:52 0:Jan20'14-22:42:31 F:0 P:Jan20'14-22:53:58 
+Respond: user:mpetyx bot:anonymous ip: () 8  hey ==>   When:Jan20'14-22:58:59 
+Command: :build 1
+Command: :build harry
+Start: user:mpetyx bot:harry ip: rand:13 (~introductions) 11 ==> Hello, again.  When:Jan20'14-23:01:48 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:01:44 0:Jan16'14-18:02:37 F:0 P:Jan16'14-18:06:50 Why: ~introductions.0.0  
+Respond: user:mpetyx bot:harry ip: (~childhood) 12  how are you? ==> What scared you as a kid?  When:Jan20'14-23:01:54 Why: ~childhood.2.0  
+Respond: user:mpetyx bot:harry ip: (~childhood) 13  many things ==> Indeed.  When:Jan20'14-23:01:59 Why: ~honest_response.45.0 GRUNT 
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:8 () 8 ==>   When:Jan20'14-23:02:08 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:02:05 0:Jan20'14-22:42:31 F:0 P:Jan20'14-22:58:59 
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:8 () 8 ==>   When:Jan20'14-23:03:02 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:02:58 0:Jan20'14-22:42:31 F:0 P:Jan20'14-22:58:59 
+Respond: user:mpetyx bot:anonymous ip: () 9  hry ==>   When:Jan20'14-23:03:07 
+Command: :build 2
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:9 () 9 ==>   When:Jan20'14-23:06:10 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:06:06 0:Jan20'14-22:42:31 F:0 P:Jan20'14-23:03:07 
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:9 () 9 ==>   When:Jan20'14-23:06:34 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:06:31 0:Jan20'14-22:42:31 F:0 P:Jan20'14-23:03:07 
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:9 () 9 ==>   When:Jan20'14-23:06:50 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:06:46 0:Jan20'14-22:42:31 F:0 P:Jan20'14-23:03:07 
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:9 () 9 ==>   When:Jan20'14-23:08:30 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:08:26 0:Jan20'14-22:42:31 F:0 P:Jan20'14-23:03:07 
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:9 () 9 ==>   When:Jan20'14-23:08:54 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:08:50 0:Jan20'14-22:42:31 F:0 P:Jan20'14-23:03:07 
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:15 (~introductions) 13 ==> Hello, speak to me!  When:Jan20'14-23:12:03 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:11:59 0:Jan16'14-18:02:37 F:0 P:Jan20'14-23:01:59 Why: ~introductions.0.0  
+Respond: user:mpetyx bot:harry ip: (~childhood) 14  hey ==> I was scared of machines. I had vivid dreams of the Terminator robots.  When:Jan20'14-23:12:06 Why: ~childhood.3.0 SCARE 
+Respond: user:mpetyx bot:harry ip: (~childhood) 15  why? ==> Did you have a happy childhood?  When:Jan20'14-23:12:10  F:1390252330-2.4.0 Why: ~childhood.4.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:16 (~introductions) 15 ==> I don't know what to say.  When:Jan20'14-23:13:29 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:13:26 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan20'14-23:12:10 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 16  hi ==> I don't know what to say.  When:Jan20'14-23:13:32 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 17  hi ==> I don't know what to say.  When:Jan20'14-23:13:33 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 18  why? ==> I don't know what to say.  When:Jan20'14-23:13:36 Why: ~control.1.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:19 (~introductions) 18 ==> I don't know what to say.  When:Jan20'14-23:14:17 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:14:13 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan20'14-23:13:36 Why: ~control.1.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:19 (~introductions) 18 ==> I don't know what to say.  When:Jan20'14-23:16:15 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:16:11 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan20'14-23:13:36 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 19  what ==> Good question.  When:Jan20'14-23:16:20 Why: ~introductions.3.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 20  hi ==> I don't know what to say.  When:Jan20'14-23:16:24 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 21  whay? ==> I don't know what to say.  When:Jan20'14-23:16:27 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 22  why ==> I don't know what to say.  When:Jan20'14-23:16:30 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 23  who ==> I don't know what to say.  When:Jan20'14-23:16:35 Why: ~control.1.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:25 (~introductions) 23 ==> OK.  When:Jan20'14-23:18:49 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:18:45 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan20'14-23:16:35 Why: ~honest_response.45.0 GRUNT 
+Respond: user:mpetyx bot:harry ip: (~introductions) 24  what ==> Good question.  When:Jan20'14-23:18:53 Why: ~introductions.3.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 25  what? ==> Good question.  When:Jan20'14-23:18:55 Why: ~introductions.3.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 26  who ==> Are you doing a barn owl imitation?  When:Jan20'14-23:18:57 Why: ~quibble_who.12.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:27 (~introductions) 26 ==> I don't know what to say.  When:Jan20'14-23:19:14 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:19:10 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan20'14-23:18:57 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 27  what are you ==> I am a bot.  When:Jan20'14-23:19:53 Why: ~introductions.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 28  really? ==> I don't know what to say.  When:Jan20'14-23:19:57 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 29  where do you live ==> I live on your computer.  When:Jan20'14-23:20:10 Why: ~introductions.2.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 30  what ==> Good question.  When:Jan20'14-23:20:31 Why: ~introductions.3.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 31  where ==> Good question.  When:Jan20'14-23:20:32 Why: ~introductions.3.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:33 (~introductions) 31 ==> Hello, say something to me!  When:Jan20'14-23:21:12 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:21:08 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan20'14-23:20:32 Why: ~introductions.0.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 32  eimai ena tsokaro ==> I don't know what to say.  When:Jan20'14-23:21:20 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 33  sda eimai ena tsokaro sda ==> I don't know what to say.  When:Jan20'14-23:21:34 Why: ~control.1.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:35 (~introductions) 33 ==> Hi, speak to me!  When:Jan20'14-23:22:07 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:22:03 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan20'14-23:21:34 Why: ~introductions.0.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 34  eimai ena tsokaro ==> I don't know what to say.  When:Jan20'14-23:22:18 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 35  what are you ==> I am a bot.  When:Jan20'14-23:22:39 Why: ~introductions.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 36  eimai ena tsokaro ==> I don't know what to say.  When:Jan20'14-23:22:45 Why: ~control.1.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:38 (~introductions) 36 ==> Hello, talk to me!  When:Jan20'14-23:24:16 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:24:12 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan20'14-23:22:45 Why: ~introductions.0.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 37  are you a ship ==> Yes you are.  When:Jan20'14-23:24:20 Why: ~introductions.4.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 38  what is the time? ==> Good question.  When:Jan20'14-23:24:53 Why: ~introductions.3.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 39  are you a ship boat together? ==> Yes you are.  When:Jan20'14-23:25:01 Why: ~introductions.4.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 40  where do you live ==> I live on your computer.  When:Jan20'14-23:26:46 Why: ~introductions.2.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 41  where did you live ==> I live on your computer.  When:Jan20'14-23:26:50 Why: ~introductions.2.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 42  where dod you live ==> Good question.  When:Jan20'14-23:26:57 Why: ~introductions.3.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:44 (~introductions) 42 ==> Hi, talk to me!  When:Jan20'14-23:28:26 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:28:22 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan20'14-23:26:57 Why: ~introductions.0.0 HI 
+Respond: user:mpetyx bot:harry ip: (~introductions) 43  what are you ==> I am a bot.  When:Jan20'14-23:28:35 Why: ~introductions.1.0 WHAT 
+Respond: user:mpetyx bot:harry ip: (~introductions) 44  tell me about your self ==> I don't know what to say.  When:Jan20'14-23:28:39 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 45  tell me about yourself ==> I am a bot.'Hi, say something to me!  When:Jan20'14-23:28:52 Why: ~introductions.1.0.2.0 WHAT ~introductions.0.0.2.0 HI 
+Respond: user:mpetyx bot:harry ip: (~introductions) 46  where do you live ==> I live on your computer.  When:Jan20'14-23:29:02 Why: ~introductions.3.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:47 (~introductions) 46 ==> Hello, I will help you plan your travel. Just tell me where you want to go.  When:Jan20'14-23:35:07 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:31:09 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan20'14-23:29:02 Why: ~introductions.0.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 47  i want to go in japan ==> I don't know what to say.  When:Jan20'14-23:35:17 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 48  i want to go to japan ==> OK, you want to go to japan.  When:Jan20'14-23:35:24 Why: ~introductions.1.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:49 (~introductions) 48 ==> Hello, I will help you plan your travel. Just tell me where you are and where you want to go to.  When:Jan20'14-23:35:32 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan20'14-23:35:28 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan20'14-23:35:24 Why: ~introductions.0.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 49  i am in athens ==> I don't know what to say.  When:Jan20'14-23:35:40 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 50  i am at athens ==> OK, you want to go from Athens.  When:Jan20'14-23:35:57 Why: ~introductions.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 51  i would like to go in crete ==> I don't know what to say.  When:Jan20'14-23:36:08 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 52  i would like to go to crete ==> OK, you want to go to Crete.  When:Jan20'14-23:36:18 Why: ~introductions.2.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 53  what do i want ==> You want to go from Athens to Crete.  When:Jan20'14-23:36:25 Why: ~introductions.3.0  
+Command: :verify
+VERIFYING ~control ......
+VERIFYING ~alternate_control ......
+VERIFYING ~introductions ......
+0 verify findings.
+Command: :prepare what are you?
+
+Original User Input: what are you?
+Tokenized: what  are  you  ?  
+TokenControl: DO_SUBSTITUTE_SYSTEM DO_NUMBER_MERGE DO_PROPERNAME_MERGE DO_SPELLCHECK DO_INTERJECTION_SPLITTING DO_PARSE 
+Substituted: what  are  you  
+Xref: 1:what   2:are o3   3:you   
+Fragments: 1:what   2:are   3:you   
+Tagged POS 3 words: what (MAINSUBJECT Pronoun_subject)  are/be (MAINVERB Verb_present)  you (MAINOBJECT Pronoun_object)  
+  MainSentence: Subj: what   Verb: are     Obj: you ?  PRESENT 
+
+
+Concepts: 
+
+1: what raw=  +~pronoun(1)  +~pronoun_subject(1)  +~kindergarten(1)  +~mainsubject(1)  +what(1)  +~potential_clause_starter(1) 
+.  +~special_english_attributes(1)  +~what(1)  +~qwords(1)  // 
+1: what canonical=  //  
+
+2: are raw=  +~verb_present(2)  +~verb(2)  +~kindergarten(2)  +~mainverb(2)  +are(2)  +~linkingverb(2)  +~auxverblist(2)  +~equals(2)  // 
+2: be canonical=  +be(2)  +~tobe(2)  +~be_verbs(2)  +~special_activities_verbs(2)  +~animate_verbs(2)  +~verbs(2)  +~active_verbs(2) 
+.  +~states_of_being(2)  +~static_verbs(2)  +~usefulfactverb(2)  //  
+
+3: you raw=  +~pronoun(3)  +~pronoun_object(3)  +~kindergarten(3)  +~mainobject(3)  +~sentenceend(3)  +you(3)  // 
+3: you canonical=  //  
+
+    sequences=
+TokenFlags: DO_ESSENTIALS PRESENT QUESTIONMARK USERINPUT 
+Respond: user:mpetyx bot:harry ip: (~introductions) 54  what are you ==> I don't know what to say.  When:Jan21'14-00:14:51 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 55  i am in athens ==> I don't know what to say.  When:Jan21'14-00:15:01 Why: ~control.1.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 56  i want to go to athens ==> OK, you want to go to Athens.  When:Jan21'14-00:15:13 Why: ~introductions.2.0  
+Command: :why i want to go to athens
+Respond: user:mpetyx bot:harry ip: (~introductions) 57  :why ==> I don't know what to say.  When:Jan21'14-00:15:39 Why: ~control.1.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:58 (~introductions) 57 ==> Hello, I will help you plan your travel.'You want to go from Athens to Athens.  When:Jan21'14-00:31:43 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan21'14-00:31:40 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan21'14-00:15:39 Why: ~introductions.0.0  ~question.2.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 58  my name is michael ==> You want to go from Athens to Athens.  When:Jan21'14-00:31:54 Why: ~question.2.0  
+Command: :quit
+Exiting ChatScript via Quit
+Start: user:mpetyx bot:harry ip: rand:58 (~introductions) 58 ==> You want to go from Athens to Athens.  When:Jan21'14-00:32:15 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan21'14-00:31:40 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan21'14-00:31:54 Why: ~question.2.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 59  i am michael ==> You want to go from Athens to Athens.  When:Jan21'14-00:32:49 Why: ~question.2.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:59 (~introductions) 59 ==> You want to go from Athens to Athens.  When:Jan21'14-00:33:09 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan21'14-00:33:06 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan21'14-00:32:49 Why: ~question.2.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 60  i am michael ==> You want to go from Athens to Athens.  When:Jan21'14-00:33:12 Why: ~question.2.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:60 (~introductions) 60 ==> You want to go from Athens to Athens.  When:Jan21'14-00:35:09 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan21'14-00:35:06 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan21'14-00:33:12 Why: ~question.2.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 61  my name is michael ==> You want to go from Athens to Athens.  When:Jan21'14-00:35:13 Why: ~question.2.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 62  what is your name ==> You want to go from Athens to Athens.  When:Jan21'14-00:37:15 Why: ~question.2.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:62 (~introductions) 62 ==> You want to go from Athens to Athens.  When:Jan21'14-00:37:37 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan21'14-00:37:34 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan21'14-00:37:15 Why: ~question.2.0  
+Respond: user:mpetyx bot:harry ip: (~introductions) 63  what is your name ==> You want to go from Athens to Athens.  When:Jan21'14-00:37:40 Why: ~question.2.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:64 (~personal) 63 ==> My name is Michael. What about you?  When:Jan21'14-00:37:56 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan21'14-00:37:53 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan21'14-00:37:40 Why: ~personal.0.0  
+Respond: user:mpetyx bot:harry ip: (~personal) 64  my name is koukli ==> Is your name Keoki?  When:Jan21'14-00:38:02 Why: ~personal.2.0 NAME 
+Respond: user:mpetyx bot:harry ip: (~personal) 65  yes ==> Nice to meet you Keoki!!  When:Jan21'14-00:38:08 Why: ~personal.2.1  
+Respond: user:mpetyx bot:harry ip: (~personal) 66  what is your name ==> My name is Michael bot.  When:Jan21'14-00:38:17 Why: ~personal.1.0  
+Respond: user:mpetyx bot:harry ip: (~personal) 67  my name is john ==> I don't know what to say.  When:Jan21'14-00:38:24 Why: ~control.1.0  
+Command: :build 2
+Start: user:mpetyx bot:harry ip: rand:68 (~personal) 67 ==> I don't know what to say.  When:Jan21'14-00:38:41 Version:4.00 Build0:Jan20'14-22:53:42 Build1:Jan21'14-00:38:39 0:Jan16'14-18:02:37 F:1390252330-2.4.0 P:Jan21'14-00:38:24 Why: ~control.1.0  

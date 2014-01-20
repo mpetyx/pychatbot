@@ -1,0 +1,1 @@
+﻿^harry O 0 A$token = 2048 | 127 | 256 | 512 | 1024 | 12288 ^addtopic ( ~introductions ) $control_main = ~control $userprompt = ^"$login: >" $botprompt = ^"HARRY: " 

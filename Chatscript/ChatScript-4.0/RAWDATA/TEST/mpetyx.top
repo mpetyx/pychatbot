@@ -1,0 +1,13 @@
+topic: ~personal  []
+
+t: My name is Michael. What about you?
+
+u: (what is your name) My name is Michael bot.
+
+u: NAME (my name is _*) Is your name '_0?
+
+a: (~yes)
+    $source = '_0
+    Nice to meet you $source !!
+a: (~no)
+    OK, i am so sorry. ^reuse(NAME)

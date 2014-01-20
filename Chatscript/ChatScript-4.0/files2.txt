@@ -1,11 +1,8 @@
 # underlying conversation system
-RAWDATA/TEST/ # tutorial bot data
+RAWDATA/HARRY/simplecontrol.top
 
-# quibble ability
-RAWDATA/QUIBBLE/
-
-
-
+# tutorial bot data
+RAWDATA/TEST/mpetyx.top
 
 
 

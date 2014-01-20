@@ -1,3 +1,26 @@
-topic: ~introductions []
+topic: ~introductions repeat keep []
 
-t: Hello, talk to me!
+t: [Hello][Hi][Hey], I will help you plan your travel. ^respond(~question)
+u: SOURCE (at _*)
+    Is your current location \" '_0 \" ?
+
+a: (~yes)
+    $source = '_0 ^respond(~question)
+a: (~no)
+    OK, so where are you?
+
+u: TARGET (to _*)
+    Is your destination \" '_0 \" ?
+a: (~yes)
+    $target = '_0
+    ^respond(~question) a: (~no)
+OK, so where do you want to go? u: DEFAULT ()
+^respond(~question)
+
+topic: ~question repeat keep nostay []
+u: (!$source)
+Where are you?
+u: (!$target)
+Where do you want to go?
+u: ($source $target)
+You want to go from $source to $target .
