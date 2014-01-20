@@ -12,3 +12,28 @@ Respond: user:mpetyx bot:harry ip: (~childhood) 10  because your answers are irr
 Command: :exit
 Unknown command :exit
 Respond: user:mpetyx bot:harry ip: (~childhood) 11  exit ==> Fine.  When:Jan16'14-18:06:50 Why: ~honest_response.45.0 GRUNT 
+Start: user:mpetyx bot:harry ip: rand:12 (~introductions) 11 ==> Glad you came back.  When:Jan20'14-22:42:20 Version:4.00 Build0:Jan11'14-16:39:12 Build1:Jan11'14-16:39:20 0:Jan16'14-18:02:37 F:0 P:Jan16'14-18:06:50 Why: ~introductions.0.0  
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:2808 () 0 ==>   When:Jan20'14-22:42:31 Version:4.00 Build0:Jan11'14-16:39:12 Build1:Jan20'14-22:42:28 0:Jan20'14-22:42:31 F:0 P:0 
+Respond: user:mpetyx bot:anonymous ip: () 1  hey ==>   When:Jan20'14-22:43:22 
+Respond: user:mpetyx bot:anonymous ip: () 2  ? ==>   When:Jan20'14-22:44:22 
+Respond: user:mpetyx bot:anonymous ip: () 3  what happened? ==>   When:Jan20'14-22:44:27 
+Command: :buikld
+Unknown command :buikld
+Command: :build
+missing build labelCommand: :build 1
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:3 () 3 ==>   When:Jan20'14-22:44:49 Version:4.00 Build0:Jan11'14-16:39:12 Build1:Jan20'14-22:44:47 0:Jan20'14-22:42:31 F:0 P:Jan20'14-22:44:27 
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:3 () 3 ==>   When:Jan20'14-22:45:42 Version:4.00 Build0:Jan11'14-16:39:12 Build1:Jan20'14-22:45:40 0:Jan20'14-22:42:31 F:0 P:Jan20'14-22:44:27 
+Respond: user:mpetyx bot:anonymous ip: () 4  exit ==>   When:Jan20'14-22:45:52 
+Command: :exit
+Unknown command :exit
+Command: :quit
+Exiting ChatScript via Quit
+Start: user:mpetyx bot:anonymous ip: rand:4 () 4 ==>   When:Jan20'14-22:46:07 Version:4.00 Build0:Jan11'14-16:39:12 Build1:Jan20'14-22:45:40 0:Jan20'14-22:42:31 F:0 P:Jan20'14-22:45:52 
+Command: :build 2
+Start: user:mpetyx bot:anonymous ip: rand:4 () 4 ==>   When:Jan20'14-22:46:14 Version:4.00 Build0:Jan11'14-16:39:12 Build1:Jan20'14-22:46:11 0:Jan20'14-22:42:31 F:0 P:Jan20'14-22:45:52 
+Respond: user:mpetyx bot:anonymous ip: () 5  hi ==>   When:Jan20'14-22:47:22 
+Command: :quit
+Exiting ChatScript via Quit

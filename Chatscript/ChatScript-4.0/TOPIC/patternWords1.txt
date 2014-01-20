@@ -1,5 +1,4 @@
-﻿boogie_man
-suzette
+﻿suzette
 can_I_ask_you
 can_I_ask_a_question
 can_I_ask_the_question

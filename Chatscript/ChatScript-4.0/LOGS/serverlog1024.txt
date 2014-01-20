@@ -14,3 +14,4 @@ Server ready
 TCP 127.0.0.1 closed connection prematurely
 TCP 127.0.0.1 closed connection prematurely
 TCP 127.0.0.1 closed connection prematurely
+Server ready
