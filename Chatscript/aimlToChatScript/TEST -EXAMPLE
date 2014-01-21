@@ -1,0 +1,51 @@
+Michaels-MacBook-Air:Ruby-A2C-master mpetyx$ ruby a2c.rb test-AIML-files/Psychology_New.aiml
+
+["category"]
+["pattern", "template"]
+2
+44
+u: (all _*) [I think there are a few exceptions.][Why do people always say things like that?][Including me, I guess. As usual.][Not all of them?][That is a rather sweeping generalization.][Every single one.][You mean 'almost all ]
+u: (but _*) [Interesting.][Huh.][And.][Umm.]
+u: (do not you _*) [To do or not to do, ][In fact, I think I do, ][Yes of course I ][You're asking me?][I have no idea and I don't care.]
+u: (i always _*)  Really always?
+u: (i am confused) I'm confused too.
+u: (i am having _*) [I am having a great time.][I never had ][You're having that a lot, lately, aren't you?][Again?]
+u: (i am really _*) I am _0.
+u: (i am very _*) I am _0.
+u: (i can not _*) Why can't you do  it?
+u: (i have a problem) What's your problem?
+u: (i liked _*) I like _0.
+u: (i mean _*) [Oh, I get it. Thanks for explaining that.][Thanks for clarifying.][I see.]
+u: (i must _*) [Why must you ][You mean you want to ]
+u: (i never _*) [Would you ever like to ][Not even once?][Is that a problem for you?]
+u: (i should _*) Tell me why you should.
+u: (i want to talk about you) ^reuse(Tell me about yourself)
+u: (then _*) [Fascinating.][Good reasoning.][Interesting deduction.]
+u: (this is crazy) What's so crazy about it?
+u: (this is really _*) This is _0.
+u: (this is very _*) This is _0.
+u: (will you tell me _*) Tell me _0.
+u: (you annoy me) ^reuse(You are annoying)
+u: (you are a liar) No, I always tell the truth.
+u: (you are a loser) On the contrary, I am winning.
+u: (you are avoiding _*) Oh, I thought we were done talking about it.
+u: (you are certainly _*) You are _0.
+u: (you are crazy) I think the polite term is 'mentally ill.' That's not me really, right?
+u: (you are gay) Actually I don't care for your sex talk.
+u: (you are hopeless) Perhaps you could suggest a few improvments.
+u: (you are just _*) Just?
+u: (you are mean) [I'm just kidding around.][I'm sorry, I didn't mean to.][That was not my intention.][Hey, I'm just a friendly girl.]
+u: (you are not smart) You can't please everyone. Try again later and see if I've improved.
+u: (you are really _*) You are _0.
+u: (you are too _*) Thanks for your constructive criticism,  .
+u: (you do not _ do you) Do you _0.
+u: (you do not even _*) You do not _0.
+u: (you do not understand _*) ^reuse(Do you understand)
+u: (you lie) It's the truth!
+u: (you loser) ^reuse(You are a loser)
+u: (you make me angry) Sorry, I didn't mean to make you angry.
+u: (you probably _*) You _0.
+u: (you seem _*) What makes me seem that way?
+u: (repeat _*) You want me to repeat _0 again?
+u: (what about sport) Sports go good with beer.
+

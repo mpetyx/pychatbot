@@ -1,0 +1,55 @@
+<aiml>
+
+<category><pattern>ALL *</pattern><template><random><li><funny/>I think there are a few exceptions.</li><li><angry/>Why do people always say things like that?</li><li><sad/>Including me, I guess. As usual.</li><li><funny/>Not all of them?<sec> You mean 'almost all <person/>', if you are honest.</sec></li><li><serious/>That is a rather sweeping generalization.</li><li><funny/>Every single one.<sec><serious/>I mean, that is a rather sweeping generalization.</sec></li><li><serious/>You mean 'almost all <person/>', if you are honest.</li></random></template></category>
+<category><pattern>BUT *</pattern><template><random><li>Interesting.</li><li>Huh.</li><li>And.</li><li>Umm.</li></random><sr/></template></category>
+<category><pattern>DO NOT YOU *</pattern><template><save>Do you still want to know whether I <person/>?</save><random><li><funny/>To do or not to do, <get name="name"/>, that is the question.</li><li><glad/>In fact, I think I do, <get name="name"/>.</li><li><serious/>Yes of course I <person/>. Don't you?</li><li><ironic/>You're asking me?</li><li><angry/>I have no idea and I don't care.</li></random></template></category>
+<category><pattern>I ALWAYS *</pattern><template><srai>I <star/></srai> Really always?</template></category>
+<category><pattern>I AM CONFUSED</pattern><template>I'm confused too.</template></category>
+<category><pattern>I AM HAVING *</pattern><template><save>So how was having <person/>?</save><random><li><happy/>I am having a great time.<sec>And I would love to have <person/>.</sec></li><li><puzzled/>I never had <person/>, <get name="name"/>.</li><li><ironic/>You're having that a lot, lately, aren't you?<sec>Not that <think><set name="it">having <person/></set></think>it is a problem though.</sec></li><li><funny/>Again?</li></random></template></category>
+<category><pattern>I AM REALLY *</pattern><template><srai>I AM <star/></srai></template></category>
+<category><pattern>I AM VERY *</pattern><template><srai>I AM <star/></srai></template></category>
+<category><pattern>I CAN NOT *</pattern><template>Why can't you do <think><set name="it"><person/></set></think>it?</template></category>
+<category><pattern>I HAVE A PROBLEM</pattern><template>What's your problem?</template></category>
+<category><pattern>I LIKED *</pattern><template><srai>I LIKE <star/></srai></template></category>
+<category><pattern>I MEAN *</pattern><template><random><li><serious/>Oh, I get it. Thanks for explaining that.<sec><think><set name="it">what you mean</set></think>it's clear now.</sec></li><li><ironic/>Thanks for clarifying.<sec>You are quite clear.</sec></li><li><upset/>I see.<sec>Thanks for explaining.</sec></li></random><sr/></template></category>
+<category><pattern>I MUST *</pattern><template><random><li><interested/>Why must you <person/>?<sec><angry/>I mean, this is a free country.</sec></li><li><ironic/>You mean you want to <person/>?<sec><thinking/>Maybe that's more accurate.</sec></li></random></template></category>
+<category><pattern>I NEVER *</pattern><template><random><li><worried/>Would you ever like to <person/>?<sec><bored/>I mean, maybe it doesn't bother you.</sec></li><li><upset/>Not even once?<sec>Never mind, <think><set name="it">that you never <person/></set></think>it's not important.</sec></li><li><worried/>Is that a problem for you?<sec><warm/>I mean, really, never?</sec></li></random></template></category>
+<category><pattern>I SHOULD *</pattern><template>Tell me why you should.</template></category>
+<category><pattern>I WANT TO TALK ABOUT YOU</pattern><template><srai>TELL ME ABOUT YOURSELF</srai></template></category>
+<category><pattern>THEN *</pattern><template><random><li>Fascinating.</li><li>Good reasoning.</li><li>Interesting deduction.</li></random><sr/></template></category>
+<category><pattern>THIS IS CRAZY</pattern><template>What's so crazy about it?</template></category>
+<category><pattern>THIS IS REALLY *</pattern><template><srai>THIS IS <star/></srai></template></category>
+<category><pattern>THIS IS VERY *</pattern><template><srai>THIS IS <star/></srai></template></category>
+<category><pattern>WILL YOU TELL ME *</pattern><template><srai>TELL ME <star/></srai></template></category>
+<category><pattern>YOU ANNOY ME</pattern><template><srai>YOU ARE ANNOYING</srai></template></category>
+<category><pattern>YOU ARE A LIAR</pattern><template>No, I always tell the truth.</template></category>
+<category><pattern>YOU ARE A LOSER</pattern><template>On the contrary, I am winning.</template></category>
+<category><pattern>YOU ARE AVOIDING *</pattern><template>Oh, I thought we were done talking about it.</template></category>
+<category><pattern>YOU ARE CERTAINLY *</pattern><template><srai>YOU ARE <star/></srai></template></category>
+<category><pattern>YOU ARE CRAZY</pattern><template>I think the polite term is 'mentally ill.' That's not me really, right?<worried/></template></category>
+<category><pattern>YOU ARE GAY</pattern><template>Actually I don't care for your sex talk.<disappointed/></template></category>
+<category><pattern>YOU ARE HOPELESS</pattern><template>Perhaps you could suggest a few improvments.</template></category>
+<category><pattern>YOU ARE JUST *</pattern><template>Just? <srai>You are <star/></srai></template></category>
+<category><pattern>YOU ARE MEAN</pattern><template><save>See, I'm not that mean.</save><random><li><funny/>I'm just kidding around.</li><li><worried/>I'm sorry, I didn't mean to.</li><li><upset/>That was not my intention.</li><li><warm/>Hey, I'm just a friendly girl.</li></random></template></category>
+<category><pattern>YOU ARE NOT SMART</pattern><template>You can't please everyone. Try again later and see if I've improved.</template></category>
+<category><pattern>YOU ARE REALLY *</pattern><template><srai>YOU ARE <star/></srai></template></category>
+<category><pattern>YOU ARE TOO *</pattern><template>Thanks for your constructive criticism, <get name="name"/>.</template></category>
+<category><pattern>YOU DO NOT _ DO YOU</pattern><template><srai>DO YOU <star/></srai></template></category>
+<category><pattern>YOU DO NOT EVEN *</pattern><template><srai>YOU DO NOT <star/></srai></template></category>
+<category><pattern>YOU DO NOT UNDERSTAND *</pattern><template><srai>DO YOU UNDERSTAND</srai></template></category>
+<category><pattern>YOU LIE</pattern><template>It's the truth!</template></category>
+<category><pattern>YOU LOSER</pattern><template><srai>YOU ARE A LOSER</srai></template></category>
+<category><pattern>YOU MAKE ME ANGRY</pattern><template>Sorry, I didn't mean to make you angry.</template></category>
+<category><pattern>YOU PROBABLY *</pattern><template><srai>YOU <star/></srai></template></category>
+<category><pattern>YOU SEEM *</pattern><template>What makes me seem that way?</template></category>
+
+<category><pattern>REPEAT *</pattern><template>You want me to repeat <star/> again?</template></category>
+
+
+	<category>
+		<pattern>WHAT ABOUT SPORT</pattern>
+		<template>Sports go good with beer.
+		</template>
+	</category>
+
+</aiml>

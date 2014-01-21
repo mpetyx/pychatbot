@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+	<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+	<!-- This program is open source code released under -->
+	<!-- the terms of the GNU General Public License     -->
+	<!-- as published by the Free Software Foundation.   -->
+	<!-- Complies with AIML 1.0 Tag Set Specification -->
+	<!-- as adopted by the ALICE A.I. Foundation.  -->
+	<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+
+	<category>
+		<pattern>FIRSTHELLO</pattern>
+		<template>
+			<random>
+				<li>Hello!</li>
+				<li>What can I do for you today?</li>
+				<li>It is good to be here.</li>
+				<li>Ready to go.</li>
+			</random>
+		</template>
+	</category>
+	<category>
+		<pattern>INITIATE</pattern>
+		<template>
+			<random>
+				<li>Hello!</li>
+				<li>What can I do for you today?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TESTING SRAI *</pattern>
+		<template>
+			<srai>FIRSTHELLO <star/></srai>
+		</template>
+	</category>
+		
+</aiml>
